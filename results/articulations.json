@@ -1,184 +1,498 @@
 [
     {
         "Receiving Courses": [
-            "CSE 8A - Introduction to Programming and Computational Problem Solving I"
+            {
+                "courses": [
+                    "CSE 8A - Introduction to Programming and Computational Problem Solving I"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CIS 22A - Beginning Programming Methodologies in C++",
-            "CIS 36A - Introduction to Computer Programming Using Java",
-            "CIS 40 - Introduction to Programming in Python"
+            {
+                "courses": [
+                    "Or - Introduction to Computer Programming Using Java",
+                    "Or - Introduction to Programming in Python"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CIS 22A - Beginning Programming Methodologies in C++",
+                    "CIS 36A - Introduction to Computer Programming Using Java",
+                    "CIS 40 - Introduction to Programming in Python"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CSE 8B - Introduction to Programming and Computational Problem Solving II"
+            {
+                "courses": [
+                    "CSE 8B - Introduction to Programming and Computational Problem Solving II"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CIS 36B - Intermediate Problem Solving in Java"
+            {
+                "courses": [
+                    "CIS 36B - Intermediate Problem Solving in Java"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace"
+            {
+                "courses": [
+                    "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CIS 35A - Java Programming",
-            "CIS 36A - Introduction to Computer Programming Using Java",
-            "CIS 36B - Intermediate Problem Solving in Java"
+            {
+                "courses": [
+                    "And - Intermediate Problem Solving in Java"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Introduction to Computer Programming Using Java"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CIS 35A - Java Programming",
+                    "CIS 36A - Introduction to Computer Programming Using Java",
+                    "CIS 36B - Intermediate Problem Solving in Java"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CSE 12 - Basic Data Structures and Object-Oriented Design"
+            {
+                "courses": [
+                    "CSE 12 - Basic Data Structures and Object-Oriented Design"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CIS 22C - Data Abstraction and Structures",
-            "CIS 22CH - Data Abstraction and Structures - HONORS"
+            {
+                "courses": [
+                    "Or - Data Abstraction and Structures - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CIS 22C - Data Abstraction and Structures",
+                    "CIS 22CH - Data Abstraction and Structures - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CSE 15L - Software Tools and Techniques Laboratory"
+            {
+                "courses": [
+                    "CSE 15L - Software Tools and Techniques Laboratory"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": []
     },
     {
         "Receiving Courses": [
-            "CSE 20 - Discrete Mathematics"
+            {
+                "courses": [
+                    "CSE 20 - Discrete Mathematics"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "MATH 22 - Discrete Mathematics",
-            "MATH 22H - Discrete Mathematics - HONORS"
+            {
+                "courses": [
+                    "Or - Discrete Mathematics - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "MATH 22 - Discrete Mathematics",
+                    "MATH 22H - Discrete Mathematics - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CSE 21 - Mathematics for Algorithms and Systems"
+            {
+                "courses": [
+                    "CSE 21 - Mathematics for Algorithms and Systems"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": []
     },
     {
         "Receiving Courses": [
-            "CSE 30 - Computer Organization and Systems Programming"
+            {
+                "courses": [
+                    "CSE 30 - Computer Organization and Systems Programming"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
-            "CIS 21JB - Advanced x86 Processor Assembly Programming",
-            "CIS 26B - Advanced C Programming",
-            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
-            "CIS 21JB - Advanced x86 Processor Assembly Programming",
-            "CIS 26BH - Advanced C Programming - HONORS"
+            {
+                "courses": [
+                    "And - Advanced x86 Processor Assembly Programming",
+                    "And - Advanced C Programming",
+                    "And - Advanced x86 Processor Assembly Programming",
+                    "And - Advanced C Programming - HONORS"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Introduction to x86 Processor Assembly Language and Computer Architecture"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+                    "CIS 21JB - Advanced x86 Processor Assembly Programming",
+                    "CIS 26B - Advanced C Programming",
+                    "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+                    "CIS 21JB - Advanced x86 Processor Assembly Programming",
+                    "CIS 26BH - Advanced C Programming - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 18 - Linear Algebra"
+            {
+                "courses": [
+                    "MATH 18 - Linear Algebra"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "MATH 2B - Linear Algebra",
-            "MATH 2BH - Linear Algebra - HONORS"
+            {
+                "courses": [
+                    "Or - Linear Algebra - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "MATH 2B - Linear Algebra",
+                    "MATH 2BH - Linear Algebra - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 20A - Calculus for Science and Engineering"
+            {
+                "courses": [
+                    "MATH 20A - Calculus for Science and Engineering"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "MATH 1A - Calculus",
-            "MATH 1AH - Calculus - HONORS"
+            {
+                "courses": [
+                    "Or - Calculus - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "MATH 1A - Calculus",
+                    "MATH 1AH - Calculus - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 20B - Calculus for Science and Engineering"
+            {
+                "courses": [
+                    "MATH 20B - Calculus for Science and Engineering"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "MATH 1B - Calculus",
-            "MATH 1BH - Calculus - HONORS"
+            {
+                "courses": [
+                    "Or - Calculus - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "MATH 1B - Calculus",
+                    "MATH 1BH - Calculus - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 20C - Calculus and Analytic Geometry for Science and Engineering"
+            {
+                "courses": [
+                    "MATH 20C - Calculus and Analytic Geometry for Science and Engineering"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "MATH 1C - Calculus",
-            "MATH 1D - Calculus",
-            "MATH 1CH - Calculus - HONORS",
-            "MATH 1DH - Calculus - HONORS"
+            {
+                "courses": [
+                    "And - Calculus",
+                    "And - Calculus - HONORS"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Calculus - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "MATH 1C - Calculus",
+                    "MATH 1D - Calculus",
+                    "MATH 1CH - Calculus - HONORS",
+                    "MATH 1DH - Calculus - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "BILD 1 - The Cell"
+            {
+                "courses": [
+                    "BILD 1 - The Cell"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "BIOL 6A - Form and Function in the Biological World",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6C - Ecology and Evolution",
-            "BIOL 6AH - Form and Function in the Biological World - HONORS",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6CH - Ecology and Evolution - HONORS"
+            {
+                "courses": [
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution",
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Form and Function in the Biological World - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "BIOL 6A - Form and Function in the Biological World",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6C - Ecology and Evolution",
+                    "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6CH - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "BILD 2 - Multicellular Life"
+            {
+                "courses": [
+                    "BILD 2 - Multicellular Life"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "BIOL 6A - Form and Function in the Biological World",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6C - Ecology and Evolution",
-            "BIOL 6AH - Form and Function in the Biological World - HONORS",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6CH - Ecology and Evolution - HONORS"
+            {
+                "courses": [
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution",
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Form and Function in the Biological World - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "BIOL 6A - Form and Function in the Biological World",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6C - Ecology and Evolution",
+                    "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6CH - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "BILD 3 - Organismic and Evolutionary Biology"
+            {
+                "courses": [
+                    "BILD 3 - Organismic and Evolutionary Biology"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "BIOL 6A - Form and Function in the Biological World",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6C - Ecology and Evolution",
-            "BIOL 6AH - Form and Function in the Biological World - HONORS",
-            "BIOL 6B - Cell and Molecular Biology",
-            "BIOL 6CH - Ecology and Evolution - HONORS"
+            {
+                "courses": [
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution",
+                    "And - Cell and Molecular Biology",
+                    "And - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": "AND"
+            },
+            {
+                "courses": [
+                    "Or - Form and Function in the Biological World - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "BIOL 6A - Form and Function in the Biological World",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6C - Ecology and Evolution",
+                    "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                    "BIOL 6B - Cell and Molecular Biology",
+                    "BIOL 6CH - Ecology and Evolution - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CHEM 6A - General Chemistry I"
+            {
+                "courses": [
+                    "CHEM 6A - General Chemistry I"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CHEM 1A - General Chemistry",
-            "CHEM 1AH - General Chemistry - HONORS"
+            {
+                "courses": [
+                    "Or - General Chemistry - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CHEM 1A - General Chemistry",
+                    "CHEM 1AH - General Chemistry - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "CHEM 6B - General Chemistry II"
+            {
+                "courses": [
+                    "CHEM 6B - General Chemistry II"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "CHEM 1B - General Chemistry",
-            "CHEM 1BH - General Chemistry - HONORS"
+            {
+                "courses": [
+                    "Or - General Chemistry - HONORS"
+                ],
+                "conjunction": "OR"
+            },
+            {
+                "courses": [
+                    "CHEM 1B - General Chemistry",
+                    "CHEM 1BH - General Chemistry - HONORS"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "PHYS 2A - Physics - Mechanics"
+            {
+                "courses": [
+                    "PHYS 2A - Physics - Mechanics"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+            {
+                "courses": [
+                    "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+                ],
+                "conjunction": null
+            }
         ]
     },
     {
         "Receiving Courses": [
-            "PHYS 2B - Physics - Electricity and Magnetism"
+            {
+                "courses": [
+                    "PHYS 2B - Physics - Electricity and Magnetism"
+                ],
+                "conjunction": null
+            }
         ],
         "Sending Courses": [
-            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+            {
+                "courses": [
+                    "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+                ],
+                "conjunction": null
+            }
         ]
     }
 ]
