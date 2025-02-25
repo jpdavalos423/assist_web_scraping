@@ -1,20 +1,20 @@
 Receiving Courses,Sending Courses
-CSE 8A - Introduction to Programming and Computational Problem Solving I,CIS 22A - Beginning Programming Methodologies in C++ | CIS 36A - Introduction to Computer Programming Using Java | CIS 40 - Introduction to Programming in Python
-CSE 8B - Introduction to Programming and Computational Problem Solving II,CIS 36B - Intermediate Problem Solving in Java
-CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace,CIS 35A - Java Programming | CIS 36A - Introduction to Computer Programming Using Java | CIS 36B - Intermediate Problem Solving in Java
-CSE 12 - Basic Data Structures and Object-Oriented Design,CIS 22C - Data Abstraction and Structures | CIS 22CH - Data Abstraction and Structures - HONORS
-CSE 15L - Software Tools and Techniques Laboratory,
-CSE 20 - Discrete Mathematics,MATH 22 - Discrete Mathematics | MATH 22H - Discrete Mathematics - HONORS
-CSE 21 - Mathematics for Algorithms and Systems,
-CSE 30 - Computer Organization and Systems Programming,CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture | CIS 21JB - Advanced x86 Processor Assembly Programming | CIS 26B - Advanced C Programming | CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture | CIS 21JB - Advanced x86 Processor Assembly Programming | CIS 26BH - Advanced C Programming - HONORS
-MATH 18 - Linear Algebra,MATH 2B - Linear Algebra | MATH 2BH - Linear Algebra - HONORS
-MATH 20A - Calculus for Science and Engineering,MATH 1A - Calculus | MATH 1AH - Calculus - HONORS
-MATH 20B - Calculus for Science and Engineering,MATH 1B - Calculus | MATH 1BH - Calculus - HONORS
-MATH 20C - Calculus and Analytic Geometry for Science and Engineering,MATH 1C - Calculus | MATH 1D - Calculus | MATH 1CH - Calculus - HONORS | MATH 1DH - Calculus - HONORS
-BILD 1 - The Cell,BIOL 6A - Form and Function in the Biological World | BIOL 6B - Cell and Molecular Biology | BIOL 6C - Ecology and Evolution | BIOL 6AH - Form and Function in the Biological World - HONORS | BIOL 6B - Cell and Molecular Biology | BIOL 6CH - Ecology and Evolution - HONORS
-BILD 2 - Multicellular Life,BIOL 6A - Form and Function in the Biological World | BIOL 6B - Cell and Molecular Biology | BIOL 6C - Ecology and Evolution | BIOL 6AH - Form and Function in the Biological World - HONORS | BIOL 6B - Cell and Molecular Biology | BIOL 6CH - Ecology and Evolution - HONORS
-BILD 3 - Organismic and Evolutionary Biology,BIOL 6A - Form and Function in the Biological World | BIOL 6B - Cell and Molecular Biology | BIOL 6C - Ecology and Evolution | BIOL 6AH - Form and Function in the Biological World - HONORS | BIOL 6B - Cell and Molecular Biology | BIOL 6CH - Ecology and Evolution - HONORS
-CHEM 6A - General Chemistry I,CHEM 1A - General Chemistry | CHEM 1AH - General Chemistry - HONORS
-CHEM 6B - General Chemistry II,CHEM 1B - General Chemistry | CHEM 1BH - General Chemistry - HONORS
-PHYS 2A - Physics - Mechanics,PHYS 4A - Physics for Scientists and Engineers: Mechanics
-PHYS 2B - Physics - Electricity and Magnetism,PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism
+COM SCI 31 - Introduction to Computer Science I,(CIS 22A - Beginning Programming Methodologies in C++) OR (CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS) OR (CIS 27 - Programming in C++ for C/Java Programmers) OR (CIS 22B - Intermediate Programming Methodologies in C++) OR (CIS 29 - Advanced C++ Programming)
+COM SCI 32 - Introduction to Computer Science II,(CIS 22C - Data Abstraction and Structures) OR (CIS 22CH - Data Abstraction and Structures - HONORS)
+COM SCI 33 - Introduction to Computer Organization,(CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture)
+COM SCI 35L - Software Construction Laboratory,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+COM SCI M51A - Logic Design of Digital Systems,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+EC ENGR M16 - Logic Design of Digital Systems,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+MATH 31A - Differential and Integral Calculus,(MATH 1A - Calculus)
+MATH 31B - Integration and Infinite Series,(MATH 1B - Calculus | MATH 1C - Calculus) OR (MATH 1B - Calculus | MATH 1CH - Calculus - HONORS) OR (MATH 1BH - Calculus - HONORS | MATH 1C - Calculus) OR (MATH 1BH - Calculus - HONORS | MATH 1CH - Calculus - HONORS)
+MATH 32A - Calculus of Several Variables,(MATH 1C - Calculus)
+MATH 32B - Calculus of Several Variables,(MATH 1D - Calculus)
+MATH 33A - Linear Algebra and Applications,(MATH 2B - Linear Algebra)
+MATH 33B - Differential Equations,(MATH 2A - Differential Equations)
+MATH 61 - Introduction to Discrete Structures,(MATH 22 - Discrete Mathematics)
+"PHYSICS 1A - Physics for Scientists and Engineers: Mechanics | PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields | PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity","(PHYS 4A - Physics for Scientists and Engineers: Mechanics | PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism | PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics)"
+PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+"ENGCOMP 3 - English Composition, Rhetoric, and Language",(EWRT 1A - Composition and Reading) OR (EWRT 1AH - Composition and Reading - HONORS)
+Not Articulated,"(COMM 9 - Argumentation: Analysis of Oral and Written Communication) OR (EWRT 1B - Reading, Writing and Research) OR (EWRT 1BH - Reading, Writing and Research - HONORS) OR (EWRT 1C - Literature and Composition) OR (EWRT 2 - Critical Reading, Writing and Thinking) OR (PHIL 3 - Critical Thinking and Writing)"
+Not Articulated,(CIS 27 - Programming in C++ for C/Java Programmers) OR (CIS 29 - Advanced C++ Programming) OR (CIS 22A - Beginning Programming Methodologies in C++) OR (CIS 22B - Intermediate Programming Methodologies in C++) OR (CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS)
