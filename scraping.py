@@ -57,13 +57,9 @@ def extract_receiving_courses(row):
 
 def extract_sending_courses(row):
     """Extracts sending courses directly from rowSending, handling all 5 cases including OR and nested AND under OR."""
-    
-    # Debug: Print the full rowSending content
-    print("DEBUG: Full rowSending HTML ->", row.prettify())
 
     # Check if "No Course Articulated" is present in rowSending
     if row.find('p') and "No Course Articulated" in row.find('p').get_text(strip=True):
-        print("DEBUG: No Course Articulated found")
         return "Not Articulated"
 
     # Detect OR conjunctions (fixing detection)
@@ -73,14 +69,11 @@ def extract_sending_courses(row):
         if conjunction_div and "or" in conjunction_div.get("class", []):  # Check if "or" exists inside child div
             or_blocks.append(conjunction)
 
-    print(f"DEBUG: Found {len(or_blocks)} OR conjunction blocks")
-
     if or_blocks:
         or_courses = []
         
         # Find all courseLine divs at the same level as OR blocks
         course_groups = row.find_all('div', class_='courseLine')
-        print(f"DEBUG: Found {len(course_groups)} courseLine divs (OR cases)")
 
         current_group = []
         for course_line in course_groups:
@@ -100,12 +93,10 @@ def extract_sending_courses(row):
         if current_group:
             or_courses.append(current_group)
 
-        print(f"DEBUG: Final OR course structure -> {or_courses}")
         return or_courses  # OR condition (list of lists)
 
     # Check for AND conjunction (bracketWrapper exists)
     bracket_wrapper = row.find('div', class_='bracketWrapper')
-    print(f"DEBUG: Found {'1' if bracket_wrapper else '0'} bracketWrapper (AND case)")
 
     if bracket_wrapper:
         bracket_content = bracket_wrapper.find('div', class_='bracketContent')
@@ -119,7 +110,6 @@ def extract_sending_courses(row):
                     course_text = f"{course_number.get_text(strip=True)} - {course_title.get_text(strip=True)}"
                     courses.append(course_text)
 
-            print(f"DEBUG: Extracted AND courses -> {courses}")
             return courses  # AND condition (flat list)
 
     # Check for single course case
@@ -130,16 +120,9 @@ def extract_sending_courses(row):
 
         if course_number and course_title:
             course_text = f"{course_number.get_text(strip=True)} - {course_title.get_text(strip=True)}"
-            print(f"DEBUG: Extracted single course -> {course_text}")
             return [course_text]
 
-    print("DEBUG: No recognizable articulation format found")
     return "Not Articulated"  # Default case
-
-
-
-
-
 
 
 
@@ -181,7 +164,7 @@ def save_results(articulations):
         writer.writerow(["Receiving Courses", "Sending Courses"])  # Headers
 
         for articulation in articulations:
-            print("DEBUG: Raw Sending Courses ->", articulation["Sending Courses"])  # Debugging step
+            # print("DEBUG: Raw Sending Courses ->", articulation["Sending Courses"])  # Debugging step
 
             def format_course_list(course_list):
                 """Formats AND and OR cases for CSV output."""
@@ -209,9 +192,9 @@ def main():
     articulations = parse_articulations(html)
     
     if articulations:
-        print("Articulation Agreements Found:")
-        for art in articulations:
-            print(f"Receiving: {art['Receiving Courses']}, Sending: {art['Sending Courses']}")
+        # print("Articulation Agreements Found:")
+        # for art in articulations:
+        #     print(f"Receiving: {art['Receiving Courses']}, Sending: {art['Sending Courses']}")
         
         save_results(articulations)  # Save data
     else:
