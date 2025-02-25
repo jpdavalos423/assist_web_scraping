@@ -39,7 +39,9 @@
             "COM SCI 33 - Introduction to Computer Organization"
         ],
         "Sending Courses": [
-            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+            [
+                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+            ]
         ]
     },
     {
@@ -65,7 +67,9 @@
             "MATH 31A - Differential and Integral Calculus"
         ],
         "Sending Courses": [
-            "MATH 1A - Calculus"
+            [
+                "MATH 1A - Calculus"
+            ]
         ]
     },
     {
@@ -74,21 +78,19 @@
         ],
         "Sending Courses": [
             [
-                "MATH 1B - Calculus"
+                "MATH 1B - Calculus",
+                "MATH 1C - Calculus"
             ],
             [
-                "MATH 1C - Calculus",
-                "MATH 1B - Calculus"
+                "MATH 1B - Calculus",
+                "MATH 1CH - Calculus - HONORS"
             ],
             [
-                "MATH 1CH - Calculus - HONORS",
-                "MATH 1BH - Calculus - HONORS"
+                "MATH 1BH - Calculus - HONORS",
+                "MATH 1C - Calculus"
             ],
             [
-                "MATH 1C - Calculus",
-                "MATH 1BH - Calculus - HONORS"
-            ],
-            [
+                "MATH 1BH - Calculus - HONORS",
                 "MATH 1CH - Calculus - HONORS"
             ]
         ]
@@ -98,7 +100,9 @@
             "MATH 32A - Calculus of Several Variables"
         ],
         "Sending Courses": [
-            "MATH 1C - Calculus"
+            [
+                "MATH 1C - Calculus"
+            ]
         ]
     },
     {
@@ -106,7 +110,9 @@
             "MATH 32B - Calculus of Several Variables"
         ],
         "Sending Courses": [
-            "MATH 1D - Calculus"
+            [
+                "MATH 1D - Calculus"
+            ]
         ]
     },
     {
@@ -114,7 +120,9 @@
             "MATH 33A - Linear Algebra and Applications"
         ],
         "Sending Courses": [
-            "MATH 2B - Linear Algebra"
+            [
+                "MATH 2B - Linear Algebra"
+            ]
         ]
     },
     {
@@ -122,7 +130,9 @@
             "MATH 33B - Differential Equations"
         ],
         "Sending Courses": [
-            "MATH 2A - Differential Equations"
+            [
+                "MATH 2A - Differential Equations"
+            ]
         ]
     },
     {
@@ -130,7 +140,9 @@
             "MATH 61 - Introduction to Discrete Structures"
         ],
         "Sending Courses": [
-            "MATH 22 - Discrete Mathematics"
+            [
+                "MATH 22 - Discrete Mathematics"
+            ]
         ]
     },
     {
@@ -140,9 +152,11 @@
             "PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity"
         ],
         "Sending Courses": [
-            "PHYS 4A - Physics for Scientists and Engineers: Mechanics",
-            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism",
-            "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+            [
+                "PHYS 4A - Physics for Scientists and Engineers: Mechanics",
+                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism",
+                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+            ]
         ]
     },
     {

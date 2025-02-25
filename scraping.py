@@ -56,73 +56,50 @@ def extract_receiving_courses(row):
 
 
 def extract_sending_courses(row):
-    """Extracts sending courses directly from rowSending, handling all 5 cases including OR and nested AND under OR."""
+    """Extracts sending courses while correctly handling OR and nested AND groups."""
 
-    # Check if "No Course Articulated" is present in rowSending
+    # Check if "No Course Articulated" is present
     if row.find('p') and "No Course Articulated" in row.find('p').get_text(strip=True):
         return "Not Articulated"
 
-    # Detect OR conjunctions (fixing detection)
-    or_blocks = []
-    for conjunction in row.find_all('awc-view-conjunction'):
-        conjunction_div = conjunction.find('div', class_='conjunction')
-        if conjunction_div and "or" in conjunction_div.get("class", []):  # Check if "or" exists inside child div
-            or_blocks.append(conjunction)
+    or_groups = []  # List of OR-separated course groups
+    current_or_group = []  # Stores courses before an OR separator
 
-    if or_blocks:
-        or_courses = []
-        
-        # Find all courseLine divs at the same level as OR blocks
-        course_groups = row.find_all('div', class_='courseLine')
+    # Helper function to extract a course from a `courseLine`
+    def extract_course(course):
+        course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
+        course_title = course.find('div', class_='courseTitle').get_text(strip=True)
+        return f"{course_number} - {course_title}"
 
-        current_group = []
-        for course_line in course_groups:
-            course_number = course_line.find('div', class_='prefixCourseNumber')
-            course_title = course_line.find('div', class_='courseTitle')
+    # **Step 1: Extract AND groups (bracketWrapper)**
+    for bracket in row.find_all('div', class_='bracketWrapper'):
+        and_group = [extract_course(course) for course in bracket.find_all('div', class_='courseLine')]
+        current_or_group.append(and_group)  # Store AND group in OR collection
 
-            if course_number and course_title:
-                course_text = f"{course_number.get_text(strip=True)} - {course_title.get_text(strip=True)}"
-                current_group.append(course_text)
+        # **Check for OR separator (`standAlone`) immediately after**
+        if bracket.find_next_sibling('awc-view-conjunction', class_='standAlone'):
+            or_groups.append(current_or_group)
+            current_or_group = []  # Reset for the next OR group
 
-            # If we reach an OR conjunction, store the current group and reset it
-            if course_line.find_next_sibling('awc-view-conjunction'):
-                or_courses.append(current_group)
-                current_group = []
+    # **Step 2: Extract standalone courses (not inside bracketWrapper)**
+    for course in row.find_all('div', class_='courseLine'):
+        if course.find_parent('div', class_='bracketWrapper'):  # Skip already processed AND group courses
+            continue
+        current_or_group.append([extract_course(course)])  # Treat single course as an AND group
 
-        # Append the last group (if not empty)
-        if current_group:
-            or_courses.append(current_group)
+        # **Check for OR separator (`standAlone`) immediately after**
+        if course.find_next_sibling('awc-view-conjunction', class_='standAlone'):
+            or_groups.append(current_or_group)
+            current_or_group = []  # Reset for next OR group
 
-        return or_courses  # OR condition (list of lists)
+    # **Step 3: Append last OR group if it exists**
+    if current_or_group:
+        or_groups.append(current_or_group)
 
-    # Check for AND conjunction (bracketWrapper exists)
-    bracket_wrapper = row.find('div', class_='bracketWrapper')
+    # **Flatten if there's only one OR group**
+    return or_groups[0] if len(or_groups) == 1 else or_groups if or_groups else "Not Articulated"
 
-    if bracket_wrapper:
-        bracket_content = bracket_wrapper.find('div', class_='bracketContent')
-        if bracket_content:
-            courses = []
-            for course in bracket_content.find_all('div', class_='courseLine'):
-                course_number = course.find('div', class_='prefixCourseNumber')
-                course_title = course.find('div', class_='courseTitle')
 
-                if course_number and course_title:
-                    course_text = f"{course_number.get_text(strip=True)} - {course_title.get_text(strip=True)}"
-                    courses.append(course_text)
-
-            return courses  # AND condition (flat list)
-
-    # Check for single course case
-    course = row.find('div', class_='courseLine')
-    if course:
-        course_number = course.find('div', class_='prefixCourseNumber')
-        course_title = course.find('div', class_='courseTitle')
-
-        if course_number and course_title:
-            course_text = f"{course_number.get_text(strip=True)} - {course_title.get_text(strip=True)}"
-            return [course_text]
-
-    return "Not Articulated"  # Default case
 
 
 
