@@ -1,229 +1,207 @@
 [
     {
         "Receiving Courses": [
-            "COM SCI 31 - Introduction to Computer Science I"
+            "ECS 020 - Discrete Mathematics For Computer Science"
         ],
         "Sending Courses": [
             [
-                "CIS 22A - Beginning Programming Methodologies in C++"
+                "CPSC -07 - Discrete Structures"
             ],
             [
-                "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS"
-            ],
-            [
-                "CIS 27 - Programming in C++ for C/Java Programmers"
-            ],
-            [
-                "CIS 22B - Intermediate Programming Methodologies in C++"
-            ],
-            [
-                "CIS 29 - Advanced C++ Programming"
+                "MATH -07 - Discrete Structures"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "COM SCI 32 - Introduction to Computer Science II"
+            "ECS 036A - Programming & Problem Solving"
         ],
         "Sending Courses": [
             [
-                "CIS 22C - Data Abstraction and Structures"
+                "CPSC -06 - Programming Concepts and Methodology I"
             ],
             [
-                "CIS 22CH - Data Abstraction and Structures - HONORS"
+                "CPSC -14 - C++ Programming"
+            ],
+            [
+                "ENGR -14 - C++ Programming"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "COM SCI 33 - Introduction to Computer Organization"
+            "ECS 036B - Software Development & Object-Oriented Programming in C++"
         ],
         "Sending Courses": [
             [
-                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+                "CPSC -39 - Programming Concepts and Methodology II"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "COM SCI 35L - Software Construction Laboratory"
+            "ECS 036C - Data Structures, Algorithms, & Programming"
         ],
         "Sending Courses": "Not Articulated"
     },
     {
         "Receiving Courses": [
-            "COM SCI M51A - Logic Design of Digital Systems"
+            "ECS 050 - Computer Organization & Machine-Dependent Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -42 - Computer Architecture and Organization"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021A - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04A - Calculus I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021B - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04B - Calculus II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021C - Calculus",
+            "MAT 021D - Vector Analysis"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04C - Multivariable Calculus"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 022A - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -08 - Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 027A - Linear Algebra with Applications to Biology"
         ],
         "Sending Courses": "Not Articulated"
     },
     {
         "Receiving Courses": [
-            "EC ENGR M16 - Logic Design of Digital Systems"
+            "MAT 067 - Modern Linear Algebra"
         ],
         "Sending Courses": "Not Articulated"
     },
     {
         "Receiving Courses": [
-            "MATH 31A - Differential and Integral Calculus"
+            "BIS 002A - Introduction to Biology: Essentials of Life on Earth"
         ],
         "Sending Courses": [
             [
-                "MATH 1A - Calculus"
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 31B - Integration and Infinite Series"
+            "BIS 002B - Introduction to Biology: Principles of Ecology & Evolution"
         ],
         "Sending Courses": [
             [
-                "MATH 1B - Calculus",
-                "MATH 1C - Calculus"
-            ],
-            [
-                "MATH 1B - Calculus",
-                "MATH 1CH - Calculus - HONORS"
-            ],
-            [
-                "MATH 1BH - Calculus - HONORS",
-                "MATH 1C - Calculus"
-            ],
-            [
-                "MATH 1BH - Calculus - HONORS",
-                "MATH 1CH - Calculus - HONORS"
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 32A - Calculus of Several Variables"
+            "BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life"
         ],
         "Sending Courses": [
             [
-                "MATH 1C - Calculus"
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 32B - Calculus of Several Variables"
+            "CHE 002A - General Chemistry",
+            "CHE 002B - General Chemistry",
+            "CHE 002C - General Chemistry"
         ],
         "Sending Courses": [
             [
-                "MATH 1D - Calculus"
+                "CHEM -04A - General Chemistry I",
+                "CHEM -04B - General Chemistry II"
             ]
         ]
     },
     {
         "Receiving Courses": [
-            "MATH 33A - Linear Algebra and Applications"
-        ],
-        "Sending Courses": [
-            [
-                "MATH 2B - Linear Algebra"
-            ]
-        ]
-    },
-    {
-        "Receiving Courses": [
-            "MATH 33B - Differential Equations"
-        ],
-        "Sending Courses": [
-            [
-                "MATH 2A - Differential Equations"
-            ]
-        ]
-    },
-    {
-        "Receiving Courses": [
-            "MATH 61 - Introduction to Discrete Structures"
-        ],
-        "Sending Courses": [
-            [
-                "MATH 22 - Discrete Mathematics"
-            ]
-        ]
-    },
-    {
-        "Receiving Courses": [
-            "PHYSICS 1A - Physics for Scientists and Engineers: Mechanics",
-            "PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
-            "PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity"
-        ],
-        "Sending Courses": [
-            [
-                "PHYS 4A - Physics for Scientists and Engineers: Mechanics",
-                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism",
-                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
-            ]
-        ]
-    },
-    {
-        "Receiving Courses": [
-            "PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics"
+            "CHE 004A - General Chemistry for the Physical Sciences & Engineering"
         ],
         "Sending Courses": "Not Articulated"
     },
     {
         "Receiving Courses": [
-            "PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism"
+            "CHE 004B - General Chemistry for the Physical Sciences & Engineering"
         ],
         "Sending Courses": "Not Articulated"
     },
     {
         "Receiving Courses": [
-            "ENGCOMP 3 - English Composition, Rhetoric, and Language"
+            "CHE 004C - General Chemistry for the Physical Sciences & Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHY 009A - Classical Physics"
         ],
         "Sending Courses": [
             [
-                "EWRT 1A - Composition and Reading"
-            ],
-            [
-                "EWRT 1AH - Composition and Reading - HONORS"
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
             ]
         ]
     },
     {
-        "Receiving Courses": [],
+        "Receiving Courses": [
+            "PHY 009B - Classical Physics"
+        ],
         "Sending Courses": [
             [
-                "COMM 9 - Argumentation: Analysis of Oral and Written Communication"
-            ],
-            [
-                "EWRT 1B - Reading, Writing and Research"
-            ],
-            [
-                "EWRT 1BH - Reading, Writing and Research - HONORS"
-            ],
-            [
-                "EWRT 1C - Literature and Composition"
-            ],
-            [
-                "EWRT 2 - Critical Reading, Writing and Thinking"
-            ],
-            [
-                "PHIL 3 - Critical Thinking and Writing"
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
             ]
         ]
     },
     {
-        "Receiving Courses": [],
+        "Receiving Courses": [
+            "PHY 009C - Classical Physics"
+        ],
         "Sending Courses": [
             [
-                "CIS 27 - Programming in C++ for C/Java Programmers"
-            ],
-            [
-                "CIS 29 - Advanced C++ Programming"
-            ],
-            [
-                "CIS 22A - Beginning Programming Methodologies in C++"
-            ],
-            [
-                "CIS 22B - Intermediate Programming Methodologies in C++"
-            ],
-            [
-                "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS"
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
             ]
         ]
     }
