@@ -61,6 +61,7 @@ def extract_sending_courses(row):
     # Check if "No Course Articulated" is present
     if row.find('p') and "No Course Articulated" in row.find('p').get_text(strip=True):
         return "Not Articulated"
+    
 
     or_groups = []  # List of OR-separated course groups
     current_or_group = []  # Stores courses before an OR separator
@@ -162,8 +163,8 @@ def save_results(articulations):
 
 
 def main():
-    # url = input("Please enter the Assist.org URL: ")
-    url = "https://assist.org/transfer/results?year=74&institution=113&agreement=117&agreementType=to&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=74%2F113%2Fto%2F117%2FMajor%2Fcc1bac07-1f2e-4bf9-8958-4285f8805b50"
+    url = input("Please enter the Assist.org URL: ")
+    # url = "https://assist.org/transfer/results?year=74&institution=113&agreement=117&agreementType=to&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=74%2F113%2Fto%2F117%2FMajor%2Fcc1bac07-1f2e-4bf9-8958-4285f8805b50"
 
     html = get_dynamic_html(url)
     articulations = parse_articulations(html)

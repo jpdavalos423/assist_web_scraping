@@ -1,20 +1,22 @@
 Receiving Courses,Sending Courses
-COM SCI 31 - Introduction to Computer Science I,(CIS 22A - Beginning Programming Methodologies in C++) OR (CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS) OR (CIS 27 - Programming in C++ for C/Java Programmers) OR (CIS 22B - Intermediate Programming Methodologies in C++) OR (CIS 29 - Advanced C++ Programming)
-COM SCI 32 - Introduction to Computer Science II,(CIS 22C - Data Abstraction and Structures) OR (CIS 22CH - Data Abstraction and Structures - HONORS)
-COM SCI 33 - Introduction to Computer Organization,(CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture)
-COM SCI 35L - Software Construction Laboratory,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-COM SCI M51A - Logic Design of Digital Systems,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-EC ENGR M16 - Logic Design of Digital Systems,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-MATH 31A - Differential and Integral Calculus,(MATH 1A - Calculus)
-MATH 31B - Integration and Infinite Series,(MATH 1B - Calculus | MATH 1C - Calculus) OR (MATH 1B - Calculus | MATH 1CH - Calculus - HONORS) OR (MATH 1BH - Calculus - HONORS | MATH 1C - Calculus) OR (MATH 1BH - Calculus - HONORS | MATH 1CH - Calculus - HONORS)
-MATH 32A - Calculus of Several Variables,(MATH 1C - Calculus)
-MATH 32B - Calculus of Several Variables,(MATH 1D - Calculus)
-MATH 33A - Linear Algebra and Applications,(MATH 2B - Linear Algebra)
-MATH 33B - Differential Equations,(MATH 2A - Differential Equations)
-MATH 61 - Introduction to Discrete Structures,(MATH 22 - Discrete Mathematics)
-"PHYSICS 1A - Physics for Scientists and Engineers: Mechanics | PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields | PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity","(PHYS 4A - Physics for Scientists and Engineers: Mechanics | PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism | PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics)"
-PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-"ENGCOMP 3 - English Composition, Rhetoric, and Language",(EWRT 1A - Composition and Reading) OR (EWRT 1AH - Composition and Reading - HONORS)
-Not Articulated,"(COMM 9 - Argumentation: Analysis of Oral and Written Communication) OR (EWRT 1B - Reading, Writing and Research) OR (EWRT 1BH - Reading, Writing and Research - HONORS) OR (EWRT 1C - Literature and Composition) OR (EWRT 2 - Critical Reading, Writing and Thinking) OR (PHIL 3 - Critical Thinking and Writing)"
-Not Articulated,(CIS 27 - Programming in C++ for C/Java Programmers) OR (CIS 29 - Advanced C++ Programming) OR (CIS 22A - Beginning Programming Methodologies in C++) OR (CIS 22B - Intermediate Programming Methodologies in C++) OR (CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS)
+ECS 020 - Discrete Mathematics For Computer Science,(CPSC -07 - Discrete Structures) OR (MATH -07 - Discrete Structures)
+ECS 036A - Programming & Problem Solving,(CPSC -06 - Programming Concepts and Methodology I) OR (CPSC -14 - C++ Programming) OR (ENGR -14 - C++ Programming)
+ECS 036B - Software Development & Object-Oriented Programming in C++,(CPSC -39 - Programming Concepts and Methodology II)
+"ECS 036C - Data Structures, Algorithms, & Programming",N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+ECS 050 - Computer Organization & Machine-Dependent Programming,(CPSC -42 - Computer Architecture and Organization)
+MAT 021A - Calculus,(MATH -04A - Calculus I)
+MAT 021B - Calculus,(MATH -04B - Calculus II)
+MAT 021C - Calculus | MAT 021D - Vector Analysis,(MATH -04C - Multivariable Calculus)
+MAT 022A - Linear Algebra,(MATH -08 - Linear Algebra)
+MAT 027A - Linear Algebra with Applications to Biology,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+MAT 067 - Modern Linear Algebra,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+BIS 002A - Introduction to Biology: Essentials of Life on Earth,(BIOL -04A - Fundamentals of Biology: The Cell and Evolution)
+BIS 002B - Introduction to Biology: Principles of Ecology & Evolution,(BIOL -04A - Fundamentals of Biology: The Cell and Evolution | BIOL -04B - Diversity of Life: Morphology and Physiology)
+BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life,(BIOL -04B - Diversity of Life: Morphology and Physiology)
+CHE 002A - General Chemistry | CHE 002B - General Chemistry | CHE 002C - General Chemistry,(CHEM -04A - General Chemistry I | CHEM -04B - General Chemistry II)
+CHE 004A - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+CHE 004B - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+CHE 004C - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+PHY 009A - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
+PHY 009B - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
+PHY 009C - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
