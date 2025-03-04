@@ -22,7 +22,7 @@ uc_cs_labels = {
     120: "Computer Science, B.S.",                # UC Irvine
     128: "Computer Science, B.S.",                # UC Santa Barbara
     132: "Computer Science B.S.",                 # UC Santa Cruz
-    144: "Computer Science and Engineering, B.S." # UC Merced
+    144: "Computer Science and Engineering, B.S. " # UC Merced
 }
 
 
