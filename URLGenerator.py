@@ -16,7 +16,7 @@ from AssistAPIInformationGetter import (
 uc_cs_labels = {
     7:   "CSE: Computer Science B.S.",            # UC San Diego
     46:  "Computer Science, B.S.",                # UC Riverside
-    79:  "Computer Science, B.A.",                # UC Berkeley
+    79:  "Electrical Engineering & Computer Sciences, B.S.", # UC Berkeley
     89:  "Computer Science B.S.",                 # UC Davis
     117: "Computer Science/B.S.",                 # UCLA
     120: "Computer Science, B.S.",                # UC Irvine
