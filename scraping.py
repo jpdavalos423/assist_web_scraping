@@ -163,20 +163,81 @@ def save_results(articulations):
 
 
 def main():
-    url = input("Please enter the Assist.org URL: ")
-    # url = "https://assist.org/transfer/results?year=74&institution=113&agreement=117&agreementType=to&view=agreement&viewBy=major&viewSendingAgreements=false&viewByKey=74%2F113%2Fto%2F117%2FMajor%2Fcc1bac07-1f2e-4bf9-8958-4285f8805b50"
-
-    html = get_dynamic_html(url)
-    articulations = parse_articulations(html)
+    # 1) Prompt the user for the CC name
+    cc_name = input("Enter the Community College name: ").strip()
     
-    if articulations:
-        # print("Articulation Agreements Found:")
-        # for art in articulations:
-        #     print(f"Receiving: {art['Receiving Courses']}, Sending: {art['Sending Courses']}")
+    # 2) Gather all UC URLs for that CC from the 'cs_urls/' folder
+    uc_urls = gather_uc_urls_for_cc(cc_name, folder="cs_urls")
+    if not uc_urls:
+        print(f"❌ No URLs found for '{cc_name}' in 'cs_urls/' files.")
+        return
+
+    # 3) Create a subfolder inside 'articulations/' named after the CC
+    cc_short = cc_name.replace(" ", "_")
+    cc_folder = os.path.join("articulations", cc_short)
+    os.makedirs(cc_folder, exist_ok=True)
+
+    # 4) For each (UC name, url) pair, scrape and parse
+    for (uc_name, url) in uc_urls:
+        print(f"Scraping UC='{uc_name}' => {url}")
         
-        save_results(articulations)  # Save data
-    else:
-        print("❌ No articulation agreements found.")
+        # a) Use your existing Selenium code to fetch HTML
+        html = get_dynamic_html(url)
+
+        # b) Parse the articulation data
+        articulations = parse_articulations(html)
+
+        # c) Write JSON to file: articulation_{CCNameNoSpaces}_{UCNameNoSpaces}.json inside that CC's folder
+        uc_short = uc_name.replace(" ", "_")
+        out_filename = f"articulation_{cc_short}_{uc_short}.json"
+        out_path = os.path.join(cc_folder, out_filename)
+
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(articulations, f, indent=4)
+
+        print(f"✅ Saved => {out_path}")
+
+
+def gather_uc_urls_for_cc(cc_name, folder="cs_urls"):
+    """
+    Reads each file in 'cs_urls/' named like 'cs_urls_University_of_California_Berkeley.txt',
+    which has lines of '<CC_Name>\\t<URL>'.
+    If the <CC_Name> matches cc_name, we store (UCName, URL) for later scraping.
+
+    Returns a list of (uc_name, url) pairs.
+    """
+    results = []
+
+    for filename in os.listdir(folder):
+        if not filename.startswith("cs_urls_") or not filename.endswith(".txt"):
+            continue
+
+        # Derive UC name from the filename
+        # e.g. cs_urls_University_of_California_Berkeley.txt => "University of California Berkeley"
+        uc_name = (filename
+                   .replace("cs_urls_", "")
+                   .replace(".txt", "")
+                   .replace("_", " ")
+                   .strip())
+
+        file_path = os.path.join(folder, filename)
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                parts = line.split("\t")
+                if len(parts) < 2:
+                    continue
+
+                cc_line = parts[0].strip()
+                url = parts[1].strip()
+
+                if cc_line == cc_name:
+                    results.append((uc_name, url))
+
+    return results
+
 
 if __name__ == "__main__":
     main()

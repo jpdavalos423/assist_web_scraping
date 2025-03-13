@@ -1,0 +1,180 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 8A - Introduction to Programming and Computational Problem Solving I"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 8B - Introduction to Programming and Computational Problem Solving II"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 12 - Basic Data Structures and Object-Oriented Design"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 15L - Software Tools and Techniques Laboratory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 20 - Discrete Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -07 - Discrete Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 21 - Mathematics for Algorithms and Systems"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 30 - Computer Organization and Systems Programming"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 18 - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -08 - Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20A - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04A - Calculus I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20B - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04B - Calculus II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20C - Calculus and Analytic Geometry for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04C - Multivariable Calculus"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 1 - The Cell"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 2 - Multicellular Life"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 3 - Organismic and Evolutionary Biology"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6A - General Chemistry I"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM -04A - General Chemistry I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6B - General Chemistry II"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM -04A - General Chemistry I",
+                "CHEM -04B - General Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2A - Physics - Mechanics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2B - Physics - Electricity and Magnetism"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04B - Physics II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4A - Physics for Physics Majors\u2014Mechanics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4B - Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

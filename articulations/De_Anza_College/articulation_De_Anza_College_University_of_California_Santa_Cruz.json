@@ -1,0 +1,121 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 12 - Computer Systems and Assembly Language and Lab"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+            ],
+            [
+                "CIS 21JB - Advanced x86 Processor Assembly Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 16 - APPLIED DISCRETE MATHEMATICS"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics"
+            ],
+            [
+                "MATH 22H - Discrete Mathematics - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 30 - Programming Abstractions: Python"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ],
+            [
+                "CIS 22CH - Data Abstraction and Structures - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 19A - Calculus for Science, Engineering, and Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I"
+            ],
+            [
+                "MATH 1AH - Calculus I - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 19B - Calculus for Science, Engineering, and Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1B - Calculus II",
+                "MATH 1C - Calculus III"
+            ],
+            [
+                "MATH 1BH - Calculus II - HONORS",
+                "MATH 1CH - Calculus III - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "AM 10 - Mathematical Methods for Engineers I"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 21 - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "AM 30 - Multivariate Calculus for Engineers"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1D - Calculus IV"
+            ],
+            [
+                "MATH 1DH - Calculus IV - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 23A - Vector Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1D - Calculus IV"
+            ],
+            [
+                "MATH 1DH - Calculus IV - HONORS"
+            ]
+        ]
+    }
+]

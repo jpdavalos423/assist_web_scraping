@@ -1,0 +1,293 @@
+[
+    {
+        "Receiving Courses": [
+            "MATH 1A - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I",
+                "MATH 1B - Calculus II"
+            ],
+            [
+                "MATH 1AH - Calculus I - HONORS",
+                "MATH 1BH - Calculus II - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 1B - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1B - Calculus II",
+                "MATH 1C - Calculus III"
+            ],
+            [
+                "MATH 1BH - Calculus II - HONORS",
+                "MATH 1CH - Calculus III - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 53 - Multivariable Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1C - Calculus III",
+                "MATH 1D - Calculus IV"
+            ],
+            [
+                "MATH 1CH - Calculus III - HONORS",
+                "MATH 1DH - Calculus IV - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 54 - Linear Algebra and Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2A - Differential Equations",
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "MATH 2AH - Differential Equations - HONORS",
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 7A - Physics for Scientists and Engineers"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 7B - Physics for Scientists and Engineers"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism",
+                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ENGLISH R1A - Reading and Composition"
+        ],
+        "Sending Courses": [
+            [
+                "EWRT 1A - Composition and Reading"
+            ],
+            [
+                "EWRT 1AH - Composition and Reading - HONORS"
+            ],
+            [
+                "ESL 5 - Advanced Composition and Reading"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ENGLISH R1B - Reading and Composition"
+        ],
+        "Sending Courses": [
+            [
+                "EWRT 1B - Reading, Writing and Research"
+            ],
+            [
+                "EWRT 2 - Critical Reading, Writing and Thinking"
+            ],
+            [
+                "EWRT 1BH - Reading, Writing and Research - HONORS"
+            ],
+            [
+                "EWRT 2H - Critical Reading, Writing and Thinking - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ASTRON 7A - Introduction to Astrophysics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ASTRON 7B - Introduction to Astrophysics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "BIOLOGY 1A - General Biology Lecture (Cells, Genetics, Animal Form & Function)",
+            "BIOLOGY 1AL - General Biology Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6B - Cell and Molecular Biology"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6B - Cell and Molecular Biology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BIOLOGY 1B - General Biology (Plant Form & Function, Ecology, Evolution)"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6C - Ecology and Evolution"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6C - Ecology and Evolution"
+            ],
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6CH - Ecology and Evolution - HONORS"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6CH - Ecology and Evolution - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 1A - General Chemistry",
+            "CHEM 1AL - General Chemistry Laboratory",
+            "CHEM 1B - General Chemistry"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1A - General Chemistry I",
+                "CHEM 1B - General Chemistry II",
+                "CHEM 1C - General Chemistry III"
+            ],
+            [
+                "CHEM 1AH - General Chemistry I - HONORS",
+                "CHEM 1BH - General Chemistry II - HONORS",
+                "CHEM 1CH - General Chemistry III - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 3A - Chemical Structure and Reactivity",
+            "CHEM 3AL - Organic Chemistry Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 12A - Organic Chemistry I",
+                "CHEM 12B - Organic Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 3B - Chemical Structure and Reactivity",
+            "CHEM 3BL - Organic Chemistry Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 12B - Organic Chemistry II",
+                "CHEM 12C - Organic Chemistry III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MCELLBI 32 - Introduction to Human Physiology",
+            "MCELLBI 32L - Introduction to Human Physiology Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 40A - Human Anatomy and Physiology",
+                "BIOL 40B - Human Anatomy and Physiology",
+                "BIOL 40C - Human Anatomy and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 7C - Physics for Scientists and Engineers"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics",
+                "PHYS 4D - Physics for Scientists and Engineers: Modern Physics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "COMPSCI 61A - The Structure and Interpretation of Computer Programs"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "COMPSCI 61B - Data Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ],
+            [
+                "CIS 22CH - Data Abstraction and Structures - HONORS"
+            ],
+            [
+                "CIS 26B - Advanced C Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "COMPSCI 61C - Machine Structures"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "COMPSCI 70 - Discrete Mathematics and Probability Theory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "EECS 16A - Designing Information Devices and Systems I"
+        ],
+        "Sending Courses": [
+            [
+                "ENGR 37 - Introduction to Circuit Analysis",
+                "MATH 2A - Differential Equations",
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "ENGR 37 - Introduction to Circuit Analysis",
+                "MATH 2AH - Differential Equations - HONORS",
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "EECS 16B - Designing Information Devices and Systems II"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

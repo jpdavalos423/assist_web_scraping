@@ -1,22 +1,15 @@
 Receiving Courses,Sending Courses
-ECS 020 - Discrete Mathematics For Computer Science,(CPSC -07 - Discrete Structures) OR (MATH -07 - Discrete Structures)
-ECS 036A - Programming & Problem Solving,(CPSC -06 - Programming Concepts and Methodology I) OR (CPSC -14 - C++ Programming) OR (ENGR -14 - C++ Programming)
-ECS 036B - Software Development & Object-Oriented Programming in C++,(CPSC -39 - Programming Concepts and Methodology II)
-"ECS 036C - Data Structures, Algorithms, & Programming",N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-ECS 050 - Computer Organization & Machine-Dependent Programming,(CPSC -42 - Computer Architecture and Organization)
-MAT 021A - Calculus,(MATH -04A - Calculus I)
-MAT 021B - Calculus,(MATH -04B - Calculus II)
-MAT 021C - Calculus | MAT 021D - Vector Analysis,(MATH -04C - Multivariable Calculus)
-MAT 022A - Linear Algebra,(MATH -08 - Linear Algebra)
-MAT 027A - Linear Algebra with Applications to Biology,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-MAT 067 - Modern Linear Algebra,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-BIS 002A - Introduction to Biology: Essentials of Life on Earth,(BIOL -04A - Fundamentals of Biology: The Cell and Evolution)
-BIS 002B - Introduction to Biology: Principles of Ecology & Evolution,(BIOL -04A - Fundamentals of Biology: The Cell and Evolution | BIOL -04B - Diversity of Life: Morphology and Physiology)
-BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life,(BIOL -04B - Diversity of Life: Morphology and Physiology)
-CHE 002A - General Chemistry | CHE 002B - General Chemistry | CHE 002C - General Chemistry,(CHEM -04A - General Chemistry I | CHEM -04B - General Chemistry II)
-CHE 004A - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-CHE 004B - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-CHE 004C - General Chemistry for the Physical Sciences & Engineering,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
-PHY 009A - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
-PHY 009B - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
-PHY 009C - Classical Physics,(PHYS -04A - Physics I | PHYS -04B - Physics II | PHYS -04C - Physics III)
+CS 150 - Introduction to Computer Programming,(CS 111 - Introduction to Computer Science I: Java) OR (CS 150 - C++ Programming)
+CS 150L - Introductory Computer Programming Laboratory,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+CS 160 - Intermediate Computer Programming,(CS 113 - Basic Data Structures and Algorithms)
+CS 160L - Intermediate Computer Programming Laboratory,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+CS 210 - Data Structures,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+CS 240 - Computer Organization,(CS 220 - Computer Architecture and Assembly Language)
+CS 250 - Introduction to Software Systems,N | o | t |   | A | r | t | i | c | u | l | a | t | e | d
+MATH 150 - Calculus I,(MATH 150 - Calculus and Analytic Geometry I) OR (MATH 150H - Calculus and Analytic Geometry I (Honors))
+MATH 151 - Calculus II,(MATH 155 - Calculus and Analytic Geometry II) OR (MATH 155H - Calculus and Analytical Geometry II (Honors))
+MATH 245 - Discrete Mathematics,(MATH 226 - Discrete Mathematics) OR (MATH 226H - Discrete Mathematics (Honors)) OR (CS 226 - Discrete Structures)
+MATH 254 - Introduction to Linear Algebra,(MATH 270 - Linear Algebra) OR (MATH 270H - Linear Algebra (Honors))
+STAT 250 - Statistical Principles and Practices,(BTEC 180 - Biostatistics) OR (BUS 204 - Business Statistics) OR (BUS 204H - Business Statistics (Honors)) OR (PSYC 104 - Statistics for Behavioral Science) OR (PSYC 104H - Statistics for Behavioral Science (Honors)) OR (SOC 125 - Introduction to Statistics in Sociology)
+PHYS 195 - Principles of Physics | PHYS 195L - Principles of Physics Laboratory,(PHYS 151 - Principles of Physics I) OR (PHYS 151H - Principles of Physics I (Honors))
+PHYS 196 - Principles of Physics | PHYS 196L - Principles of Physics Laboratory,(PHYS 152 - Principles of Physics II) OR (PHYS 152H - Principles of Physics II (Honors))

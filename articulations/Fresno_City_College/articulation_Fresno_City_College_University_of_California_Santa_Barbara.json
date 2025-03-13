@@ -1,0 +1,248 @@
+[
+    {
+        "Receiving Courses": [
+            "MATH 3A - Calculus with Applications, First Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 3B - Calculus with Applications, Second Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 4A - Linear Algebra with Applications"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ],
+            [
+                "MATH 26 - Elementary Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 4B - Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 7 - Introduction to Differential Equations"
+            ],
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 16 - Problem Solving with Computers I"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 24 - Problem Solving with Computers II"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 40 - Foundations of Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 26 - Discrete Mathematics for Computer Science"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 32 - Object Oriented Design and Implementation"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 64 - Computer Organization and Logic Design"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 6A - Vector Calculus with Applications, First Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 1 - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2 - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 3 - Basic Physics",
+            "PHYS 3L - Physics Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 6A - Introductory Physics",
+            "PHYS 6AL - Introductory Experimental Physics",
+            "PHYS 6B - Introductory Physics",
+            "PHYS 6BL - Introductory Experimental Physics",
+            "PHYS 6C - Introductory Physics",
+            "PHYS 6CL - Introductory Experimental Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 2A - General Physics 1",
+                "PHYS 2B - General Physics 2"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7A - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7B - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers",
+                "PHYS 4C - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7C - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers",
+                "PHYS 4C - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7D - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4C - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7L - Physics Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 1A - General Chemistry",
+            "CHEM 1AL - General Chemistry Laboratory",
+            "CHEM 1B - General Chemistry",
+            "CHEM 1BL - General Chemistry Laboratory",
+            "CHEM 1C - General Chemistry",
+            "CHEM 1CL - General Chemistry Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1A - General Chemistry I",
+                "CHEM 1B - General Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MCDB 1A - Introductory Biology I",
+            "MCDB 1LL - Introductory Biology Laboratory I"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 11A - Biology for Science Majors I",
+                "BIOL 11B - Biology for Science Majors II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MCDB 1B - Introductory Biology II - Physiology"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 11A - Biology for Science Majors I",
+                "BIOL 11B - Biology for Science Majors II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PSTAT 120A - Probability and Statistics"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

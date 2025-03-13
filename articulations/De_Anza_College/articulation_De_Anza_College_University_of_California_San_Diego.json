@@ -1,0 +1,260 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 8A - Introduction to Programming and Computational Problem Solving I"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++"
+            ],
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java"
+            ],
+            [
+                "CIS 40 - Introduction to Programming in Python"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 8B - Introduction to Programming and Computational Problem Solving II"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java",
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ],
+            [
+                "CIS 35A - Java Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 12 - Basic Data Structures and Object-Oriented Design"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ],
+            [
+                "CIS 22CH - Data Abstraction and Structures - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 15L - Software Tools and Techniques Laboratory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 20 - Discrete Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics"
+            ],
+            [
+                "MATH 22H - Discrete Mathematics - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 21 - Mathematics for Algorithms and Systems"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 30 - Computer Organization and Systems Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+                "CIS 21JB - Advanced x86 Processor Assembly Programming",
+                "CIS 26B - Advanced C Programming"
+            ],
+            [
+                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+                "CIS 21JB - Advanced x86 Processor Assembly Programming",
+                "CIS 26BH - Advanced C Programming - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 18 - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20A - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I"
+            ],
+            [
+                "MATH 1AH - Calculus I - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20B - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1B - Calculus II"
+            ],
+            [
+                "MATH 1BH - Calculus II - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20C - Calculus and Analytic Geometry for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1C - Calculus III",
+                "MATH 1D - Calculus IV"
+            ],
+            [
+                "MATH 1CH - Calculus III - HONORS",
+                "MATH 1DH - Calculus IV - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 1 - The Cell"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6C - Ecology and Evolution"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6CH - Ecology and Evolution - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 2 - Multicellular Life"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6C - Ecology and Evolution"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6CH - Ecology and Evolution - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 3 - Organismic and Evolutionary Biology"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 6A - Form and Function in the Biological World",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6C - Ecology and Evolution"
+            ],
+            [
+                "BIOL 6AH - Form and Function in the Biological World - HONORS",
+                "BIOL 6B - Cell and Molecular Biology",
+                "BIOL 6CH - Ecology and Evolution - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6A - General Chemistry I"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1A - General Chemistry I"
+            ],
+            [
+                "CHEM 1AH - General Chemistry I - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6B - General Chemistry II"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1B - General Chemistry II"
+            ],
+            [
+                "CHEM 1BH - General Chemistry II - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2A - Physics - Mechanics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2B - Physics - Electricity and Magnetism"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4A - Physics for Physics Majors\u2014Mechanics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4B - Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "Receiving Courses": [
+            "I&C SCI 31 - Introduction to Programming",
+            "I&C SCI 32 - Programming with Software Libraries",
+            "I&C SCI 33 - Intermediate Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 40 - Introduction to Programming in Python",
+                "CIS 41A - Python Programming",
+                "CIS 41B - Advanced Python Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 2A - Single-Variable Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I"
+            ],
+            [
+                "MATH 1AH - Calculus I - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 2B - Single-Variable Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1B - Calculus II"
+            ],
+            [
+                "MATH 1BH - Calculus II - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 3A - Introduction to Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2B - Linear Algebra"
+            ],
+            [
+                "MATH 2BH - Linear Algebra - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6N - Computational Linear Algebra"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6B - Boolean Logic and Discrete Structures"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics",
+                "MATH 22H - Discrete Mathematics - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6D - Discrete Mathematics for Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics",
+                "MATH 22H - Discrete Mathematics - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 45C - Programming in C/C++ as a Second Language"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22B - Intermediate Programming Methodologies in C++"
+            ],
+            [
+                "CIS 29 - Advanced C++ Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 46 - Data Structure Implementation and Analysis"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22B - Intermediate Programming Methodologies in C++",
+                "CIS 22C - Data Abstraction and Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 51 - Introductory Computer Organization"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 53 - Principles in System Design"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "IN4MATX 43 - Introduction to Software Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "STATS 67 - Introduction to Probability and Statistics for Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 23 - Engineering Statistics"
+            ]
+        ]
+    }
+]

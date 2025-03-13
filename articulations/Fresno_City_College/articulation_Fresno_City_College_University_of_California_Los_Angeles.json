@@ -1,0 +1,182 @@
+[
+    {
+        "Receiving Courses": [
+            "COM SCI 31 - Introduction to Computer Science I"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "COM SCI 32 - Introduction to Computer Science II"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "COM SCI 33 - Introduction to Computer Organization"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "COM SCI 35L - Software Construction Laboratory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "COM SCI M51A - Logic Design of Digital Systems"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "EC ENGR M16 - Logic Design of Digital Systems"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 31A - Differential and Integral Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 31B - Integration and Infinite Series"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 32A - Calculus of Several Variables"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 32B - Calculus of Several Variables"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 33A - Linear Algebra and Applications"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 26 - Elementary Linear Algebra"
+            ],
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 33B - Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 7 - Introduction to Differential Equations"
+            ],
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 61 - Introduction to Discrete Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 26 - Discrete Mathematics for Computer Science"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 1A - Physics for Scientists and Engineers: Mechanics",
+            "PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields",
+            "PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers",
+                "PHYS 4C - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ENGCOMP 3 - English Composition, Rhetoric, and Language"
+        ],
+        "Sending Courses": [
+            [
+                "ENGL 1A - Reading and Composition"
+            ],
+            [
+                "ENGL 1AH - Honors Reading and Composition"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [],
+        "Sending Courses": [
+            [
+                "ENGL 1B - Introduction to the Study of Literature"
+            ],
+            [
+                "ENGL 3 - Critical Reading & Writing"
+            ],
+            [
+                "ENGL 3H - Honors Critical Reading and Writing"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [],
+        "Sending Courses": [
+            [
+                "CIT 66 - Beginning C++ Programming"
+            ],
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    }
+]

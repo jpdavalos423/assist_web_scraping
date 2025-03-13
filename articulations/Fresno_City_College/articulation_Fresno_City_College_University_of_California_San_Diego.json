@@ -1,0 +1,201 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 8A - Introduction to Programming and Computational Problem Solving I"
+        ],
+        "Sending Courses": [
+            [
+                "CIT 63 - Beginning JAVA Programming"
+            ],
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 8B - Introduction to Programming and Computational Problem Solving II"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace"
+        ],
+        "Sending Courses": [
+            [
+                "CIT 63 - Beginning JAVA Programming"
+            ],
+            [
+                "CIT 66 - Beginning C++ Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 12 - Basic Data Structures and Object-Oriented Design"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 15L - Software Tools and Techniques Laboratory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 20 - Discrete Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 26 - Discrete Mathematics for Computer Science"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 21 - Mathematics for Algorithms and Systems"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CSE 30 - Computer Organization and Systems Programming"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 18 - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 26 - Elementary Linear Algebra"
+            ],
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20A - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20B - Calculus for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 20C - Calculus and Analytic Geometry for Science and Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 1 - The Cell"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 11A - Biology for Science Majors I",
+                "BIOL 11B - Biology for Science Majors II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 2 - Multicellular Life"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 11A - Biology for Science Majors I",
+                "BIOL 11B - Biology for Science Majors II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BILD 3 - Organismic and Evolutionary Biology"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL 11A - Biology for Science Majors I",
+                "BIOL 11B - Biology for Science Majors II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6A - General Chemistry I"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1A - General Chemistry I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 6B - General Chemistry II"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM 1A - General Chemistry I",
+                "CHEM 1B - General Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2A - Physics - Mechanics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2B - Physics - Electricity and Magnetism"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4A - Physics for Physics Majors\u2014Mechanics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 4B - Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "Receiving Courses": [
+            "CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I"
+        ],
+        "Sending Courses": [
+            [
+                "CIT 66 - Beginning C++ Programming"
+            ],
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 9A - First-Year Calculus",
+            "MATH 9B - First-Year Calculus",
+            "MATH 9C - First-Year Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I",
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40A - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 11 - Intro to Discrete Structures"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CS 10C - Intro to Data Structures and Algorithms"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CS 61 - Machine Organization and Assembly Language Programming"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 10A - Calculus of Several Variables"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40B - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers",
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40C - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "EE 20B - Linear Methods for Engineering Analysis and Design Using MATLAB"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 31 - Applied Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ],
+            [
+                "MATH 26 - Elementary Linear Algebra"
+            ]
+        ]
+    }
+]

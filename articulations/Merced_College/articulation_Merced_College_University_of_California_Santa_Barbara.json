@@ -1,0 +1,256 @@
+[
+    {
+        "Receiving Courses": [
+            "MATH 3A - Calculus with Applications, First Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04A - Calculus I"
+            ],
+            [
+                "MATH -04AS - Calculus I with Support"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 3B - Calculus with Applications, Second Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04B - Calculus II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 4A - Linear Algebra with Applications"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -08 - Linear Algebra"
+            ],
+            [
+                "MATH -09 - Differential Equations with Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 4B - Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -06 - Elementary Differential Equations"
+            ],
+            [
+                "MATH -09 - Differential Equations with Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 16 - Problem Solving with Computers I"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -14 - C++ Programming"
+            ],
+            [
+                "ENGR -14 - C++ Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 24 - Problem Solving with Computers II"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 40 - Foundations of Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -07 - Discrete Structures"
+            ],
+            [
+                "MATH -07 - Discrete Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 32 - Object Oriented Design and Implementation"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CMPSC 64 - Computer Organization and Logic Design"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -42 - Computer Architecture and Organization"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 6A - Vector Calculus with Applications, First Course"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04C - Multivariable Calculus"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 1 - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 2 - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 3 - Basic Physics",
+            "PHYS 3L - Physics Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 6A - Introductory Physics",
+            "PHYS 6AL - Introductory Experimental Physics",
+            "PHYS 6B - Introductory Physics",
+            "PHYS 6BL - Introductory Experimental Physics",
+            "PHYS 6C - Introductory Physics",
+            "PHYS 6CL - Introductory Experimental Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -02A - General Physics I",
+                "PHYS -02B - General Physics II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7A - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7B - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7C - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7D - Basic Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 7L - Physics Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHEM 1A - General Chemistry",
+            "CHEM 1AL - General Chemistry Laboratory",
+            "CHEM 1B - General Chemistry",
+            "CHEM 1BL - General Chemistry Laboratory",
+            "CHEM 1C - General Chemistry",
+            "CHEM 1CL - General Chemistry Laboratory"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM -04A - General Chemistry I",
+                "CHEM -04B - General Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MCDB 1A - Introductory Biology I",
+            "MCDB 1LL - Introductory Biology Laboratory I"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MCDB 1B - Introductory Biology II - Physiology"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PSTAT 120A - Probability and Statistics"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

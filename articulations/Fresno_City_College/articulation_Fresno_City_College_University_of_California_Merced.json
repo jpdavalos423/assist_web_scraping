@@ -1,0 +1,202 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 022 - Introduction to Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 030 - Data Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 021 - Calculus I for Physical Sciences & Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 022 - Calculus II for Physical Sciences & Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 023 - Vector Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 6 - Mathematical Analysis III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 024 - Linear Algebra and Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 7 - Introduction to Differential Equations",
+                "MATH 26 - Elementary Linear Algebra"
+            ],
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 008 - Introductory Physics I for Physical Sciences",
+            "PHYS 008L - Introductory Physics I for Physical Sciences Lab"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 009 - Introductory Physics II for Physical Sciences",
+            "PHYS 009L - Introductory Physics II for Physical Sciences Lab"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 015 - Discrete Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 26 - Discrete Mathematics for Computer Science"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 022 - Introduction to Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 40 - Programming Concepts and Methodology I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 024 - Advanced Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 030 - Data Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 031 - Computer Organization and Assembly Language"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 45 - Computer Architecture and Organization"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 065 - Circuit Theory"
+        ],
+        "Sending Courses": [
+            [
+                "ENGR 6 - Circuits with Lab",
+                "MATH 7 - Introduction to Differential Equations"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 091 - Professional Development: People in an Engineering World"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 032 - Probability and Statistics"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 080 - Statistical Modeling and Data Analysis for Engineers"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "WRI 001 - Academic Writing"
+        ],
+        "Sending Courses": [
+            [
+                "ENGL 1A - Reading and Composition"
+            ],
+            [
+                "ENGL 1AH - Honors Reading and Composition"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "WRI 010 - College Reading and Composition"
+        ],
+        "Sending Courses": [
+            [
+                "ENGL 1B - Introduction to the Study of Literature"
+            ],
+            [
+                "ENGL 3 - Critical Reading & Writing"
+            ],
+            [
+                "ENGL 3H - Honors Critical Reading and Writing"
+            ],
+            [
+                "PHIL 2 - Critical Reasoning and Analytic Writing"
+            ],
+            [
+                "PHIL 2H - Honors Critical Reasoning and Analytic Writing"
+            ]
+        ]
+    }
+]

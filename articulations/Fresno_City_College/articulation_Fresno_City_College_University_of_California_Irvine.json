@@ -1,0 +1,106 @@
+[
+    {
+        "Receiving Courses": [
+            "I&C SCI 31 - Introduction to Programming",
+            "I&C SCI 32 - Programming with Software Libraries",
+            "I&C SCI 33 - Intermediate Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 40 - Programming Concepts and Methodology I",
+                "CSCI 41 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 2A - Single-Variable Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5A - Mathematical Analysis I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 2B - Single-Variable Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 5B - Mathematical Analysis II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 3A - Introduction to Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 17 - Differential Equations and Linear Algebra"
+            ],
+            [
+                "MATH 26 - Elementary Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6N - Computational Linear Algebra"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6B - Boolean Logic and Discrete Structures"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 6D - Discrete Mathematics for Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "CSCI 26 - Discrete Mathematics for Computer Science"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 45C - Programming in C/C++ as a Second Language"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 46 - Data Structure Implementation and Analysis"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 51 - Introductory Computer Organization"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "I&C SCI 53 - Principles in System Design"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "IN4MATX 43 - Introduction to Software Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "STATS 67 - Introduction to Probability and Statistics for Computer Science"
+        ],
+        "Sending Courses": "Not Articulated"
+    }
+]

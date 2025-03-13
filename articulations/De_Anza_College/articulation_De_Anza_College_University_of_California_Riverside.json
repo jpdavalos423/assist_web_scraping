@@ -1,0 +1,146 @@
+[
+    {
+        "Receiving Courses": [
+            "CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java",
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ],
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++"
+            ],
+            [
+                "CIS 26A - C as a Second Programming Language"
+            ],
+            [
+                "CIS 26B - Advanced C Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java",
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ],
+            [
+                "CIS 22B - Intermediate Programming Methodologies in C++"
+            ],
+            [
+                "CIS 27 - Programming in C++ for C/Java Programmers"
+            ],
+            [
+                "CIS 28 - Object Oriented Analysis and Design"
+            ],
+            [
+                "CIS 29 - Advanced C++ Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 9A - First-Year Calculus",
+            "MATH 9B - First-Year Calculus",
+            "MATH 9C - First-Year Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I",
+                "MATH 1B - Calculus II",
+                "MATH 1C - Calculus III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40A - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 11 - Intro to Discrete Structures"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 10C - Intro to Data Structures and Algorithms"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CS 61 - Machine Organization and Assembly Language Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+                "CIS 21JB - Advanced x86 Processor Assembly Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 10A - Calculus of Several Variables"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1C - Calculus III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40B - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 40C - General Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "EE 20B - Linear Methods for Engineering Analysis and Design Using MATLAB"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 31 - Applied Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2B - Linear Algebra"
+            ]
+        ]
+    }
+]

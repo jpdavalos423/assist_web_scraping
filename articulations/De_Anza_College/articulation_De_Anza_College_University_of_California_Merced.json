@@ -1,0 +1,261 @@
+[
+    {
+        "Receiving Courses": [
+            "CSE 022 - Introduction to Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22B - Intermediate Programming Methodologies in C++"
+            ],
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS"
+            ],
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java",
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ],
+            [
+                "CIS 26A - C as a Second Programming Language"
+            ],
+            [
+                "CIS 27 - Programming in C++ for C/Java Programmers"
+            ],
+            [
+                "CIS 41A - Python Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 030 - Data Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 021 - Calculus I for Physical Sciences & Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1A - Calculus I",
+                "MATH 1B - Calculus II"
+            ],
+            [
+                "MATH 1AH - Calculus I - HONORS",
+                "MATH 1BH - Calculus II - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 022 - Calculus II for Physical Sciences & Engineering"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1B - Calculus II",
+                "MATH 1C - Calculus III"
+            ],
+            [
+                "MATH 1BH - Calculus II - HONORS",
+                "MATH 1CH - Calculus III - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 023 - Vector Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 1C - Calculus III",
+                "MATH 1D - Calculus IV"
+            ],
+            [
+                "MATH 1CH - Calculus III - HONORS",
+                "MATH 1DH - Calculus IV - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MATH 024 - Linear Algebra and Differential Equations"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 2A - Differential Equations",
+                "MATH 2B - Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 008 - Introductory Physics I for Physical Sciences",
+            "PHYS 008L - Introductory Physics I for Physical Sciences Lab"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHYS 009 - Introductory Physics II for Physical Sciences",
+            "PHYS 009L - Introductory Physics II for Physical Sciences Lab"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism",
+                "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 015 - Discrete Mathematics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 22 - Discrete Mathematics"
+            ],
+            [
+                "MATH 22H - Discrete Mathematics - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 022 - Introduction to Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22B - Intermediate Programming Methodologies in C++"
+            ],
+            [
+                "CIS 22A - Beginning Programming Methodologies in C++",
+                "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS"
+            ],
+            [
+                "CIS 36A - Introduction to Computer Programming Using Java",
+                "CIS 36B - Intermediate Problem Solving in Java"
+            ],
+            [
+                "CIS 26A - C as a Second Programming Language"
+            ],
+            [
+                "CIS 27 - Programming in C++ for C/Java Programmers"
+            ],
+            [
+                "CIS 41A - Python Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 024 - Advanced Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 26B - Advanced C Programming"
+            ],
+            [
+                "CIS 26BH - Advanced C Programming - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 030 - Data Structures"
+        ],
+        "Sending Courses": [
+            [
+                "CIS 22C - Data Abstraction and Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CSE 031 - Computer Organization and Assembly Language"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 065 - Circuit Theory"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 091 - Professional Development: People in an Engineering World"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MATH 032 - Probability and Statistics"
+        ],
+        "Sending Courses": [
+            [
+                "MATH 23 - Engineering Statistics"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ENGR 080 - Statistical Modeling and Data Analysis for Engineers"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "WRI 001 - Academic Writing"
+        ],
+        "Sending Courses": [
+            [
+                "ESL 5 - Advanced Composition and Reading"
+            ],
+            [
+                "EWRT 1A - Composition and Reading"
+            ],
+            [
+                "EWRT 1AH - Composition and Reading - HONORS"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "WRI 010 - College Reading and Composition"
+        ],
+        "Sending Courses": [
+            [
+                "COMM 9 - Argumentation: Analysis of Oral and Written Communication"
+            ],
+            [
+                "COMM 9H - Argumentation: Analysis of Oral and Written Communication - HONORS"
+            ],
+            [
+                "EWRT 1B - Reading, Writing and Research"
+            ],
+            [
+                "EWRT 1C - Literature and Composition"
+            ],
+            [
+                "EWRT 2 - Critical Reading, Writing and Thinking"
+            ],
+            [
+                "EWRT 2H - Critical Reading, Writing and Thinking - HONORS"
+            ],
+            [
+                "PHIL 3 - Critical Thinking and Writing"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "Receiving Courses": [
+            "ECS 020 - Discrete Mathematics For Computer Science"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -07 - Discrete Structures"
+            ],
+            [
+                "MATH -07 - Discrete Structures"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ECS 036A - Programming & Problem Solving"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -06 - Programming Concepts and Methodology I"
+            ],
+            [
+                "CPSC -14 - C++ Programming"
+            ],
+            [
+                "ENGR -14 - C++ Programming"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ECS 036B - Software Development & Object-Oriented Programming in C++"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -39 - Programming Concepts and Methodology II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "ECS 036C - Data Structures, Algorithms, & Programming"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "ECS 050 - Computer Organization & Machine-Dependent Programming"
+        ],
+        "Sending Courses": [
+            [
+                "CPSC -42 - Computer Architecture and Organization"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021A - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04A - Calculus I"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021B - Calculus"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04B - Calculus II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 021C - Calculus",
+            "MAT 021D - Vector Analysis"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -04C - Multivariable Calculus"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 022A - Linear Algebra"
+        ],
+        "Sending Courses": [
+            [
+                "MATH -08 - Linear Algebra"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "MAT 027A - Linear Algebra with Applications to Biology"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "MAT 067 - Modern Linear Algebra"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "BIS 002A - Introduction to Biology: Essentials of Life on Earth"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BIS 002B - Introduction to Biology: Principles of Ecology & Evolution"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04A - Fundamentals of Biology: The Cell and Evolution",
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life"
+        ],
+        "Sending Courses": [
+            [
+                "BIOL -04B - Diversity of Life: Morphology and Physiology"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHE 002A - General Chemistry",
+            "CHE 002B - General Chemistry",
+            "CHE 002C - General Chemistry"
+        ],
+        "Sending Courses": [
+            [
+                "CHEM -04A - General Chemistry I",
+                "CHEM -04B - General Chemistry II"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "CHE 004A - General Chemistry for the Physical Sciences & Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CHE 004B - General Chemistry for the Physical Sciences & Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "CHE 004C - General Chemistry for the Physical Sciences & Engineering"
+        ],
+        "Sending Courses": "Not Articulated"
+    },
+    {
+        "Receiving Courses": [
+            "PHY 009A - Classical Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHY 009B - Classical Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    },
+    {
+        "Receiving Courses": [
+            "PHY 009C - Classical Physics"
+        ],
+        "Sending Courses": [
+            [
+                "PHYS -04A - Physics I",
+                "PHYS -04B - Physics II",
+                "PHYS -04C - Physics III"
+            ]
+        ]
+    }
+]
