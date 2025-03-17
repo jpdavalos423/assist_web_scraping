@@ -1,0 +1,1907 @@
+[
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 1A - Calculus",
+        "OR Groups": [
+            "MATH 1A - Calculus I & MATH 1B - Calculus II",
+            "MATH 1AH - Calculus I - HONORS & MATH 1BH - Calculus II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 1B - Calculus",
+        "OR Groups": [
+            "MATH 1B - Calculus II & MATH 1C - Calculus III",
+            "MATH 1BH - Calculus II - HONORS & MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 53 - Multivariable Calculus",
+        "OR Groups": [
+            "MATH 1C - Calculus III & MATH 1D - Calculus IV",
+            "MATH 1CH - Calculus III - HONORS & MATH 1DH - Calculus IV - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 54 - Linear Algebra and Differential Equations",
+        "OR Groups": [
+            "MATH 2A - Differential Equations & MATH 2B - Linear Algebra",
+            "MATH 2AH - Differential Equations - HONORS & MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7A - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7B - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGLISH R1A - Reading and Composition",
+        "OR Groups": [
+            "EWRT 1A - Composition and Reading",
+            "EWRT 1AH - Composition and Reading - HONORS",
+            "ESL 5 - Advanced Composition and Reading"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGLISH R1B - Reading and Composition",
+        "OR Groups": [
+            "EWRT 1B - Reading, Writing and Research",
+            "EWRT 2 - Critical Reading, Writing and Thinking",
+            "EWRT 1BH - Reading, Writing and Research - HONORS",
+            "EWRT 2H - Critical Reading, Writing and Thinking - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ASTRON 7A - Introduction to Astrophysics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ASTRON 7B - Introduction to Astrophysics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIOLOGY 1A - General Biology Lecture (Cells, Genetics, Animal Form & Function) & BIOLOGY 1AL - General Biology Laboratory",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6B - Cell and Molecular Biology",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6B - Cell and Molecular Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIOLOGY 1B - General Biology (Plant Form & Function, Ecology, Evolution)",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6C - Ecology and Evolution",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6C - Ecology and Evolution",
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6CH - Ecology and Evolution - HONORS",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6CH - Ecology and Evolution - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 1A - General Chemistry & CHEM 1AL - General Chemistry Laboratory & CHEM 1B - General Chemistry",
+        "OR Groups": [
+            "CHEM 1A - General Chemistry I & CHEM 1B - General Chemistry II & CHEM 1C - General Chemistry III",
+            "CHEM 1AH - General Chemistry I - HONORS & CHEM 1BH - General Chemistry II - HONORS & CHEM 1CH - General Chemistry III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 3A - Chemical Structure and Reactivity & CHEM 3AL - Organic Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 12A - Organic Chemistry I & CHEM 12B - Organic Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 3B - Chemical Structure and Reactivity & CHEM 3BL - Organic Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 12B - Organic Chemistry II & CHEM 12C - Organic Chemistry III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCELLBI 32 - Introduction to Human Physiology & MCELLBI 32L - Introduction to Human Physiology Laboratory",
+        "OR Groups": [
+            "BIOL 40A - Human Anatomy and Physiology & BIOL 40B - Human Anatomy and Physiology & BIOL 40C - Human Anatomy and Physiology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7C - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics & PHYS 4D - Physics for Scientists and Engineers: Modern Physics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61A - The Structure and Interpretation of Computer Programs",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61B - Data Structures",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures",
+            "CIS 22CH - Data Abstraction and Structures - HONORS",
+            "CIS 26B - Advanced C Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61C - Machine Structures",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 70 - Discrete Mathematics and Probability Theory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EECS 16A - Designing Information Devices and Systems I",
+        "OR Groups": [
+            "ENGR 37 - Introduction to Circuit Analysis & MATH 2A - Differential Equations & MATH 2B - Linear Algebra",
+            "ENGR 37 - Introduction to Circuit Analysis & MATH 2AH - Differential Equations - HONORS & MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EECS 16B - Designing Information Devices and Systems II",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 020 - Discrete Mathematics For Computer Science",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics",
+            "MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036A - Programming & Problem Solving",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++",
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 26A - C as a Second Programming Language",
+            "CIS 26B - Advanced C Programming",
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 35A - Java Programming",
+            "CIS 36A - Introduction to Computer Programming Using Java"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036B - Software Development & Object-Oriented Programming in C++",
+        "OR Groups": [
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 29 - Advanced C++ Programming",
+            "CIS 35A - Java Programming",
+            "CIS 36B - Intermediate Problem Solving in Java"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036C - Data Structures, Algorithms, & Programming",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures",
+            "CIS 22CH - Data Abstraction and Structures - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 050 - Computer Organization & Machine-Dependent Programming",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021A - Calculus",
+        "OR Groups": [
+            "MATH 1A - Calculus I",
+            "MATH 1AH - Calculus I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021B - Calculus",
+        "OR Groups": [
+            "MATH 1B - Calculus II",
+            "MATH 1BH - Calculus II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021C - Calculus",
+        "OR Groups": [
+            "MATH 1C - Calculus III",
+            "MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 022A - Linear Algebra",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 027A - Linear Algebra with Applications to Biology",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 067 - Modern Linear Algebra",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIS 002A - Introduction to Biology: Essentials of Life on Earth",
+        "OR Groups": [
+            "BIOL 6B - Cell and Molecular Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIS 002B - Introduction to Biology: Principles of Ecology & Evolution",
+        "OR Groups": [
+            "BIOL 6C - Ecology and Evolution",
+            "BIOL 6CH - Ecology and Evolution - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 002A - General Chemistry & CHE 002B - General Chemistry",
+        "OR Groups": [
+            "CHEM 1A - General Chemistry I & CHEM 1B - General Chemistry II",
+            "CHEM 1A - General Chemistry I & CHEM 1BH - General Chemistry II - HONORS",
+            "CHEM 1AH - General Chemistry I - HONORS & CHEM 1B - General Chemistry II",
+            "CHEM 1AH - General Chemistry I - HONORS & CHEM 1BH - General Chemistry II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 002C - General Chemistry",
+        "OR Groups": [
+            "CHEM 1C - General Chemistry III",
+            "CHEM 1CH - General Chemistry III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004A - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "CHEM 1AH - General Chemistry I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004B - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "CHEM 1BH - General Chemistry II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004C - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "CHEM 1CH - General Chemistry III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009A - Classical Physics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009B - Classical Physics",
+        "OR Groups": [
+            "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009C - Classical Physics",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 31 - Introduction to Programming & I&C SCI 32 - Programming with Software Libraries & I&C SCI 33 - Intermediate Programming",
+        "OR Groups": [
+            "CIS 40 - Introduction to Programming in Python & CIS 41A - Python Programming & CIS 41B - Advanced Python Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 2A - Single-Variable Calculus",
+        "OR Groups": [
+            "MATH 1A - Calculus I",
+            "MATH 1AH - Calculus I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 2B - Single-Variable Calculus",
+        "OR Groups": [
+            "MATH 1B - Calculus II",
+            "MATH 1BH - Calculus II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3A - Introduction to Linear Algebra",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6N - Computational Linear Algebra",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6B - Boolean Logic and Discrete Structures",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics & MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6D - Discrete Mathematics for Computer Science",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics & MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 45C - Programming in C/C++ as a Second Language",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 29 - Advanced C++ Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 46 - Data Structure Implementation and Analysis",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22B - Intermediate Programming Methodologies in C++ & CIS 22C - Data Abstraction and Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 51 - Introductory Computer Organization",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 53 - Principles in System Design",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "IN4MATX 43 - Introduction to Software Engineering",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "STATS 67 - Introduction to Probability and Statistics for Computer Science",
+        "OR Groups": [
+            "MATH 23 - Engineering Statistics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 31 - Introduction to Computer Science I",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++",
+            "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 29 - Advanced C++ Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 32 - Introduction to Computer Science II",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures",
+            "CIS 22CH - Data Abstraction and Structures - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 33 - Introduction to Computer Organization",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 35L - Software Construction Laboratory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI M51A - Logic Design of Digital Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EC ENGR M16 - Logic Design of Digital Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31A - Differential and Integral Calculus",
+        "OR Groups": [
+            "MATH 1A - Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31B - Integration and Infinite Series",
+        "OR Groups": [
+            "MATH 1B - Calculus II & MATH 1C - Calculus III",
+            "MATH 1B - Calculus II & MATH 1CH - Calculus III - HONORS",
+            "MATH 1BH - Calculus II - HONORS & MATH 1C - Calculus III",
+            "MATH 1BH - Calculus II - HONORS & MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 32A - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 1C - Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 32B - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 1D - Calculus IV"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 33A - Linear Algebra and Applications",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 33B - Differential Equations",
+        "OR Groups": [
+            "MATH 2A - Differential Equations"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 61 - Introduction to Discrete Structures",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 1A - Physics for Scientists and Engineers: Mechanics & PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields & PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics & PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGCOMP 3 - English Composition, Rhetoric, and Language",
+        "OR Groups": [
+            "EWRT 1A - Composition and Reading",
+            "EWRT 1AH - Composition and Reading - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "",
+        "OR Groups": [
+            "COMM 9 - Argumentation: Analysis of Oral and Written Communication",
+            "EWRT 1B - Reading, Writing and Research",
+            "EWRT 1BH - Reading, Writing and Research - HONORS",
+            "EWRT 1C - Literature and Composition",
+            "EWRT 2 - Critical Reading, Writing and Thinking",
+            "PHIL 3 - Critical Thinking and Writing"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "",
+        "OR Groups": [
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 29 - Advanced C++ Programming",
+            "CIS 22A - Beginning Programming Methodologies in C++",
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 022 - Introduction to Programming",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 36A - Introduction to Computer Programming Using Java & CIS 36B - Intermediate Problem Solving in Java",
+            "CIS 26A - C as a Second Programming Language",
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 41A - Python Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 030 - Data Structures",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 021 - Calculus I for Physical Sciences & Engineering",
+        "OR Groups": [
+            "MATH 1A - Calculus I & MATH 1B - Calculus II",
+            "MATH 1AH - Calculus I - HONORS & MATH 1BH - Calculus II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 022 - Calculus II for Physical Sciences & Engineering",
+        "OR Groups": [
+            "MATH 1B - Calculus II & MATH 1C - Calculus III",
+            "MATH 1BH - Calculus II - HONORS & MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 023 - Vector Calculus",
+        "OR Groups": [
+            "MATH 1C - Calculus III & MATH 1D - Calculus IV",
+            "MATH 1CH - Calculus III - HONORS & MATH 1DH - Calculus IV - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 024 - Linear Algebra and Differential Equations",
+        "OR Groups": [
+            "MATH 2A - Differential Equations & MATH 2B - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 008 - Introductory Physics I for Physical Sciences & PHYS 008L - Introductory Physics I for Physical Sciences Lab",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 009 - Introductory Physics II for Physical Sciences & PHYS 009L - Introductory Physics II for Physical Sciences Lab",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 015 - Discrete Mathematics",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics",
+            "MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 022 - Introduction to Programming",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22A - Beginning Programming Methodologies in C++ & CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 36A - Introduction to Computer Programming Using Java & CIS 36B - Intermediate Problem Solving in Java",
+            "CIS 26A - C as a Second Programming Language",
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 41A - Python Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 024 - Advanced Programming",
+        "OR Groups": [
+            "CIS 26B - Advanced C Programming",
+            "CIS 26BH - Advanced C Programming - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 030 - Data Structures",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 031 - Computer Organization and Assembly Language",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGR 065 - Circuit Theory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGR 091 - Professional Development: People in an Engineering World",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 032 - Probability and Statistics",
+        "OR Groups": [
+            "MATH 23 - Engineering Statistics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGR 080 - Statistical Modeling and Data Analysis for Engineers",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "WRI 001 - Academic Writing",
+        "OR Groups": [
+            "ESL 5 - Advanced Composition and Reading",
+            "EWRT 1A - Composition and Reading",
+            "EWRT 1AH - Composition and Reading - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Merced",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "WRI 010 - College Reading and Composition",
+        "OR Groups": [
+            "COMM 9 - Argumentation: Analysis of Oral and Written Communication",
+            "COMM 9H - Argumentation: Analysis of Oral and Written Communication - HONORS",
+            "EWRT 1B - Reading, Writing and Research",
+            "EWRT 1C - Literature and Composition",
+            "EWRT 2 - Critical Reading, Writing and Thinking",
+            "EWRT 2H - Critical Reading, Writing and Thinking - HONORS",
+            "PHIL 3 - Critical Thinking and Writing"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I",
+        "OR Groups": [
+            "CIS 36A - Introduction to Computer Programming Using Java & CIS 36B - Intermediate Problem Solving in Java",
+            "CIS 22A - Beginning Programming Methodologies in C++",
+            "CIS 26A - C as a Second Programming Language",
+            "CIS 26B - Advanced C Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II",
+        "OR Groups": [
+            "CIS 36A - Introduction to Computer Programming Using Java & CIS 36B - Intermediate Problem Solving in Java",
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 27 - Programming in C++ for C/Java Programmers",
+            "CIS 28 - Object Oriented Analysis and Design",
+            "CIS 29 - Advanced C++ Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 9A - First-Year Calculus & MATH 9B - First-Year Calculus & MATH 9C - First-Year Calculus",
+        "OR Groups": [
+            "MATH 1A - Calculus I & MATH 1B - Calculus II & MATH 1C - Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40A - General Physics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 11 - Intro to Discrete Structures",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10C - Intro to Data Structures and Algorithms",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 61 - Machine Organization and Assembly Language Programming",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture & CIS 21JB - Advanced x86 Processor Assembly Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 10A - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 1C - Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40B - General Physics",
+        "OR Groups": [
+            "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40C - General Physics",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EE 20B - Linear Methods for Engineering Analysis and Design Using MATLAB",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31 - Applied Linear Algebra",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 8A - Introduction to Programming and Computational Problem Solving I",
+        "OR Groups": [
+            "CIS 22A - Beginning Programming Methodologies in C++",
+            "CIS 36A - Introduction to Computer Programming Using Java",
+            "CIS 40 - Introduction to Programming in Python"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 8B - Introduction to Programming and Computational Problem Solving II",
+        "OR Groups": [
+            "CIS 36B - Intermediate Problem Solving in Java"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+        "OR Groups": [
+            "CIS 36A - Introduction to Computer Programming Using Java & CIS 36B - Intermediate Problem Solving in Java",
+            "CIS 35A - Java Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 12 - Basic Data Structures and Object-Oriented Design",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures",
+            "CIS 22CH - Data Abstraction and Structures - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 15L - Software Tools and Techniques Laboratory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 20 - Discrete Mathematics",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics",
+            "MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 21 - Mathematics for Algorithms and Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 30 - Computer Organization and Systems Programming",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture & CIS 21JB - Advanced x86 Processor Assembly Programming & CIS 26B - Advanced C Programming",
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture & CIS 21JB - Advanced x86 Processor Assembly Programming & CIS 26BH - Advanced C Programming - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 18 - Linear Algebra",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20A - Calculus for Science and Engineering",
+        "OR Groups": [
+            "MATH 1A - Calculus I",
+            "MATH 1AH - Calculus I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20B - Calculus for Science and Engineering",
+        "OR Groups": [
+            "MATH 1B - Calculus II",
+            "MATH 1BH - Calculus II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20C - Calculus and Analytic Geometry for Science and Engineering",
+        "OR Groups": [
+            "MATH 1C - Calculus III & MATH 1D - Calculus IV",
+            "MATH 1CH - Calculus III - HONORS & MATH 1DH - Calculus IV - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 1 - The Cell",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6B - Cell and Molecular Biology & BIOL 6C - Ecology and Evolution",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6B - Cell and Molecular Biology & BIOL 6CH - Ecology and Evolution - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 2 - Multicellular Life",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6B - Cell and Molecular Biology & BIOL 6C - Ecology and Evolution",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6B - Cell and Molecular Biology & BIOL 6CH - Ecology and Evolution - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 3 - Organismic and Evolutionary Biology",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6B - Cell and Molecular Biology & BIOL 6C - Ecology and Evolution",
+            "BIOL 6AH - Form and Function in the Biological World - HONORS & BIOL 6B - Cell and Molecular Biology & BIOL 6CH - Ecology and Evolution - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 6A - General Chemistry I",
+        "OR Groups": [
+            "CHEM 1A - General Chemistry I",
+            "CHEM 1AH - General Chemistry I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 6B - General Chemistry II",
+        "OR Groups": [
+            "CHEM 1B - General Chemistry II",
+            "CHEM 1BH - General Chemistry II - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2A - Physics - Mechanics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2B - Physics - Electricity and Magnetism",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 4A - Physics for Physics Majors\u2014Mechanics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 4B - Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3A - Calculus with Applications, First Course",
+        "OR Groups": [
+            "MATH 1A - Calculus I",
+            "MATH 1AH - Calculus I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3B - Calculus with Applications, Second Course",
+        "OR Groups": [
+            "MATH 1B - Calculus II & MATH 1BH - Calculus II - HONORS",
+            "MATH 1C - Calculus III & MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 4A - Linear Algebra with Applications",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 4B - Differential Equations",
+        "OR Groups": [
+            "MATH 2A - Differential Equations",
+            "MATH 2AH - Differential Equations - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 16 - Problem Solving with Computers I",
+        "OR Groups": [
+            "CIS 22B - Intermediate Programming Methodologies in C++",
+            "CIS 22BH - Intermediate Programming Methodologies in C++ - HONORS",
+            "CIS 26A - C as a Second Programming Language",
+            "CIS 26B - Advanced C Programming",
+            "CIS 26BH - Advanced C Programming - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 24 - Problem Solving with Computers II",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures & CIS 29 - Advanced C++ Programming",
+            "CIS 22CH - Data Abstraction and Structures - HONORS & CIS 29 - Advanced C++ Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 40 - Foundations of Computer Science",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics",
+            "MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 32 - Object Oriented Design and Implementation",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 64 - Computer Organization and Logic Design",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+            "CIS 21JB - Advanced x86 Processor Assembly Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 6A - Vector Calculus with Applications, First Course",
+        "OR Groups": [
+            "MATH 1C - Calculus III & MATH 1CH - Calculus III - HONORS",
+            "MATH 1D - Calculus IV & MATH 1DH - Calculus IV - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 1 - Basic Physics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2 - Basic Physics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 3 - Basic Physics & PHYS 3L - Physics Laboratory",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 6A - Introductory Physics & PHYS 6AL - Introductory Experimental Physics & PHYS 6B - Introductory Physics & PHYS 6BL - Introductory Experimental Physics & PHYS 6C - Introductory Physics & PHYS 6CL - Introductory Experimental Physics",
+        "OR Groups": [
+            "PHYS 2A - General Introductory Physics & PHYS 2B - General Introductory Physics & PHYS 2C - General Introductory Physics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7A - Basic Physics",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7B - Basic Physics",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7C - Basic Physics",
+        "OR Groups": [
+            "PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism & PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7D - Basic Physics",
+        "OR Groups": [
+            "PHYS 4C - Physics for Scientists and Engineers: Fluids, Waves, Optics and Thermodynamics & PHYS 4D - Physics for Scientists and Engineers: Modern Physics"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7L - Physics Laboratory",
+        "OR Groups": [
+            "PHYS 4A - Physics for Scientists and Engineers: Mechanics & PHYS 4B - Physics for Scientists and Engineers: Electricity and Magnetism"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 1A - General Chemistry & CHEM 1AL - General Chemistry Laboratory & CHEM 1B - General Chemistry & CHEM 1BL - General Chemistry Laboratory & CHEM 1C - General Chemistry & CHEM 1CL - General Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 1A - General Chemistry I & CHEM 1AH - General Chemistry I - HONORS",
+            "CHEM 1B - General Chemistry II & CHEM 1BH - General Chemistry II - HONORS",
+            "CHEM 1C - General Chemistry III & CHEM 1CH - General Chemistry III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCDB 1A - Introductory Biology I & MCDB 1LL - Introductory Biology Laboratory I",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6AH - Form and Function in the Biological World - HONORS",
+            "BIOL 6C - Ecology and Evolution & BIOL 6CH - Ecology and Evolution - HONORS",
+            "BIOL 6B - Cell and Molecular Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCDB 1B - Introductory Biology II - Physiology",
+        "OR Groups": [
+            "BIOL 6A - Form and Function in the Biological World & BIOL 6AH - Form and Function in the Biological World - HONORS",
+            "BIOL 6C - Ecology and Evolution & BIOL 6CH - Ecology and Evolution - HONORS",
+            "BIOL 6B - Cell and Molecular Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PSTAT 120A - Probability and Statistics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 12 - Computer Systems and Assembly Language and Lab",
+        "OR Groups": [
+            "CIS 21JA - Introduction to x86 Processor Assembly Language and Computer Architecture",
+            "CIS 21JB - Advanced x86 Processor Assembly Programming"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 16 - APPLIED DISCRETE MATHEMATICS",
+        "OR Groups": [
+            "MATH 22 - Discrete Mathematics",
+            "MATH 22H - Discrete Mathematics - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 30 - Programming Abstractions: Python",
+        "OR Groups": [
+            "CIS 22C - Data Abstraction and Structures",
+            "CIS 22CH - Data Abstraction and Structures - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 19A - Calculus for Science, Engineering, and Mathematics",
+        "OR Groups": [
+            "MATH 1A - Calculus I",
+            "MATH 1AH - Calculus I - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 19B - Calculus for Science, Engineering, and Mathematics",
+        "OR Groups": [
+            "MATH 1B - Calculus II & MATH 1C - Calculus III",
+            "MATH 1BH - Calculus II - HONORS & MATH 1CH - Calculus III - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "AM 10 - Mathematical Methods for Engineers I",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 21 - Linear Algebra",
+        "OR Groups": [
+            "MATH 2B - Linear Algebra",
+            "MATH 2BH - Linear Algebra - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "AM 30 - Multivariate Calculus for Engineers",
+        "OR Groups": [
+            "MATH 1D - Calculus IV",
+            "MATH 1DH - Calculus IV - HONORS"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "De Anza College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 23A - Vector Calculus",
+        "OR Groups": [
+            "MATH 1D - Calculus IV",
+            "MATH 1DH - Calculus IV - HONORS"
+        ]
+    }
+]
