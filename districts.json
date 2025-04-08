@@ -1,0 +1,207 @@
+{
+    "districts": [
+      {
+        "district": "Allan Hancock Joint Community College District",
+        "colleges": ["Allan Hancock College"]
+      },
+      {
+        "district": "Antelope Valley Community College District",
+        "colleges": ["Antelope Valley College"]
+      },
+      {
+        "district": "Barstow Community College District",
+        "colleges": ["Barstow College"]
+      },
+      {
+        "district": "Butte-Glenn Community College District",
+        "colleges": ["Butte College"]
+      },
+      {
+        "district": "Cabrillo Community College District",
+        "colleges": ["Cabrillo College"]
+      },
+      {
+        "district": "Cerritos Community College District",
+        "colleges": ["Cerritos College"]
+      },
+      {
+        "district": "Chabot-Las Positas Community College District",
+        "colleges": ["Chabot College", "Las Positas College"]
+      },
+      {
+        "district": "Chaffey Community College District",
+        "colleges": ["Chaffey College"]
+      },
+      {
+        "district": "Citrus Community College District",
+        "colleges": ["Citrus College"]
+      },
+      {
+        "district": "Coast Community College District",
+        "colleges": ["Coastline College", "Golden West College", "Orange Coast College"]
+      },
+      {
+        "district": "Compton Community College District",
+        "colleges": ["Compton College"]
+      },
+      {
+        "district": "Contra Costa Community College District",
+        "colleges": ["Contra Costa College", "Diablo Valley College", "Los Medanos College"]
+      },
+      {
+        "district": "Copper Mountain Community College District",
+        "colleges": ["Copper Mountain College"]
+      },
+      {
+        "district": "Desert Community College District",
+        "colleges": ["College of the Desert"]
+      },
+      {
+        "district": "El Camino Community College District",
+        "colleges": ["El Camino College"]
+      },
+      {
+        "district": "Feather River Community College District",
+        "colleges": ["Feather River College"]
+      },
+      {
+        "district": "Foothill-De Anza Community College District",
+        "colleges": ["Foothill College", "De Anza College"]
+      },
+      {
+        "district": "Gavilan Community College District",
+        "colleges": ["Gavilan College"]
+      },
+      {
+        "district": "Glendale Community College District",
+        "colleges": ["Glendale Community College"]
+      },
+      {
+        "district": "Grossmont-Cuyamaca Community College District",
+        "colleges": ["Grossmont College", "Cuyamaca College"]
+      },
+      {
+        "district": "Hartnell Community College District",
+        "colleges": ["Hartnell College"]
+      },
+      {
+        "district": "Imperial Community College District",
+        "colleges": ["Imperial Valley College"]
+      },
+      {
+        "district": "Kern Community College District",
+        "colleges": ["Bakersfield College", "Cerro Coso Community College", "Porterville College"]
+      },
+      {
+        "district": "Lake Tahoe Community College District",
+        "colleges": ["Lake Tahoe Community College"]
+      },
+      {
+        "district": "Lassen Community College District",
+        "colleges": ["Lassen College"]
+      },
+      {
+        "district": "Long Beach Community College District",
+        "colleges": ["Long Beach City College"]
+      },
+      {
+        "district": "Los Angeles Community College District",
+        "colleges": [
+          "East Los Angeles College",
+          "Los Angeles City College",
+          "Los Angeles Harbor College",
+          "Los Angeles Mission College",
+          "Los Angeles Pierce College",
+          "Los Angeles Southwest College",
+          "Los Angeles Trade-Technical College",
+          "Los Angeles Valley College",
+          "West Los Angeles College"
+        ]
+      },
+      {
+        "district": "Los Rios Community College District",
+        "colleges": ["American River College", "Cosumnes River College", "Folsom Lake College", "Sacramento City College"]
+      },
+      {
+        "district": "Marin Community College District",
+        "colleges": ["College of Marin"]
+      },
+      {
+        "district": "Mendocino-Lake Community College District",
+        "colleges": ["Mendocino College"]
+      },
+      {
+        "district": "Merced Community College District",
+        "colleges": ["Merced College"]
+      },
+      {
+        "district": "MiraCosta Community College District",
+        "colleges": ["MiraCosta College"]
+      },
+      {
+        "district": "Monterey Peninsula Community College District",
+        "colleges": ["Monterey Peninsula College"]
+      },
+      {
+        "district": "Mt. San Antonio Community College District",
+        "colleges": ["Mt. San Antonio College"]
+      },
+      {
+        "district": "Mt. San Jacinto Community College District",
+        "colleges": ["Mt. San Jacinto College"]
+      },
+      {
+        "district": "Napa Valley Community College District",
+        "colleges": ["Napa Valley College"]
+      },
+      {
+        "district": "North Orange County Community College District",
+        "colleges": ["Cypress College", "Fullerton College"]
+      },
+      {
+        "district": "Ohlone Community College District",
+        "colleges": ["Ohlone College"]
+      },
+      {
+        "district": "Palo Verde Community College District",
+        "colleges": ["Palo Verde College"]
+      },
+      {
+        "district": "Palomar Community College District",
+        "colleges": ["Palomar College"]
+      },
+      {
+        "district": "Pasadena Area Community College District",
+        "colleges": ["Pasadena City College"]
+      },
+      {
+        "district": "Peralta Community College District",
+        "colleges": ["Berkeley City College", "College of Alameda", "Laney College", "Merritt College"]
+      },
+      {
+        "district": "Rancho Santiago Community College District",
+        "colleges": ["Santa Ana College", "Santiago Canyon College"]
+      },
+      {
+        "district": "Redwoods Community College District",
+        "colleges": ["College of the Redwoods"]
+      },
+      {
+        "district": "Rio Hondo Community College District",
+        "colleges": ["Rio Hondo College"]
+      },
+      {
+        "district": "Riverside Community College District",
+        "colleges": ["Moreno Valley College", "Norco College", "Riverside City College"]
+      },
+      {
+        "district": "San Bernardino Community College District",
+        "colleges": ["Crafton Hills College", "San Bernardino Valley College"]
+      },
+      {
+        "district": "San Diego Community College District",
+        "colleges": ["San Diego City College", "San Diego Mesa College", "San Diego Miramar College"]
+      }
+    ]
+  }
+  

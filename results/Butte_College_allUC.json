@@ -1,0 +1,1558 @@
+[
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 1A - Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 1B - Calculus",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 53 - Multivariable Calculus",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 54 - Linear Algebra and Differential Equations",
+        "OR Groups": [
+            "MATH 40 - Differential Equations & MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7A - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7B - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGLISH R1A - Reading and Composition",
+        "OR Groups": [
+            "ENGL 2 - Reading and Composition",
+            "ENGL 3 - Reading and Composition Intensive"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGLISH R1B - Reading and Composition",
+        "OR Groups": [
+            "ENGL 4 - Introduction to Literature",
+            "ENGL 11 - Communication and Critical Thinking"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ASTRON 7A - Introduction to Astrophysics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ASTRON 7B - Introduction to Astrophysics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIOLOGY 1A - General Biology Lecture (Cells, Genetics, Animal Form & Function) & BIOLOGY 1AL - General Biology Laboratory",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIOLOGY 1B - General Biology (Plant Form & Function, Ecology, Evolution)",
+        "OR Groups": [
+            "BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 1A - General Chemistry & CHEM 1AL - General Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 1 - General Chemistry I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 1B - General Chemistry",
+        "OR Groups": [
+            "CHEM 2 - General Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 3A - Chemical Structure and Reactivity & CHEM 3AL - Organic Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 21 - Organic Chemistry I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 3B - Chemical Structure and Reactivity & CHEM 3BL - Organic Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 22 - Organic Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCELLBI 32 - Introduction to Human Physiology & MCELLBI 32L - Introduction to Human Physiology Laboratory",
+        "OR Groups": [
+            "BIOL 21 - Human Physiology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 7C - Physics for Scientists and Engineers",
+        "OR Groups": [
+            "PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61A - The Structure and Interpretation of Computer Programs",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61B - Data Structures",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 61C - Machine Structures",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COMPSCI 70 - Discrete Mathematics and Probability Theory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EECS 16A - Designing Information Devices and Systems I",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Berkeley",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EECS 16B - Designing Information Devices and Systems II",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 020 - Discrete Mathematics For Computer Science",
+        "OR Groups": [
+            "CSCI 22 - Discrete Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036A - Programming & Problem Solving",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036B - Software Development & Object-Oriented Programming in C++",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 036C - Data Structures, Algorithms, & Programming",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ECS 050 - Computer Organization & Machine-Dependent Programming",
+        "OR Groups": [
+            "CSCI 10 - Computer Architecture and Organization"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021A - Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021B - Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I & MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 021C - Calculus",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II & MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 022A - Linear Algebra",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 027A - Linear Algebra with Applications to Biology",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MAT 067 - Modern Linear Algebra",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIS 002A - Introduction to Biology: Essentials of Life on Earth & BIS 002B - Introduction to Biology: Principles of Ecology & Evolution",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BIS 002C - Introduction to Biology: Biodiversity & the Tree of Life",
+        "OR Groups": [
+            "BIOL 42 - Organismal Biology"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 002A - General Chemistry & CHE 002B - General Chemistry & CHE 002C - General Chemistry",
+        "OR Groups": [
+            "CHEM 1 - General Chemistry I & CHEM 2 - General Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004A - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004B - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHE 004C - General Chemistry for the Physical Sciences & Engineering",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009A - Classical Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009B - Classical Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I & PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Davis",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHY 009C - Classical Physics",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 31 - Introduction to Programming & I&C SCI 32 - Programming with Software Libraries & I&C SCI 33 - Intermediate Programming",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 2A - Single-Variable Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 2B - Single-Variable Calculus",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3A - Introduction to Linear Algebra",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6N - Computational Linear Algebra",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6B - Boolean Logic and Discrete Structures",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 6D - Discrete Mathematics for Computer Science",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 45C - Programming in C/C++ as a Second Language",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 46 - Data Structure Implementation and Analysis",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 51 - Introductory Computer Organization",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "I&C SCI 53 - Principles in System Design",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "IN4MATX 43 - Introduction to Software Engineering",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Irvine",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "STATS 67 - Introduction to Probability and Statistics for Computer Science",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 31 - Introduction to Computer Science I",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 32 - Introduction to Computer Science II",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 33 - Introduction to Computer Organization",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI 35L - Software Construction Laboratory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "COM SCI M51A - Logic Design of Digital Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EC ENGR M16 - Logic Design of Digital Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31A - Differential and Integral Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31B - Integration and Infinite Series",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 32A - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 32B - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 33A - Linear Algebra and Applications",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 33B - Differential Equations",
+        "OR Groups": [
+            "MATH 40 - Differential Equations"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 61 - Introduction to Discrete Structures",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 1A - Physics for Scientists and Engineers: Mechanics & PHYSICS 1B - Physics for Scientists and Engineers: Oscillations, Waves, Electric and Magnetic Fields & PHYSICS 1C - Physics for Scientists and Engineers: Electrodynamics, Optics, and Special Relativity",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I & PHYS 42 - Physics for Scientists and Engineers II & PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 4AL - Physics Laboratory for Scientists and Engineers: Mechanics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYSICS 4BL - Physics Laboratory for Scientists and Engineers: Electricity and Magnetism",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "ENGCOMP 3 - English Composition, Rhetoric, and Language",
+        "OR Groups": [
+            "ENGL 2 - Reading and Composition"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "",
+        "OR Groups": [
+            "ENGL 4 - Introduction to Literature",
+            "ENGL 11 - Communication and Critical Thinking",
+            "PHIL 8 - Methods of Argument",
+            "CMST 14 - Argumentation and Debate"
+        ]
+    },
+    {
+        "UC Campus": "University of California Los Angeles",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "",
+        "OR Groups": [
+            "CSCI 20 - Programming and Algorithms I & CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10A - Intro to Computer Science for Science, Mathematics, and Engineering I",
+        "OR Groups": [
+            "CSCI 20 - Programming and Algorithms I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10B - Intro to Computer Science for Science, Mathematics, and Engineering II",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 9A - First-Year Calculus & MATH 9B - First-Year Calculus & MATH 9C - First-Year Calculus",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I & MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40A - General Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 11 - Intro to Discrete Structures",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 10C - Intro to Data Structures and Algorithms",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CS 61 - Machine Organization and Assembly Language Programming",
+        "OR Groups": [
+            "CSCI 10 - Computer Architecture and Organization"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 10A - Calculus of Several Variables",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40B - General Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I & PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 40C - General Physics",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "EE 20B - Linear Methods for Engineering Analysis and Design Using MATLAB",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Riverside",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 31 - Applied Linear Algebra",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 8A - Introduction to Programming and Computational Problem Solving I",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 8B - Introduction to Programming and Computational Problem Solving II",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 11 - Introduction to Programming and Computational Problem Solving - Accelerated Pace",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 12 - Basic Data Structures and Object-Oriented Design",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 15L - Software Tools and Techniques Laboratory",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 20 - Discrete Mathematics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 21 - Mathematics for Algorithms and Systems",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 30 - Computer Organization and Systems Programming",
+        "OR Groups": [
+            "CSCI 10 - Computer Architecture and Organization"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 18 - Linear Algebra",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20A - Calculus for Science and Engineering",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20B - Calculus for Science and Engineering",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 20C - Calculus and Analytic Geometry for Science and Engineering",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 1 - The Cell",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 2 - Multicellular Life",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "BILD 3 - Organismic and Evolutionary Biology",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 6A - General Chemistry I",
+        "OR Groups": [
+            "CHEM 1 - General Chemistry I"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 6B - General Chemistry II",
+        "OR Groups": [
+            "CHEM 1 - General Chemistry I & CHEM 2 - General Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2A - Physics - Mechanics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2B - Physics - Electricity and Magnetism",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 4A - Physics for Physics Majors\u2014Mechanics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California San Diego",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 4B - Physics for Physics Majors\u2014Fluids, Waves, Statistical and Thermal Physics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3A - Calculus with Applications, First Course",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 3B - Calculus with Applications, Second Course",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 4A - Linear Algebra with Applications",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 4B - Differential Equations",
+        "OR Groups": [
+            "MATH 40 - Differential Equations"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 16 - Problem Solving with Computers I",
+        "OR Groups": [
+            "CSCI 20 - Programming and Algorithms I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 24 - Problem Solving with Computers II",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 40 - Foundations of Computer Science",
+        "OR Groups": [
+            "CSCI 22 - Discrete Structures"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 32 - Object Oriented Design and Implementation",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CMPSC 64 - Computer Organization and Logic Design",
+        "OR Groups": [
+            "CSCI 10 - Computer Architecture and Organization"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 6A - Vector Calculus with Applications, First Course",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 1 - Basic Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 2 - Basic Physics",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II & PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 3 - Basic Physics & PHYS 3L - Physics Laboratory",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II & PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 6A - Introductory Physics & PHYS 6AL - Introductory Experimental Physics & PHYS 6B - Introductory Physics & PHYS 6BL - Introductory Experimental Physics & PHYS 6C - Introductory Physics & PHYS 6CL - Introductory Experimental Physics",
+        "OR Groups": [
+            "PHYS 21 - College Physics I & PHYS 22 - College Physics II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7A - Basic Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7B - Basic Physics",
+        "OR Groups": [
+            "PHYS 41 - Physics for Scientists and Engineers I & PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7C - Basic Physics",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7D - Basic Physics",
+        "OR Groups": [
+            "PHYS 43 - Physics for Scientists and Engineers III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PHYS 7L - Physics Laboratory",
+        "OR Groups": [
+            "PHYS 42 - Physics for Scientists and Engineers II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CHEM 1A - General Chemistry & CHEM 1AL - General Chemistry Laboratory & CHEM 1B - General Chemistry & CHEM 1BL - General Chemistry Laboratory & CHEM 1C - General Chemistry & CHEM 1CL - General Chemistry Laboratory",
+        "OR Groups": [
+            "CHEM 1 - General Chemistry I & CHEM 2 - General Chemistry II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCDB 1A - Introductory Biology I & MCDB 1LL - Introductory Biology Laboratory I",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MCDB 1B - Introductory Biology II - Physiology",
+        "OR Groups": [
+            "BIOL 41 - Cell and Molecular Biology & BIOL 42 - Organismal Biology & BIOL 43 - Ecology and Evolution"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Barbara",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "PSTAT 120A - Probability and Statistics",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 12 - Computer Systems and Assembly Language and Lab",
+        "OR Groups": [
+            "CSCI 10 - Computer Architecture and Organization"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 16 - APPLIED DISCRETE MATHEMATICS",
+        "OR Groups": [
+            "Not Articulated"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "CSE 30 - Programming Abstractions: Python",
+        "OR Groups": [
+            "CSCI 21 - Programming and Algorithms II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 19A - Calculus for Science, Engineering, and Mathematics",
+        "OR Groups": [
+            "MATH 30 - Analytic Geometry and Calculus I"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 19B - Calculus for Science, Engineering, and Mathematics",
+        "OR Groups": [
+            "MATH 31 - Analytic Geometry and Calculus II"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "AM 10 - Mathematical Methods for Engineers I",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 21 - Linear Algebra",
+        "OR Groups": [
+            "MATH 42 - Linear Algebra"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "AM 30 - Multivariate Calculus for Engineers",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    },
+    {
+        "UC Campus": "University of California Santa Cruz",
+        "CC": "Butte College",
+        "Requirement group ID": "A",
+        "Set ID": "A",
+        "Num required from set": "1",
+        "UC Course Requirement": "MATH 23A - Vector Calculus",
+        "OR Groups": [
+            "MATH 32 - Analytic Geometry and Calculus III"
+        ]
+    }
+]
