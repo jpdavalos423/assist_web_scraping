@@ -32,7 +32,6 @@ def find_agreement_urls(cc_name):
                 url = parts[1].strip()
 
                 if url.startswith("http"):
-                    print(f"✅ Found URL for {uc_name}: {url}")  # Debugging
                     urls.append((uc_name, url))
     
     return urls
@@ -64,9 +63,9 @@ def process_sending_courses(sending_courses):
         return ["Not Articulated"]
     
     if isinstance(sending_courses, list) and all(isinstance(x, list) for x in sending_courses):
-        return [" & ".join(group) for group in sending_courses]
+        return ["; ".join(group) for group in sending_courses]
     elif isinstance(sending_courses, list):
-        return [" & ".join(sending_courses)]
+        return ["; ".join(sending_courses)]
     
     return [str(sending_courses)]
 
@@ -132,7 +131,7 @@ def main():
                 "Requirement group ID": "A",
                 "Set ID": "A",
                 "Num required from set": "1",
-                "UC Course Requirement": " & ".join(receiving),
+                "UC Course Requirement": "; ".join(receiving),
                 "OR Groups": process_sending_courses(sending)
             }
 
