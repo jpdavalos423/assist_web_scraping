@@ -39,8 +39,8 @@ def extract_receiving_courses(row):
             courses = []
             for course in bracket_content.find_all('div', class_='courseLine'):
                 course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-                course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-                courses.append(f"{course_number} - {course_title}")
+                # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
+                courses.append(f"{course_number}")
             return courses  # Returning a list means this represents an AND condition
     
     else:
@@ -48,8 +48,8 @@ def extract_receiving_courses(row):
         course = row.find('div', class_='courseLine')
         if course:
             course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-            course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-            return [f"{course_number} - {course_title}"]  # Wrap in list for consistency
+            # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
+            return [f"{course_number}"]  # Wrap in list for consistency
     
     return []  # Return empty if no courses found
 
@@ -69,8 +69,8 @@ def extract_sending_courses(row):
     # Helper function to extract a course from a `courseLine`
     def extract_course(course):
         course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-        course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-        return f"{course_number} - {course_title}"
+        # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
+        return f"{course_number}"
 
     # **Step 1: Extract AND groups (bracketWrapper)**
     for bracket in row.find_all('div', class_='bracketWrapper'):
