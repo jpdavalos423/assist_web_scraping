@@ -81,9 +81,6 @@ def write_csv(cc_name, all_rows):
     headers = [
         "UC Campus",
         "CC",
-        "Requirement group ID",
-        "Set ID",
-        "Num required from set",
         "UC Course Requirement"
     ]
     for i in range(1, max_or_columns + 1):
@@ -128,9 +125,6 @@ def main():
             row_dict = {
                 "UC Campus": uc_name,
                 "CC": cc_name,
-                "Requirement group ID": "A",
-                "Set ID": "A",
-                "Num required from set": "1",
                 "UC Course Requirement": "; ".join(receiving),
                 "OR Groups": process_sending_courses(sending)
             }
