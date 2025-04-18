@@ -1,243 +1,231 @@
 import os
-import json
+import sys
+import time
+import traceback
 import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
-import time
 from bs4 import BeautifulSoup
+import logging
+
+# where your per‐CC URL lists live:
+CC_AGREEMENTS_DIR = "cc_agreements"
+
+# where we dump the per‐CC CSVs
+RESULTS_DIR = "results"
+os.makedirs(RESULTS_DIR, exist_ok=True)
+
+logging.basicConfig(
+    filename='scraping.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 def get_dynamic_html(url):
-    """Uses Selenium to load JavaScript-rendered content."""
     options = Options()
-    options.add_argument("--headless")  # Runs in background
+    options.add_argument("--headless")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
-    options.add_argument("--log-level=3")  # Suppresses unnecessary logs
-
-    # Set up WebDriver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-
-    driver.get(url)
-    time.sleep(5)  # Wait for JavaScript to load
-    
-    page_source = driver.page_source  # Get updated HTML
-    driver.quit()
-    
-    return page_source
-
-def extract_receiving_courses(row):
-    """Extracts receiving courses, handling both single courses and AND conjunctions."""
-    bracket_wrapper = row.find('div', class_='bracketWrapper')
-    
-    if bracket_wrapper:
-        # AND conjunction case: extract all courseLine elements inside bracketContent
-        bracket_content = bracket_wrapper.find('div', class_='bracketContent')
-        if bracket_content:
-            courses = []
-            for course in bracket_content.find_all('div', class_='courseLine'):
-                course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-                # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-                courses.append(f"{course_number}")
-            return courses  # Returning a list means this represents an AND condition
-    
-    else:
-        # Single course case: directly extract courseLine
-        course = row.find('div', class_='courseLine')
-        if course:
-            course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-            # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-            return [f"{course_number}"]  # Wrap in list for consistency
-    
-    return []  # Return empty if no courses found
-
-
-
-def extract_sending_courses(row):
-    """Extracts sending courses while correctly handling OR and nested AND groups."""
-
-    # Check if "No Course Articulated" is present
-    if row.find('p') and "No Course Articulated" in row.find('p').get_text(strip=True):
-        return "Not Articulated"
-    
-
-    or_groups = []  # List of OR-separated course groups
-    current_or_group = []  # Stores courses before an OR separator
-
-    # Helper function to extract a course from a `courseLine`
-    def extract_course(course):
-        course_number = course.find('div', class_='prefixCourseNumber').get_text(strip=True)
-        # course_title = course.find('div', class_='courseTitle').get_text(strip=True)
-        return f"{course_number}"
-
-    # **Step 1: Extract AND groups (bracketWrapper)**
-    for bracket in row.find_all('div', class_='bracketWrapper'):
-        and_group = [extract_course(course) for course in bracket.find_all('div', class_='courseLine')]
-        current_or_group.append(and_group)  # Store AND group in OR collection
-
-        # **Check for OR separator (`standAlone`) immediately after**
-        if bracket.find_next_sibling('awc-view-conjunction', class_='standAlone'):
-            or_groups.append(current_or_group)
-            current_or_group = []  # Reset for the next OR group
-
-    # **Step 2: Extract standalone courses (not inside bracketWrapper)**
-    for course in row.find_all('div', class_='courseLine'):
-        if course.find_parent('div', class_='bracketWrapper'):  # Skip already processed AND group courses
-            continue
-        current_or_group.append([extract_course(course)])  # Treat single course as an AND group
-
-        # **Check for OR separator (`standAlone`) immediately after**
-        if course.find_next_sibling('awc-view-conjunction', class_='standAlone'):
-            or_groups.append(current_or_group)
-            current_or_group = []  # Reset for next OR group
-
-    # **Step 3: Append last OR group if it exists**
-    if current_or_group:
-        or_groups.append(current_or_group)
-
-    # **Flatten if there's only one OR group**
-    return or_groups[0] if len(or_groups) == 1 else or_groups if or_groups else "Not Articulated"
-
-
-
-
+    options.add_argument("--log-level=3")
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    try:
+        driver.get(url)
+        # Wait up to 15 seconds for articulation rows to appear
+        wait_time = 15
+        start_time = time.time()
+        while time.time() - start_time < wait_time:
+            html = driver.page_source
+            if "articRow" in html:
+                return html
+            time.sleep(1)
+        return html
+    finally:
+        driver.quit()
 
 def parse_articulations(html):
-    """Extracts articulation agreements from the loaded HTML."""
-    soup = BeautifulSoup(html, 'html.parser')
-    articulations = []
-
-    # Find all articulation rows
-    for row in soup.find_all('div', class_='articRow'):
-        # Extract receiving and sending courses
-        receiving = extract_receiving_courses(row.find('div', class_='rowReceiving'))
-        sending = extract_sending_courses(row.find('div', class_='rowSending'))
-
-        # Pair receiving courses with sending courses
-        articulation = {
-            "Receiving Courses": receiving,
-            "Sending Courses": sending
-        }
-        articulations.append(articulation)
+    soup = BeautifulSoup(html, "html.parser")
+    rows = soup.find_all("div", class_="articRow")
     
-    return articulations
-
-def save_results(articulations):
-    """Saves articulation agreements in 'results/' as JSON and CSV."""
-    folder_name = "results"
-    os.makedirs(folder_name, exist_ok=True)  # Create folder if it doesn't exist
-
-    # Save as JSON
-    json_path = os.path.join(folder_name, "articulations.json")
-    with open(json_path, "w", encoding="utf-8") as json_file:
-        json.dump(articulations, json_file, indent=4)
-
+    # Add validation for empty results
+    if not rows:
+        logging.warning(f"No articulation rows found in HTML. Page length: {len(html)}")
+        if "No agreements were found" in html:
+            logging.warning("Page indicates no agreements exist")
+        elif "loading" in html.lower():
+            logging.warning("Page might not have finished loading")
     
-    # Save as CSV
-    csv_path = os.path.join(folder_name, "articulations.csv")
-    with open(csv_path, "w", encoding="utf-8", newline="") as csv_file:
-        writer = csv.writer(csv_file)
-        writer.writerow(["Receiving Courses", "Sending Courses"])  # Headers
+    out = []
+    for row in rows:
+        recv = extract_receiving_courses(row.select_one(".rowReceiving"))
+        send = extract_sending_courses(row.select_one(".rowSending"))
+        out.append({"Receiving": recv, "Sending": send})
+    return out
 
-        for articulation in articulations:
-            # print("DEBUG: Raw Sending Courses ->", articulation["Sending Courses"])  # Debugging step
+def extract_receiving_courses(row):
+    wrapper = row.find("div", class_="bracketWrapper")
+    if wrapper:
+        content = wrapper.find("div", class_="bracketContent")
+        return [
+            cl.find("div", class_="prefixCourseNumber").get_text(strip=True)
+            for cl in content.find_all("div", class_="courseLine")
+        ]
+    single = row.select_one(".courseLine .prefixCourseNumber")
+    return [single.get_text(strip=True)] if single else []
 
-            def format_course_list(course_list):
-                """Formats AND and OR cases for CSV output."""
-                if not course_list:
-                    return "Not Articulated"
+def extract_sending_courses(row):
+    # "Not Articulated"
+    if row.find("p") and "No Course Articulated" in row.get_text():
+        return ["Not Articulated"]
 
-                if isinstance(course_list[0], list):  # OR case (list of lists)
-                    return " OR ".join(["(" + " | ".join(group) + ")" for group in course_list])
-                
-                return " | ".join(course_list)  # AND case (flat list)
+    groups = []
+    current = []
 
-            receiving = format_course_list(articulation["Receiving Courses"])
-            sending = format_course_list(articulation["Sending Courses"])
-            writer.writerow([receiving, sending])
+    def code_of(cl):
+        return cl.find("div", class_="prefixCourseNumber").get_text(strip=True)
 
-    print(f"✅ Results saved successfully:\n- {json_path}\n- {csv_path}")
+    # AND‑groups
+    for br in row.find_all("div", class_="bracketWrapper"):
+        and_list = [ code_of(cl) for cl in br.find_all("div", class_="courseLine") ]
+        current.append(and_list)
+        if br.find_next_sibling("awc-view-conjunction", class_="standAlone"):
+            groups.append(current); current = []
 
+    # standalone courseLines
+    for cl in row.find_all("div", class_="courseLine"):
+        if cl.find_parent("div", class_="bracketWrapper"):
+            continue
+        current.append([code_of(cl)])
+        if cl.find_next_sibling("awc-view-conjunction", class_="standAlone"):
+            groups.append(current); current = []
 
+    if current:
+        groups.append(current)
+
+    # flatten if single OR‑group
+    return groups[0] if len(groups)==1 else groups
+
+def parse_articulations(html):
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    for row in soup.find_all("div", class_="articRow"):
+        recv = extract_receiving_courses(row.select_one(".rowReceiving"))
+        send = extract_sending_courses(row.select_one(".rowSending"))
+        out.append({"Receiving": recv, "Sending": send})
+    return out
+
+def process_sending_courses(sending):
+    if not sending or sending == ["Not Articulated"]:
+        return ["Not Articulated"]
+    # nested OR?
+    if isinstance(sending[0], list):
+        return ["; ".join(group) for group in sending]
+    # single list
+    return ["; ".join(sending)]
+
+def find_cc_urls(cc_name):
+    """
+    Reads cc_agreements/{CC}/agreements.txt,
+    expecting lines "University of California X: <url>".
+    """
+    safe = cc_name.replace(" ", "_")
+    path = os.path.join(CC_AGREEMENTS_DIR, safe, "agreements.txt")
+    if not os.path.exists(path):
+        print(f"❌ No file at {path}")
+        return []
+
+    pairs = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if ":" not in line:
+                continue
+            uc_name, url = line.split(":", 1)
+            url = url.strip()
+            if url.startswith("http"):
+                pairs.append((uc_name.strip(), url))
+    return pairs
+
+def write_csv(cc_name, rows):
+    safe = cc_name.replace(" ", "_")
+    out_path = os.path.join(RESULTS_DIR, f"{safe}_allUC.csv")
+
+    max_groups = max(len(r["OR Groups"]) for r in rows) if rows else 0
+    headers = ["UC Campus","CC","UC Course Requirement"] + [f"Courses Group {i}" for i in range(1, max_groups+1)]
+
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        for rec in rows:
+            base = {
+                "UC Campus": rec["UC Campus"],
+                "CC": cc_name,
+                "UC Course Requirement": "; ".join(rec["Receiving"])
+            }
+            for i, grp in enumerate(rec["OR Groups"], start=1):
+                base[f"Courses Group {i}"] = grp
+            # ensure all headers exist
+            for h in headers:
+                base.setdefault(h, "")
+            writer.writerow(base)
+
+    print(f"\n✅ Overwritten → {out_path}")
 
 def main():
-    # 1) Prompt the user for the CC name
-    cc_name = input("Enter the Community College name: ").strip()
-    
-    # 2) Gather all UC URLs for that CC from the 'cs_urls/' folder
-    uc_urls = gather_uc_urls_for_cc(cc_name, folder="cs_urls")
-    if not uc_urls:
-        print(f"❌ No URLs found for '{cc_name}' in 'cs_urls/' files.")
+    if len(sys.argv) < 2:
+        print("Usage: python scraping.py '<Community College Name>'")
+        sys.exit(1)
+
+    cc_name = sys.argv[1].strip()
+    print(f"\n🔧 Re‐scraping all UCs for: {cc_name}\n")
+    logging.info(f"Starting scraping for {cc_name}")
+
+    pairs = find_cc_urls(cc_name)
+    if not pairs:
+        logging.error(f"No URL pairs found for {cc_name}")
         return
 
-    # 3) Create a subfolder inside 'articulations/' named after the CC
-    cc_short = cc_name.replace(" ", "_")
-    cc_folder = os.path.join("articulations", cc_short)
-    os.makedirs(cc_folder, exist_ok=True)
-
-    # 4) For each (UC name, url) pair, scrape and parse
-    for (uc_name, url) in uc_urls:
-        print(f"Scraping UC='{uc_name}' => {url}")
+    all_rows = []
+    failed_ucs = []
+    
+    for uc_name, url in pairs:
+        print(f"→ {uc_name}: {url}")
+        logging.info(f"Processing {uc_name}: {url}")
         
-        # a) Use your existing Selenium code to fetch HTML
-        html = get_dynamic_html(url)
+        for attempt in range(1, 4):  # Increased to 3 attempts
+            try:
+                html = get_dynamic_html(url)
+                arts = parse_articulations(html)
+                if not arts:
+                    logging.warning(f"No articulations found for {uc_name}")
+                
+                for a in arts:
+                    all_rows.append({
+                        "UC Campus": uc_name,
+                        "Receiving": a["Receiving"],
+                        "OR Groups": process_sending_courses(a["Sending"])
+                    })
+                logging.info(f"Successfully processed {uc_name} with {len(arts)} articulations")
+                break
+                
+            except Exception as e:
+                logging.error(f"Attempt {attempt} failed for {uc_name}: {str(e)}")
+                print(f"  ⚠️ attempt {attempt} failed: {e}")
+                traceback.print_exc(limit=1)
+                time.sleep(10 * attempt)  # Increased delay between retries
+        else:
+            failed_ucs.append(uc_name)
+            print(f"  ✗ all retries failed for {uc_name}")
+            logging.error(f"All retries failed for {uc_name}")
 
-        # b) Parse the articulation data
-        articulations = parse_articulations(html)
+    if failed_ucs:
+        print("\n⚠️ Failed to process these UCs:")
+        for uc in failed_ucs:
+            print(f"  - {uc}")
+        logging.error(f"Failed UCs for {cc_name}: {', '.join(failed_ucs)}")
 
-        # c) Write JSON to file: articulation_{CCNameNoSpaces}_{UCNameNoSpaces}.json inside that CC's folder
-        uc_short = uc_name.replace(" ", "_")
-        out_filename = f"articulation_{cc_short}_{uc_short}.json"
-        out_path = os.path.join(cc_folder, out_filename)
+    write_csv(cc_name, all_rows)
+    logging.info(f"Completed processing {cc_name}. Total rows: {len(all_rows)}")
 
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(articulations, f, indent=4)
-
-        print(f"✅ Saved => {out_path}")
-
-
-def gather_uc_urls_for_cc(cc_name, folder="cs_urls"):
-    """
-    Reads each file in 'cs_urls/' named like 'cs_urls_University_of_California_Berkeley.txt',
-    which has lines of '<CC_Name>\\t<URL>'.
-    If the <CC_Name> matches cc_name, we store (UCName, URL) for later scraping.
-
-    Returns a list of (uc_name, url) pairs.
-    """
-    results = []
-
-    for filename in os.listdir(folder):
-        if not filename.startswith("cs_urls_") or not filename.endswith(".txt"):
-            continue
-
-        # Derive UC name from the filename
-        # e.g. cs_urls_University_of_California_Berkeley.txt => "University of California Berkeley"
-        uc_name = (filename
-                   .replace("cs_urls_", "")
-                   .replace(".txt", "")
-                   .replace("_", " ")
-                   .strip())
-
-        file_path = os.path.join(folder, filename)
-        with open(file_path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                parts = line.split("\t")
-                if len(parts) < 2:
-                    continue
-
-                cc_line = parts[0].strip()
-                url = parts[1].strip()
-
-                if cc_line == cc_name:
-                    results.append((uc_name, url))
-
-    return results
-
-
-if __name__ == "__main__":
+if __name__=="__main__":
     main()

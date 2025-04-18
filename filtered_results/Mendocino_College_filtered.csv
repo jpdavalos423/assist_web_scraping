@@ -1,0 +1,56 @@
+UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
+UCB,Calc1,A,1,MATH 1A,MTH 210
+UCB,Calc2,A,1,MATH 1B,MTH 211; MTH 212
+UCB,MultivariableCalc,A,1,MATH 53,MTH 212
+UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MTH 214; MTH 215
+UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+UCD,ProblemSolving,A,1,ECS 036A,CSC 221
+UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
+UCD,Algorithms,A,1,ECS 036C,Not Articulated
+UCD,Organization,A,1,ECS 050,CSC 210
+UCD,Calc1,A,1,MAT 021A,MTH 210
+UCD,Calc2,A,1,MAT 021B,MTH 211
+UCD,Calc3,A,1,MAT 021C,MTH 212
+UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+UCI,Calc1,A,1,MATH 2A,MTH 210
+UCI,Calc2,A,1,MATH 2B,MTH 211
+UCLA,Intro,A,1,COM SCI 31,Not Articulated
+UCLA,Calc1,A,1,MATH 31A,MTH 210
+UCLA,Calc2,A,1,MATH 31B,MTH 211
+UCLA,Calc3,A,1,MATH 32A,MTH 212
+UCLA,Calc4,A,1,MATH 32B,MTH 212
+UCLA,LinearAlgebra,A,1,MATH 33A,MTH 214
+UCLA,DifferentialEquations,A,1,MATH 33B,MTH 215
+UCM,DataStructures,A,1,CSE 030,CSC 222; CSC 222L
+UCM,Calc1,A,1,MATH 021,MTH 210
+UCM,Calc2,A,1,MATH 022,MTH 211
+UCM,VectorCalc,A,1,MATH 023,MTH 212
+UCM,LinearAlgebra,A,1,MATH 024,MTH 214; MTH 215
+UCM,DataStructures,A,1,CSE 030,CSC 222; CSC 222L
+UCR,Intro1,A,1,CS 10A,CSC 221
+UCR,Intro2,A,1,CS 10B,CSC 222
+UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MTH 210; MTH 211
+UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MTH 210; MTH 211
+UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MTH 210; MTH 211
+UCSD,Intro,A,1,CSE 8B,CSC 222
+UCSD,Intro,B,1,CSE 11,Not Articulated
+UCSD,DataStructures,A,1,CSE 12,Not Articulated
+UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+UCSD,LinearAlgebra,A,1,MATH 18,MTH 214
+UCSD,Cal1,A,1,MATH 20A,MTH 210
+UCSD,Cal2,A,1,MATH 20B,MTH 211
+UCSD,Calc3,A,1,MATH 20C,MTH 212
+UCSB,Calc1,A,1,MATH 3A,MTH 210
+UCSB,Calc2,A,1,MATH 3B,MTH 211
+UCSB,LinearAlgebra,A,1,MATH 4A,MTH 214
+UCSB,DifferentialEquations,A,1,MATH 4B,MTH 215
+UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+UCSB,Comp3,A,1,CMPSC 40,CSC 240
+UCSC,DataStructures,A,1,CSE 12,Not Articulated
+UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+UCSC,Python,A,1,CSE 30,Not Articulated
+UCSC,Calc1,A,1,MATH 19A,MTH 210
+UCSC,Calc2,A,1,MATH 19B,MTH 211
