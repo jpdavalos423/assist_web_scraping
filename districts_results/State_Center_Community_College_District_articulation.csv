@@ -1,0 +1,51 @@
+UC Name,Group ID,Set ID,UC Course,Articulation Status
+UCB,Calc1,A,MATH 1A,Articulated
+UCB,Calc2,A,MATH 1B,Articulated
+UCB,MultivariableCalc,A,MATH 53,Articulated
+UCB,LinearAlgebraAndDifferentialEqations,A,MATH 54,Articulated
+UCD,DiscreteMath,A,ECS 020,Articulated
+UCD,ProblemSolving,A,ECS 036A,Articulated
+UCD,ObjectOriented,A,ECS 036B,Articulated
+UCD,Algorithms,A,ECS 036C,Articulated
+UCD,Organization,A,ECS 050,Articulated
+UCD,Calc1,A,MAT 021A,Articulated
+UCD,Calc2,A,MAT 021B,Articulated
+UCD,Calc3,A,MAT 021C,Articulated
+UCI,Intro,A,I&C SCI 31; I&C SCI 32; I&C SCI 33,Articulated
+UCI,Calc1,A,MATH 2A,Articulated
+UCI,Calc2,A,MATH 2B,Articulated
+UCLA,Intro,A,COM SCI 31,Articulated
+UCLA,Calc1,A,MATH 31A,Articulated
+UCLA,Calc2,A,MATH 31B,Articulated
+UCLA,Calc3,A,MATH 32A,Articulated
+UCLA,Calc4,A,MATH 32B,Articulated
+UCLA,LinearAlgebra,A,MATH 33A,Articulated
+UCLA,DifferentialEquations,A,MATH 33B,Articulated
+UCM,DataStructures,A,CSE 030,Articulated
+UCM,Calc1,A,MATH 021,Articulated
+UCM,Calc2,A,MATH 022,Articulated
+UCM,VectorCalc,A,MATH 023,Articulated
+UCM,LinearAlgebra,A,MATH 024,Articulated
+UCR,Intro1,A,CS 10A,Articulated
+UCR,Intro2,A,CS 10B,Articulated
+UCR,Calc,A,MATH 9A; MATH 9B; MATH 9C,Articulated
+UCSD,Intro,A,CSE 8B,Articulated
+UCSD,Intro,B,CSE 11,Articulated
+UCSD,DataStructures,A,CSE 12,Articulated
+UCSD,DiscreteMath,A,CSE 20,Articulated
+UCSD,LinearAlgebra,A,MATH 18,Articulated
+UCSD,Cal1,A,MATH 20A,Articulated
+UCSD,Cal2,A,MATH 20B,Articulated
+UCSD,Calc3,A,MATH 20C,Articulated
+UCSB,Calc1,A,MATH 3A,Articulated
+UCSB,Calc2,A,MATH 3B,Articulated
+UCSB,LinearAlgebra,A,MATH 4A,Articulated
+UCSB,DifferentialEquations,A,MATH 4B,Articulated
+UCSB,Comp1,A,CMPSC 16,Articulated
+UCSB,Comp2,A,CMPSC 24,Articulated
+UCSB,Comp3,A,CMPSC 40,Articulated
+UCSC,DataStructures,A,CSE 12,Articulated
+UCSC,DiscreteMath,A,CSE 16,Articulated
+UCSC,Python,A,CSE 30,Articulated
+UCSC,Calc1,A,MATH 19A,Articulated
+UCSC,Calc2,A,MATH 19B,Articulated
