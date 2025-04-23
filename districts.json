@@ -212,6 +212,11 @@
       "counties_served": ["Orange"],
       "colleges": ["Cypress College", "Fullerton College"]
     },
+    "Ohlone Community College District": {
+      "region": "Bay Area",
+      "counties_served": ["Alameda"],
+      "colleges": ["Ohlone College"]
+    },
     "Palo Verde Community College District": {
       "region": "Southern",
       "counties_served": ["Riverside"],
@@ -246,6 +251,11 @@
       "region": "Northern",
       "counties_served": ["Del Norte", "Humboldt", "Mendocino"],
       "colleges": ["College of the Redwoods"]
+    },
+    "Rio Hondo Community College District":{
+      "region": "Southern",
+      "counties_served": ["Los Angeles"],
+      "colleges": ["Rio Hondo College"]
     },
     "Riverside Community College District": {
       "region": "Southern",
@@ -379,6 +389,16 @@
       "region": "Central",
       "counties_served": ["Kern"],
       "colleges": ["Taft College"]
+    },
+    "West Valley-Mission Community College District": {
+      "region":"Bay Area",
+      "counties_served": ["Santa Clara", "Santa Cruz"],
+      "colleges": ["Mission College", "West Valley College"]
+    },
+    "Yosemite Community College District": {
+      "region": "Central",
+      "counties_served": ["Calaveras", "Merced", "Stanislaus", "Tuolumne", "San Joaquin", "Santa Clara"],
+      "colleges": ["Columbia College", "Modesto Junior College"]
     },
     "Yuba Community College District": {
       "region": "Northern",
