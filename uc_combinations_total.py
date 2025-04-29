@@ -127,10 +127,12 @@ def process_folder(folder_path):
         unart = grand_totals[uc]['unarticulated']
         print(f"{uc}: {art} Courses and {unart} Unarticulated Courses")
 
+import sys
+from contextlib import redirect_stdout
+
 if __name__ == "__main__":
     folder_path = input("Enter path to folder with CSV files: ")
     output_file = "uc_combinations_totals.txt"  # You can customize the file name
-
     with open(output_file, "w") as f:
         with redirect_stdout(f):
             process_folder(folder_path)
