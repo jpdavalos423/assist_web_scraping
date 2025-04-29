@@ -1,6 +1,6 @@
-import os
 import pandas as pd
 from itertools import combinations
+import os 
 
 # List of UC schools
 uc_schools = ["UCSD", "UCSB", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM", "UCSC"]
@@ -139,7 +139,5 @@ if __name__ == "__main__":
 
     print(f"\n✅ All output has been saved to '{output_file}'")
 
-
-
-
 #path: /Users/yasminkabir/assist_web_scraping-1/filtered_results
+#/workspaces/assist_web_scraping/district_csvs

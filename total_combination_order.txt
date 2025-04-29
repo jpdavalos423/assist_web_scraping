@@ -3196,3 +3196,48 @@ UCM:
   As 3rd: 4138 Courses, 0 Unarticulated
 
 === AVERAGE PER FILE ===
+
+UCSD:
+  As 1st: 351.88 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 166.22 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 96.75 Avg Courses, 0.0 Avg Unarticulated
+
+UCSB:
+  As 1st: 376.12 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 190.04 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 115.31 Avg Courses, 0.0 Avg Unarticulated
+
+UCSC:
+  As 1st: 264.12 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 123.7 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 78.54 Avg Courses, 0.0 Avg Unarticulated
+
+UCLA:
+  As 1st: 322.63 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 139.37 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 70.93 Avg Courses, 0.0 Avg Unarticulated
+
+UCB:
+  As 1st: 266.63 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 100.93 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 43.85 Avg Courses, 0.0 Avg Unarticulated
+
+UCI:
+  As 1st: 121.19 Avg Courses, 56.0 Avg Unarticulated
+  As 2nd: 26.43 Avg Courses, 56.0 Avg Unarticulated
+  As 3rd: 12.03 Avg Courses, 56.0 Avg Unarticulated
+
+UCD:
+  As 1st: 387.82 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 209.79 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 139.7 Avg Courses, 0.0 Avg Unarticulated
+
+UCR:
+  As 1st: 110.33 Avg Courses, 56.0 Avg Unarticulated
+  As 2nd: 81.49 Avg Courses, 56.0 Avg Unarticulated
+  As 3rd: 62.6 Avg Courses, 56.0 Avg Unarticulated
+
+UCM:
+  As 1st: 319.28 Avg Courses, 0.0 Avg Unarticulated
+  As 2nd: 131.96 Avg Courses, 0.0 Avg Unarticulated
+  As 3rd: 61.76 Avg Courses, 0.0 Avg Unarticulated
