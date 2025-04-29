@@ -1,50 +1,51 @@
 College Name,UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
-Lassen Community College,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
-Lassen Community College,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-Lassen Community College,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
-Lassen Community College,UCLA,Intro,A,1,COM SCI 31,Not Articulated
-Lassen Community College,UCR,Intro1,A,1,CS 10A,Not Articulated
-Lassen Community College,UCR,Intro2,A,1,CS 10B,Not Articulated
-Lassen Community College,UCM,DataStructures,A,1,CSE 030,Not Articulated
-Lassen Community College,UCSD,Intro,B,1,CSE 11,Not Articulated
-Lassen Community College,UCSD,DataStructures,A,1,CSE 12,Not Articulated
-Lassen Community College,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
-Lassen Community College,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
-Lassen Community College,UCSC,Python,A,1,CSE 30,Not Articulated
-Lassen Community College,UCSD,Intro,A,1,CSE 8B,Not Articulated
-Lassen Community College,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
-Lassen Community College,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
-Lassen Community College,UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
-Lassen Community College,UCD,Algorithms,A,1,ECS 036C,Not Articulated
-Lassen Community College,UCD,Organization,A,1,ECS 050,Not Articulated
-Lassen Community College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
-Lassen Community College,UCD,Calc1,A,1,MAT 021A,MATH 1A
-Lassen Community College,UCD,Calc2,A,1,MAT 021B,MATH 1B
-Lassen Community College,UCD,Calc3,A,1,MAT 021C,Not Articulated
-Lassen Community College,UCM,Calc1,A,1,MATH 021,MATH 1A
-Lassen Community College,UCM,Calc2,A,1,MATH 022,MATH 1B
-Lassen Community College,UCM,VectorCalc,A,1,MATH 023,Not Articulated
-Lassen Community College,UCM,LinearAlgebra,A,1,MATH 024,Not Articulated
-Lassen Community College,UCSD,LinearAlgebra,A,1,MATH 18,Not Articulated
-Lassen Community College,UCSC,Calc1,A,1,MATH 19A,MATH 1A
-Lassen Community College,UCSC,Calc2,A,1,MATH 19B,MATH 1B
 Lassen Community College,UCB,Calc1,A,1,MATH 1A,MATH 1A
 Lassen Community College,UCB,Calc2,A,1,MATH 1B,MATH 1B
-Lassen Community College,UCSD,Cal1,A,1,MATH 20A,MATH 1A
-Lassen Community College,UCSD,Cal2,A,1,MATH 20B,MATH 1B
-Lassen Community College,UCSD,Calc3,A,1,MATH 20C,Not Articulated
+Not Articulated,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,Not Articulated
+Not Articulated,UCB,MultivariableCalc,A,1,MATH 53,Not Articulated
+Not Articulated,UCD,Algorithms,A,1,ECS 036C,Not Articulated
+Lassen Community College,UCD,Calc1,A,1,MAT 021A,MATH 1A
+Lassen Community College,UCD,Calc2,A,1,MAT 021B,MATH 1B
+Not Articulated,UCD,Calc3,A,1,MAT 021C,Not Articulated
+Not Articulated,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+Not Articulated,UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
+Not Articulated,UCD,Organization,A,1,ECS 050,Not Articulated
+Not Articulated,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
 Lassen Community College,UCI,Calc1,A,1,MATH 2A,MATH 1A
 Lassen Community College,UCI,Calc2,A,1,MATH 2B,MATH 1B
+Not Articulated,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
 Lassen Community College,UCLA,Calc1,A,1,MATH 31A,MATH 1A
 Lassen Community College,UCLA,Calc2,A,1,MATH 31B,MATH 1B
-Lassen Community College,UCLA,Calc3,A,1,MATH 32A,Not Articulated
-Lassen Community College,UCLA,Calc4,A,1,MATH 32B,Not Articulated
-Lassen Community College,UCLA,LinearAlgebra,A,1,MATH 33A,Not Articulated
-Lassen Community College,UCLA,DifferentialEquations,A,1,MATH 33B,Not Articulated
+Not Articulated,UCLA,Calc3,A,1,MATH 32A,Not Articulated
+Not Articulated,UCLA,Calc4,A,1,MATH 32B,Not Articulated
+Not Articulated,UCLA,DifferentialEquations,A,1,MATH 33B,Not Articulated
+Not Articulated,UCLA,Intro,A,1,COM SCI 31,Not Articulated
+Not Articulated,UCLA,LinearAlgebra,A,1,MATH 33A,Not Articulated
+Lassen Community College,UCM,Calc1,A,1,MATH 021,MATH 1A
+Lassen Community College,UCM,Calc2,A,1,MATH 022,MATH 1B
+Not Articulated,UCM,DataStructures,A,1,CSE 030,Not Articulated
+Not Articulated,UCM,LinearAlgebra,A,1,MATH 024,Not Articulated
+Not Articulated,UCM,VectorCalc,A,1,MATH 023,Not Articulated
+Lassen Community College,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MATH 1A; MATH 1B
+Not Articulated,UCR,Intro1,A,1,CS 10A,Not Articulated
+Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated
 Lassen Community College,UCSB,Calc1,A,1,MATH 3A,MATH 1A
 Lassen Community College,UCSB,Calc2,A,1,MATH 3B,MATH 1B
-Lassen Community College,UCSB,LinearAlgebra,A,1,MATH 4A,Not Articulated
-Lassen Community College,UCSB,DifferentialEquations,A,1,MATH 4B,Not Articulated
-Lassen Community College,UCB,MultivariableCalc,A,1,MATH 53,Not Articulated
-Lassen Community College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,Not Articulated
-Lassen Community College,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MATH 1A; MATH 1B
+Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+Not Articulated,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
+Not Articulated,UCSB,DifferentialEquations,A,1,MATH 4B,Not Articulated
+Not Articulated,UCSB,LinearAlgebra,A,1,MATH 4A,Not Articulated
+Lassen Community College,UCSC,Calc1,A,1,MATH 19A,MATH 1A
+Lassen Community College,UCSC,Calc2,A,1,MATH 19B,MATH 1B
+Not Articulated,UCSC,DataStructures,A,1,CSE 12,Not Articulated
+Not Articulated,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+Not Articulated,UCSC,Python,A,1,CSE 30,Not Articulated
+Lassen Community College,UCSD,Cal1,A,1,MATH 20A,MATH 1A
+Lassen Community College,UCSD,Cal2,A,1,MATH 20B,MATH 1B
+Not Articulated,UCSD,Calc3,A,1,MATH 20C,Not Articulated
+Not Articulated,UCSD,DataStructures,A,1,CSE 12,Not Articulated
+Not Articulated,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+Not Articulated,UCSD,Intro,A,1,CSE 8B,Not Articulated
+Not Articulated,UCSD,Intro,B,1,CSE 11,Not Articulated
+Not Articulated,UCSD,LinearAlgebra,A,1,MATH 18,Not Articulated
