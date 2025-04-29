@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-from itertools import combinations
 
 # List of UC schools
 uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
@@ -29,7 +28,6 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
 
     articulated_courses = set()
     unarticulated_courses = set()
-    unfilled_requirements_count = 0
 
     for (uc, req_group), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
         selected_courses = set()
@@ -61,7 +59,6 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
                 break
 
         if unmet_requirements > 0:
-            unfilled_requirements_count += unmet_requirements
             missing_courses = set_df['Receiving'].dropna().unique()
             for _ in range(unmet_requirements):
                 if missing_courses.size > 0:
@@ -97,32 +94,30 @@ def process_combinations_with_roles(df, uc_list, global_counts):
 
 def process_folder(folder_path):
     uc_list = uc_schools
-    # Initialize overall totals
     overall_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
+    num_files = 0  # <<< FIXED: Initialize file counter
 
     for filename in os.listdir(folder_path):
         if filename.endswith(".csv"):
+            num_files += 1
             print(f"\n--- Processing {filename} ---")
             df = load_csv(os.path.join(folder_path, filename))
 
-            # Local counts per file
             file_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
             process_combinations_with_roles(df, uc_list, file_counts)
 
-            # Print per file
             for uc in uc_list:
                 print(f"\n{uc}:")
                 for role in ['1st', '2nd', '3rd']:
                     a, u = file_counts[uc][role]
                     print(f"  As {role}: {a} Courses, {u} Unarticulated")
 
-            # Add to overall
             for uc in uc_list:
                 for role in ['1st', '2nd', '3rd']:
                     overall_counts[uc][role][0] += file_counts[uc][role][0]
                     overall_counts[uc][role][1] += file_counts[uc][role][1]
 
-    # Final grand totals
+    # Final totals
     print("\n=== FINAL TOTAL ACROSS ALL FILES ===")
     for uc in uc_list:
         print(f"\n{uc}:")
@@ -130,17 +125,31 @@ def process_folder(folder_path):
             a, u = overall_counts[uc][role]
             print(f"  As {role}: {a} Courses, {u} Unarticulated")
 
+    # Averages
+    print("\n=== AVERAGE PER FILE ===")
+    if num_files > 0:
+        for uc in uc_list:
+            print(f"\n{uc}:")
+            for role in ['1st', '2nd', '3rd']:
+                a, u = overall_counts[uc][role]
+                avg_a = round(a / num_files, 2)
+                avg_u = round(u / num_files, 2)
+                print(f"  As {role}: {avg_a} Avg Courses, {avg_u} Avg Unarticulated")
+    else:
+        print("No CSV files processed.")
+
 import sys
 from contextlib import redirect_stdout
 
 if __name__ == "__main__":
     folder_path = input("Enter path to folder with CSV files: ")
-    output_file = "total_combination_order.txt"  # You can customize the file name
+    output_file = "total_combination_order.txt"  # You can customize the output filename
 
     with open(output_file, "w") as f:
         with redirect_stdout(f):
             process_folder(folder_path)
 
     print(f"\n✅ All output has been saved to '{output_file}'")
+
 
     #/workspaces/assist_web_scraping/district_csvs

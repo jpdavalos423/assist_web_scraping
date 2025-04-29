@@ -3194,3 +3194,5 @@ UCM:
   As 1st: 21392 Courses, 0 Unarticulated
   As 2nd: 8841 Courses, 0 Unarticulated
   As 3rd: 4138 Courses, 0 Unarticulated
+
+=== AVERAGE PER FILE ===
