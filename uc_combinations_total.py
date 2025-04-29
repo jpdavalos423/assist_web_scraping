@@ -139,5 +139,5 @@ if __name__ == "__main__":
 
     print(f"\n✅ All output has been saved to '{output_file}'")
 
-#path: /Users/yasminkabir/assist_web_scraping-1/filtered_results
+#path: /Users/yasminkabir/assist_web_scraping/filtered_results
 #/workspaces/assist_web_scraping/district_csvs

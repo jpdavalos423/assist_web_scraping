@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from contextlib import redirect_stdout
 
 # List of UC schools
 uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
@@ -23,7 +24,6 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
     df.columns = df.columns.str.strip()
     df['UC Name'] = df['UC Name'].str.lower().str.strip()
     selected_school = selected_school[0].lower()
-
     filtered_df = df[df['UC Name'] == selected_school]
 
     articulated_courses = set()
@@ -43,7 +43,6 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
                 for col in row.index[6:]:
                     if pd.notna(row[col]):
                         cc_course_options.append(set(map(str.strip, row[col].split(";"))))
-
                 if cc_course_options:
                     best_option = min(cc_course_options, key=len)
                     possible_combinations.append(best_option)
@@ -64,7 +63,6 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
                 if missing_courses.size > 0:
                     unarticulated_courses.add(missing_courses[0])
 
-    # Calculate only newly added courses
     new_articulated = articulated_courses - articulated_tracker
     new_unarticulated = unarticulated_courses - unarticulated_tracker
 
@@ -73,7 +71,7 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
 
     return len(new_articulated), len(new_unarticulated)
 
-def process_combinations_with_roles(df, uc_list, global_counts):
+def process_combinations_with_roles(df, uc_list, file_counts):
     all_combinations = generate_combinations(uc_list)
 
     for combo in all_combinations:
@@ -82,23 +80,26 @@ def process_combinations_with_roles(df, uc_list, global_counts):
 
         for idx, uc in enumerate(combo):
             role = f"{idx+1}st" if idx == 0 else f"{idx+1}nd" if idx == 1 else f"{idx+1}rd"
-
             art, unart = count_required_courses(
                 df, [uc], articulated_tracker, unarticulated_tracker
             )
-
-            global_counts[uc][role][0] += art
-            global_counts[uc][role][1] += unart
-
-    return global_counts
+            file_counts[uc][role][0] += art
+            file_counts[uc][role][1] += unart
 
 def process_folder(folder_path):
     uc_list = uc_schools
     overall_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
-    num_files = 0  # <<< FIXED: Initialize file counter
+    num_files = 0
+
+    # Define column structure properly for the 3 DataFrames
+    role_columns = [f"{uc} Art" for uc in uc_list] + [f"{uc} Unart" for uc in uc_list]
+    df_1st = pd.DataFrame(columns=role_columns)
+    df_2nd = pd.DataFrame(columns=role_columns)
+    df_3rd = pd.DataFrame(columns=role_columns)
 
     for filename in os.listdir(folder_path):
         if filename.endswith(".csv"):
+            district_name = os.path.splitext(filename)[0]
             num_files += 1
             print(f"\n--- Processing {filename} ---")
             df = load_csv(os.path.join(folder_path, filename))
@@ -117,7 +118,20 @@ def process_folder(folder_path):
                     overall_counts[uc][role][0] += file_counts[uc][role][0]
                     overall_counts[uc][role][1] += file_counts[uc][role][1]
 
-    # Final totals
+            # Populate row data for each role
+            row_1st, row_2nd, row_3rd = {}, {}, {}
+            for uc in uc_list:
+                row_1st[f"{uc} Art"] = file_counts[uc]['1st'][0]
+                row_1st[f"{uc} Unart"] = file_counts[uc]['1st'][1]
+                row_2nd[f"{uc} Art"] = file_counts[uc]['2nd'][0]
+                row_2nd[f"{uc} Unart"] = file_counts[uc]['2nd'][1]
+                row_3rd[f"{uc} Art"] = file_counts[uc]['3rd'][0]
+                row_3rd[f"{uc} Unart"] = file_counts[uc]['3rd'][1]
+
+            df_1st.loc[district_name] = row_1st
+            df_2nd.loc[district_name] = row_2nd
+            df_3rd.loc[district_name] = row_3rd
+
     print("\n=== FINAL TOTAL ACROSS ALL FILES ===")
     for uc in uc_list:
         print(f"\n{uc}:")
@@ -125,7 +139,6 @@ def process_folder(folder_path):
             a, u = overall_counts[uc][role]
             print(f"  As {role}: {a} Courses, {u} Unarticulated")
 
-    # Averages
     print("\n=== AVERAGE PER FILE ===")
     if num_files > 0:
         for uc in uc_list:
@@ -138,18 +151,28 @@ def process_folder(folder_path):
     else:
         print("No CSV files processed.")
 
-import sys
-from contextlib import redirect_stdout
+    # Save the 3 labeled tables to one CSV file
+    output_path = os.path.join(folder_path, "combination_totals_by_role.csv")
+    with open(output_path, "w") as f:
+        f.write("=== 1st Order UC Totals ===\n")
+        df_1st.to_csv(f)
+        f.write("\n=== 2nd Order UC Totals ===\n")
+        df_2nd.to_csv(f)
+        f.write("\n=== 3rd Order UC Totals ===\n")
+        df_3rd.to_csv(f)
 
+    print(f"\n✅ CSV with UC totals by role saved to: {output_path}")
+
+# Redirect output to a text file
 if __name__ == "__main__":
     folder_path = input("Enter path to folder with CSV files: ")
-    output_file = "total_combination_order.txt"  # You can customize the output filename
-
+    output_file = "total_combination_order.txt"
     with open(output_file, "w") as f:
         with redirect_stdout(f):
             process_folder(folder_path)
+    print(f"\n✅ All printed output saved to '{output_file}'")
 
-    print(f"\n✅ All output has been saved to '{output_file}'")
 
 
     #/workspaces/assist_web_scraping/district_csvs
+    #path: /Users/yasminkabir/assist_web_scraping/district_csvs
