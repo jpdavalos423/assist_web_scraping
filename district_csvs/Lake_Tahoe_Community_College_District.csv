@@ -1,0 +1,50 @@
+College Name,UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
+Lake Tahoe Community College,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+Lake Tahoe Community College,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+Lake Tahoe Community College,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
+Lake Tahoe Community College,UCLA,Intro,A,1,COM SCI 31,Not Articulated
+Lake Tahoe Community College,UCR,Intro1,A,1,CS 10A,CIS 120A
+Lake Tahoe Community College,UCR,Intro2,A,1,CS 10B,CIS 120B; CIS 120C
+Lake Tahoe Community College,UCM,DataStructures,A,1,CSE 030,CIS 120C
+Lake Tahoe Community College,UCSD,Intro,B,1,CSE 11,Not Articulated
+Lake Tahoe Community College,UCSD,DataStructures,A,1,CSE 12,CIS 120C
+Lake Tahoe Community College,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+Lake Tahoe Community College,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+Lake Tahoe Community College,UCSC,Python,A,1,CSE 30,CIS 120C
+Lake Tahoe Community College,UCSD,Intro,A,1,CSE 8B,CIS 120B
+Lake Tahoe Community College,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+Lake Tahoe Community College,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
+Lake Tahoe Community College,UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
+Lake Tahoe Community College,UCD,Algorithms,A,1,ECS 036C,Not Articulated
+Lake Tahoe Community College,UCD,Organization,A,1,ECS 050,Not Articulated
+Lake Tahoe Community College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,CIS 120A; CIS 120B; CIS 120C
+Lake Tahoe Community College,UCD,Calc1,A,1,MAT 021A,MAT 105
+Lake Tahoe Community College,UCD,Calc2,A,1,MAT 021B,MAT 106
+Lake Tahoe Community College,UCD,Calc3,A,1,MAT 021C,MAT 107
+Lake Tahoe Community College,UCM,Calc1,A,1,MATH 021,MAT 105
+Lake Tahoe Community College,UCM,Calc2,A,1,MATH 022,MAT 106; MAT 107
+Lake Tahoe Community College,UCM,VectorCalc,A,1,MATH 023,MAT 202
+Lake Tahoe Community College,UCM,LinearAlgebra,A,1,MATH 024,MAT 203; MAT 204
+Lake Tahoe Community College,UCSD,LinearAlgebra,A,1,MATH 18,MAT 203
+Lake Tahoe Community College,UCSC,Calc1,A,1,MATH 19A,MAT 105
+Lake Tahoe Community College,UCSC,Calc2,A,1,MATH 19B,MAT 106; MAT 107
+Lake Tahoe Community College,UCB,Calc1,A,1,MATH 1A,MAT 105
+Lake Tahoe Community College,UCB,Calc2,A,1,MATH 1B,MAT 106; MAT 107
+Lake Tahoe Community College,UCSD,Cal1,A,1,MATH 20A,MAT 105
+Lake Tahoe Community College,UCSD,Cal2,A,1,MATH 20B,MAT 106
+Lake Tahoe Community College,UCSD,Calc3,A,1,MATH 20C,MAT 202
+Lake Tahoe Community College,UCI,Calc1,A,1,MATH 2A,MAT 105
+Lake Tahoe Community College,UCI,Calc2,A,1,MATH 2B,MAT 106
+Lake Tahoe Community College,UCLA,Calc1,A,1,MATH 31A,MAT 105
+Lake Tahoe Community College,UCLA,Calc2,A,1,MATH 31B,MAT 106
+Lake Tahoe Community College,UCLA,Calc3,A,1,MATH 32A,MAT 107
+Lake Tahoe Community College,UCLA,Calc4,A,1,MATH 32B,MAT 202
+Lake Tahoe Community College,UCLA,LinearAlgebra,A,1,MATH 33A,MAT 203
+Lake Tahoe Community College,UCLA,DifferentialEquations,A,1,MATH 33B,MAT 204
+Lake Tahoe Community College,UCSB,Calc1,A,1,MATH 3A,MAT 105
+Lake Tahoe Community College,UCSB,Calc2,A,1,MATH 3B,MAT 106
+Lake Tahoe Community College,UCSB,LinearAlgebra,A,1,MATH 4A,MAT 203
+Lake Tahoe Community College,UCSB,DifferentialEquations,A,1,MATH 4B,MAT 204
+Lake Tahoe Community College,UCB,MultivariableCalc,A,1,MATH 53,MAT 202
+Lake Tahoe Community College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MAT 203; MAT 204
+Lake Tahoe Community College,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MAT 105; MAT 106; MAT 107

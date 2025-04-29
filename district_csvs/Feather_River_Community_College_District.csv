@@ -1,0 +1,50 @@
+College Name,UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
+Feather River College,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+Feather River College,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+Feather River College,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
+Feather River College,UCLA,Intro,A,1,COM SCI 31,Not Articulated
+Feather River College,UCR,Intro1,A,1,CS 10A,Not Articulated
+Feather River College,UCR,Intro2,A,1,CS 10B,Not Articulated
+Feather River College,UCM,DataStructures,A,1,CSE 030,Not Articulated
+Feather River College,UCSD,Intro,B,1,CSE 11,Not Articulated
+Feather River College,UCSD,DataStructures,A,1,CSE 12,Not Articulated
+Feather River College,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+Feather River College,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+Feather River College,UCSC,Python,A,1,CSE 30,Not Articulated
+Feather River College,UCSD,Intro,A,1,CSE 8B,Not Articulated
+Feather River College,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+Feather River College,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
+Feather River College,UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
+Feather River College,UCD,Algorithms,A,1,ECS 036C,Not Articulated
+Feather River College,UCD,Organization,A,1,ECS 050,Not Articulated
+Feather River College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+Feather River College,UCD,Calc1,A,1,MAT 021A,MATH 218
+Feather River College,UCD,Calc2,A,1,MAT 021B,MATH 220
+Feather River College,UCD,Calc3,A,1,MAT 021C,Not Articulated
+Feather River College,UCM,Calc1,A,1,MATH 021,MATH 218
+Feather River College,UCM,Calc2,A,1,MATH 022,MATH 220
+Feather River College,UCM,VectorCalc,A,1,MATH 023,MATH 222
+Feather River College,UCM,LinearAlgebra,A,1,MATH 024,Not Articulated
+Feather River College,UCSD,LinearAlgebra,A,1,MATH 18,Not Articulated
+Feather River College,UCSC,Calc1,A,1,MATH 19A,MATH 218
+Feather River College,UCSC,Calc2,A,1,MATH 19B,MATH 220
+Feather River College,UCB,Calc1,A,1,MATH 1A,MATH 218
+Feather River College,UCB,Calc2,A,1,MATH 1B,MATH 220
+Feather River College,UCSD,Cal1,A,1,MATH 20A,MATH 218; MATH 220
+Feather River College,UCSD,Cal2,A,1,MATH 20B,MATH 220
+Feather River College,UCSD,Calc3,A,1,MATH 20C,Not Articulated
+Feather River College,UCI,Calc1,A,1,MATH 2A,MATH 218
+Feather River College,UCI,Calc2,A,1,MATH 2B,MATH 220
+Feather River College,UCLA,Calc1,A,1,MATH 31A,MATH 218
+Feather River College,UCLA,Calc2,A,1,MATH 31B,MATH 220
+Feather River College,UCLA,Calc3,A,1,MATH 32A,Not Articulated
+Feather River College,UCLA,Calc4,A,1,MATH 32B,Not Articulated
+Feather River College,UCLA,LinearAlgebra,A,1,MATH 33A,Not Articulated
+Feather River College,UCLA,DifferentialEquations,A,1,MATH 33B,Not Articulated
+Feather River College,UCSB,Calc1,A,1,MATH 3A,MATH 218
+Feather River College,UCSB,Calc2,A,1,MATH 3B,MATH 220
+Feather River College,UCSB,LinearAlgebra,A,1,MATH 4A,Not Articulated
+Feather River College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 224
+Feather River College,UCB,MultivariableCalc,A,1,MATH 53,MATH 222
+Feather River College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,Not Articulated
+Feather River College,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MATH 218; MATH 220

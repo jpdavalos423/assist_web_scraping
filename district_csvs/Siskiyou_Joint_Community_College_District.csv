@@ -1,0 +1,50 @@
+College Name,UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
+College of the Siskiyous,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+College of the Siskiyous,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+College of the Siskiyous,UCSB,Comp3,A,1,CMPSC 40,CSCI 2010
+College of the Siskiyous,UCLA,Intro,A,1,COM SCI 31,Not Articulated
+College of the Siskiyous,UCR,Intro1,A,1,CS 10A,CSCI 1007
+College of the Siskiyous,UCR,Intro2,A,1,CS 10B,CSCI 1507
+College of the Siskiyous,UCM,DataStructures,A,1,CSE 030,CSCI 1507
+College of the Siskiyous,UCSD,Intro,B,1,CSE 11,Not Articulated
+College of the Siskiyous,UCSD,DataStructures,A,1,CSE 12,Not Articulated
+College of the Siskiyous,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+College of the Siskiyous,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+College of the Siskiyous,UCSC,Python,A,1,CSE 30,CSCI 1507
+College of the Siskiyous,UCSD,Intro,A,1,CSE 8B,Not Articulated
+College of the Siskiyous,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+College of the Siskiyous,UCD,ProblemSolving,A,1,ECS 036A,CSCI 1007
+College of the Siskiyous,UCD,ObjectOriented,A,1,ECS 036B,CSCI 1507
+College of the Siskiyous,UCD,Algorithms,A,1,ECS 036C,Not Articulated
+College of the Siskiyous,UCD,Organization,A,1,ECS 050,CSCI 2006
+College of the Siskiyous,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+College of the Siskiyous,UCD,Calc1,A,1,MAT 021A,MATH 1400
+College of the Siskiyous,UCD,Calc2,A,1,MAT 021B,MATH 1500
+College of the Siskiyous,UCD,Calc3,A,1,MAT 021C,MATH 2400
+College of the Siskiyous,UCM,Calc1,A,1,MATH 021,MATH 1400
+College of the Siskiyous,UCM,Calc2,A,1,MATH 022,MATH 1500
+College of the Siskiyous,UCM,VectorCalc,A,1,MATH 023,MATH 2400
+College of the Siskiyous,UCM,LinearAlgebra,A,1,MATH 024,MATH 2500; MATH 2600
+College of the Siskiyous,UCSD,LinearAlgebra,A,1,MATH 18,MATH 2600
+College of the Siskiyous,UCSC,Calc1,A,1,MATH 19A,MATH 1400
+College of the Siskiyous,UCSC,Calc2,A,1,MATH 19B,MATH 1500
+College of the Siskiyous,UCB,Calc1,A,1,MATH 1A,MATH 1400
+College of the Siskiyous,UCB,Calc2,A,1,MATH 1B,MATH 1500
+College of the Siskiyous,UCSD,Cal1,A,1,MATH 20A,MATH 1400
+College of the Siskiyous,UCSD,Cal2,A,1,MATH 20B,MATH 1500
+College of the Siskiyous,UCSD,Calc3,A,1,MATH 20C,MATH 2400
+College of the Siskiyous,UCI,Calc1,A,1,MATH 2A,MATH 1400
+College of the Siskiyous,UCI,Calc2,A,1,MATH 2B,MATH 1500
+College of the Siskiyous,UCLA,Calc1,A,1,MATH 31A,MATH 1400
+College of the Siskiyous,UCLA,Calc2,A,1,MATH 31B,MATH 1500
+College of the Siskiyous,UCLA,Calc3,A,1,MATH 32A,MATH 2400
+College of the Siskiyous,UCLA,Calc4,A,1,MATH 32B,MATH 2400
+College of the Siskiyous,UCLA,LinearAlgebra,A,1,MATH 33A,MATH 2600
+College of the Siskiyous,UCLA,DifferentialEquations,A,1,MATH 33B,MATH 2500
+College of the Siskiyous,UCSB,Calc1,A,1,MATH 3A,MATH 1400
+College of the Siskiyous,UCSB,Calc2,A,1,MATH 3B,MATH 1500
+College of the Siskiyous,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 2600
+College of the Siskiyous,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 2500
+College of the Siskiyous,UCB,MultivariableCalc,A,1,MATH 53,MATH 2400
+College of the Siskiyous,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 2500; MATH 2600
+College of the Siskiyous,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MATH 1400; MATH 1500

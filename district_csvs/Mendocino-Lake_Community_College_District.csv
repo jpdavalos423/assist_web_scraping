@@ -1,0 +1,50 @@
+College Name,UC Name,Group ID,Set ID,Num Required,Receiving,Courses Group 1
+Mendocino College,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
+Mendocino College,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
+Mendocino College,UCSB,Comp3,A,1,CMPSC 40,CSC 240
+Mendocino College,UCLA,Intro,A,1,COM SCI 31,Not Articulated
+Mendocino College,UCR,Intro1,A,1,CS 10A,CSC 221
+Mendocino College,UCR,Intro2,A,1,CS 10B,CSC 222
+Mendocino College,UCM,DataStructures,A,1,CSE 030,CSC 222; CSC 222L
+Mendocino College,UCSD,Intro,B,1,CSE 11,Not Articulated
+Mendocino College,UCSD,DataStructures,A,1,CSE 12,Not Articulated
+Mendocino College,UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
+Mendocino College,UCSD,DiscreteMath,A,1,CSE 20,Not Articulated
+Mendocino College,UCSC,Python,A,1,CSE 30,Not Articulated
+Mendocino College,UCSD,Intro,A,1,CSE 8B,CSC 222
+Mendocino College,UCD,DiscreteMath,A,1,ECS 020,Not Articulated
+Mendocino College,UCD,ProblemSolving,A,1,ECS 036A,CSC 221
+Mendocino College,UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
+Mendocino College,UCD,Algorithms,A,1,ECS 036C,Not Articulated
+Mendocino College,UCD,Organization,A,1,ECS 050,CSC 210
+Mendocino College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated
+Mendocino College,UCD,Calc1,A,1,MAT 021A,MTH 210
+Mendocino College,UCD,Calc2,A,1,MAT 021B,MTH 211
+Mendocino College,UCD,Calc3,A,1,MAT 021C,MTH 212
+Mendocino College,UCM,Calc1,A,1,MATH 021,MTH 210
+Mendocino College,UCM,Calc2,A,1,MATH 022,MTH 211
+Mendocino College,UCM,VectorCalc,A,1,MATH 023,MTH 212
+Mendocino College,UCM,LinearAlgebra,A,1,MATH 024,MTH 214; MTH 215
+Mendocino College,UCSD,LinearAlgebra,A,1,MATH 18,MTH 214
+Mendocino College,UCSC,Calc1,A,1,MATH 19A,MTH 210
+Mendocino College,UCSC,Calc2,A,1,MATH 19B,MTH 211
+Mendocino College,UCB,Calc1,A,1,MATH 1A,MTH 210
+Mendocino College,UCB,Calc2,A,1,MATH 1B,MTH 211; MTH 212
+Mendocino College,UCSD,Cal1,A,1,MATH 20A,MTH 210
+Mendocino College,UCSD,Cal2,A,1,MATH 20B,MTH 211
+Mendocino College,UCSD,Calc3,A,1,MATH 20C,MTH 212
+Mendocino College,UCI,Calc1,A,1,MATH 2A,MTH 210
+Mendocino College,UCI,Calc2,A,1,MATH 2B,MTH 211
+Mendocino College,UCLA,Calc1,A,1,MATH 31A,MTH 210
+Mendocino College,UCLA,Calc2,A,1,MATH 31B,MTH 211
+Mendocino College,UCLA,Calc3,A,1,MATH 32A,MTH 212
+Mendocino College,UCLA,Calc4,A,1,MATH 32B,MTH 212
+Mendocino College,UCLA,LinearAlgebra,A,1,MATH 33A,MTH 214
+Mendocino College,UCLA,DifferentialEquations,A,1,MATH 33B,MTH 215
+Mendocino College,UCSB,Calc1,A,1,MATH 3A,MTH 210
+Mendocino College,UCSB,Calc2,A,1,MATH 3B,MTH 211
+Mendocino College,UCSB,LinearAlgebra,A,1,MATH 4A,MTH 214
+Mendocino College,UCSB,DifferentialEquations,A,1,MATH 4B,MTH 215
+Mendocino College,UCB,MultivariableCalc,A,1,MATH 53,MTH 212
+Mendocino College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MTH 214; MTH 215
+Mendocino College,UCR,Calc,A,3,MATH 9A; MATH 9B; MATH 9C,MTH 210; MTH 211
