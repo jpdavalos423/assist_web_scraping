@@ -9,15 +9,16 @@ def load_csv(file_path):
     return pd.read_csv(file_path)
 
 def generate_combinations(uc_schools):
-    combinations_list = []
-    for i in range(len(uc_schools) - 2):
-        first = uc_schools[i]
-        for j in range(i + 1, len(uc_schools) - 1):
-            second = uc_schools[j]
-            remaining_schools = [s for s in uc_schools if s != first and s != second]
-            for third in remaining_schools:
-                combinations_list.append((first, second, third))
-    return combinations_list
+    combinations = []
+    for i in range(len(uc_schools)):
+        for j in range(len(uc_schools)):
+            if j == i:
+                continue
+            for k in range(len(uc_schools)):
+                if k == i or k == j:
+                    continue
+                combinations.append((uc_schools[i], uc_schools[j], uc_schools[k]))
+    return combinations
 
 def count_required_courses(df, selected_schools, articulated_tracker, unarticulated_tracker):
     df.columns = df.columns.str.strip()
@@ -127,8 +128,15 @@ def process_folder(folder_path):
         print(f"{uc}: {art} Courses and {unart} Unarticulated Courses")
 
 if __name__ == "__main__":
-    folder_path = input("Enter the path to the folder containing the CSV files: ")
-    process_folder(folder_path)
+    folder_path = input("Enter path to folder with CSV files: ")
+    output_file = "uc_combinations_totals.txt"  # You can customize the file name
+
+    with open(output_file, "w") as f:
+        with redirect_stdout(f):
+            process_folder(folder_path)
+
+    print(f"\n✅ All output has been saved to '{output_file}'")
+
 
 
 
