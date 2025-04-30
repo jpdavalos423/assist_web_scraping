@@ -9,6 +9,8 @@ def can_transfer_to_uc(df, uc_name):
     
     # Check all course groups for "Not Articulated"
     for _, row in uc_requirements.iterrows():
+        if row['College Name'] == 'Not Articulated':
+            return False
         for col in [col for col in df.columns if col.startswith('Courses Group')]:
             if pd.notna(row[col]) and 'Not Articulated' in str(row[col]):
                 return False
@@ -18,8 +20,8 @@ def count_transfer_options(file_path):
     # Read the CSV file
     df = pd.read_csv(file_path)
     
-    # Get college name from file path
-    college_name = os.path.basename(file_path).replace('_filtered.csv', '')
+    # Get district name from file path
+    district_name = os.path.basename(file_path).replace('.csv', '').replace('_', ' ')
     
     # Get unique UCs
     unique_ucs = df['UC Name'].unique()
@@ -31,19 +33,19 @@ def count_transfer_options(file_path):
         transfer_counts.append({'UC Name': uc, 'counts': can_transfer})
     
     transfer_counts_df = pd.DataFrame(transfer_counts)
-    return college_name, transfer_counts_df
+    return district_name, transfer_counts_df
 
-def analyze_all_colleges(directory):
+def analyze_all_districts(directory):
     all_data = []
     
     # Process all CSV files in the directory
     for file in os.listdir(directory):
-        if file.endswith('_filtered.csv'):
+        if file.endswith('.csv'):
             file_path = os.path.join(directory, file)
-            college_name, transfer_counts = count_transfer_options(file_path)
+            district_name, transfer_counts = count_transfer_options(file_path)
             
-            # Add college name to each row
-            transfer_counts['College'] = college_name
+            # Add district name to each row
+            transfer_counts['District'] = district_name
             all_data.append(transfer_counts)
     
     # Combine all data
@@ -52,15 +54,15 @@ def analyze_all_colleges(directory):
 
 def create_heatmap(data):
     # Pivot the data for the heatmap
-    heatmap_data = data.pivot(index='College', columns='UC Name', values='counts')
+    heatmap_data = data.pivot(index='District', columns='UC Name', values='counts')
     
     # Create a figure with larger size
-    plt.figure(figsize=(20, 30))  # Increased height to accommodate all colleges
+    plt.figure(figsize=(20, 30))  # Increased height to accommodate all districts
     
     # Create heatmap with a different colormap to emphasize binary nature
     sns.heatmap(heatmap_data, annot=True, cmap='RdYlGn', fmt='g', vmin=0, vmax=1)
-    plt.title('Valid Transfer Paths to UCs\n(1=All courses articulated, 0=Some courses not articulated)', pad=20)
-    plt.ylabel('Community College')
+    plt.title('Valid Transfer Paths to UCs by District\n(1=All courses articulated, 0=Some courses not articulated)', pad=20)
+    plt.ylabel('Community College District')
     plt.xlabel('UC Campus')
     
     # Rotate x-axis labels and adjust their position
@@ -69,18 +71,18 @@ def create_heatmap(data):
     plt.yticks(rotation=0)
     
     plt.tight_layout()
-    plt.savefig('transfer_availability_heatmap.png', dpi=300, bbox_inches='tight')
+    plt.savefig('district_transfer_availability_heatmap.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 def create_bar_plot(data):
-    # Calculate total transfer options per college
-    total_options = data.groupby('College')['counts'].sum().sort_values()
+    # Calculate total transfer options per district
+    total_options = data.groupby('District')['counts'].sum().sort_values()
     
     # Create bar plot with increased figure size for better label spacing
     plt.figure(figsize=(20, 10))
     ax = total_options.plot(kind='bar')
-    plt.title('Number of Valid UC Transfer Paths by Community College')
-    plt.xlabel('Community College')
+    plt.title('Number of Valid UC Transfer Paths by Community College District')
+    plt.xlabel('Community College District')
     plt.ylabel('Number of UCs with All Courses Articulated')
     
     # Rotate x-axis labels and adjust their position
@@ -89,31 +91,31 @@ def create_bar_plot(data):
     # Adjust layout to prevent label cutoff
     plt.subplots_adjust(bottom=0.2)
     plt.tight_layout()
-    plt.savefig('total_transfer_availability.png')
+    plt.savefig('district_total_transfer_availability.png')
     plt.close()
 
 def main():
-    # Directory containing the filtered CSV files
-    directory = 'filtered_results'
+    # Directory containing the district CSV files
+    directory = 'district_csvs'
     
-    # Analyze all colleges
-    combined_data = analyze_all_colleges(directory)
+    # Analyze all districts
+    combined_data = analyze_all_districts(directory)
     
     # Create visualizations
     create_heatmap(combined_data)
     create_bar_plot(combined_data)
     
-    # Find college with fewest options
-    total_options = combined_data.groupby('College')['counts'].sum()
-    min_college = total_options.idxmin()
+    # Find district with fewest options
+    total_options = combined_data.groupby('District')['counts'].sum()
+    min_district = total_options.idxmin()
     min_count = total_options.min()
     
-    print(f"\nCollege with fewest valid UC transfer paths: {min_college}")
+    print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
     print(f"Number of UCs with all courses articulated: {min_count}")
     
-    # Show which UCs have all courses articulated for the college with fewest options
-    college_data = combined_data[combined_data['College'] == min_college]
-    available_ucs = college_data[college_data['counts'] == 1]['UC Name'].tolist()
+    # Show which UCs have all courses articulated for the district with fewest options
+    district_data = combined_data[combined_data['District'] == min_district]
+    available_ucs = district_data[district_data['counts'] == 1]['UC Name'].tolist()
     print(f"\nUCs with all courses articulated:")
     for uc in available_ucs:
         print(f"- {uc}")
