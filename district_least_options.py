@@ -7,13 +7,48 @@ def can_transfer_to_uc(df, uc_name):
     # Get all requirements for this UC
     uc_requirements = df[df['UC Name'] == uc_name]
     
-    # Check all course groups for "Not Articulated"
-    for _, row in uc_requirements.iterrows():
-        if row['College Name'] == 'Not Articulated':
-            return False
-        for col in [col for col in df.columns if col.startswith('Courses Group')]:
-            if pd.notna(row[col]) and 'Not Articulated' in str(row[col]):
+    # Group requirements by Group ID
+    grouped_requirements = uc_requirements.groupby('Group ID')
+    
+    for group_id, group_df in grouped_requirements:
+        # Get unique Set IDs for this group
+        set_ids = group_df['Set ID'].unique()
+        
+        # If there's only one Set ID, all courses in the group must be articulated
+        if len(set_ids) == 1:
+            for _, row in group_df.iterrows():
+                if row['College Name'] == 'Not Articulated':
+                    return False
+                # Check all course groups for "Not Articulated"
+                for col in [col for col in df.columns if col.startswith('Courses Group')]:
+                    if pd.notna(row[col]) and 'Not Articulated' in str(row[col]):
+                        return False
+        else:
+            # For multiple Set IDs, at least one set must be fully articulated
+            valid_set_found = False
+            for set_id in set_ids:
+                set_df = group_df[group_df['Set ID'] == set_id]
+                set_valid = True
+                
+                for _, row in set_df.iterrows():
+                    if row['College Name'] == 'Not Articulated':
+                        set_valid = False
+                        break
+                    # Check all course groups for "Not Articulated"
+                    for col in [col for col in df.columns if col.startswith('Courses Group')]:
+                        if pd.notna(row[col]) and 'Not Articulated' in str(row[col]):
+                            set_valid = False
+                            break
+                    if not set_valid:
+                        break
+                
+                if set_valid:
+                    valid_set_found = True
+                    break
+            
+            if not valid_set_found:
                 return False
+    
     return True
 
 def count_transfer_options(file_path):
