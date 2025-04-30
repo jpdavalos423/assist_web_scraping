@@ -106,7 +106,9 @@ def create_heatmap(data):
     plt.yticks(rotation=0)
     
     plt.tight_layout()
-    plt.savefig('district_transfer_availability_heatmap.png', dpi=300, bbox_inches='tight')
+    # Save to the same directory as the script
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'district_transfer_availability_heatmap.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
 def create_bar_plot(data):
@@ -126,12 +128,15 @@ def create_bar_plot(data):
     # Adjust layout to prevent label cutoff
     plt.subplots_adjust(bottom=0.2)
     plt.tight_layout()
-    plt.savefig('district_total_transfer_availability.png')
+    # Save to the same directory as the script
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'district_total_transfer_availability.png')
+    plt.savefig(output_path)
     plt.close()
 
 def main():
     # Directory containing the district CSV files
-    directory = 'district_csvs'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    directory = os.path.normpath(os.path.join(script_dir, '../../district_csvs'))
     
     # Analyze all districts
     combined_data = analyze_all_districts(directory)
