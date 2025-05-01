@@ -21,7 +21,11 @@ def generate_combinations(uc_schools):
     return combinations
 
 def count_required_courses(df, selected_school, articulated_tracker, unarticulated_tracker):
-    df.columns = df.columns.str.strip()
+    df.columns = df.columns.str.replace('\u200b', '').str.strip()
+
+    if 'UC Name' not in df.columns:
+        raise ValueError(f"'UC Name' column not found. Found columns: {list(df.columns)}")
+
     df['UC Name'] = df['UC Name'].str.lower().str.strip()
     selected_school = selected_school[0].lower()
     filtered_df = df[df['UC Name'] == selected_school]
@@ -30,38 +34,49 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
     unarticulated_courses = set()
 
     for (uc, req_group), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
-        selected_courses = set()
+        group_fulfilled = False
+
         for set_id, set_df in group_df.groupby('Set ID'):
             num_required = set_df['Num Required'].iloc[0]
-            possible_combinations = []
-            unmet_requirements = num_required
+
+            fulfilled = set()
+            unfulfilled = set()
 
             for _, row in set_df.iterrows():
-                cc_course_options = []
-                if pd.notna(row['Courses Group 1']):
-                    cc_course_options.append(set(map(str.strip, row['Courses Group 1'].split(";"))))
-                for col in row.index[6:]:
-                    if pd.notna(row[col]):
-                        cc_course_options.append(set(map(str.strip, row[col].split(";"))))
-                if cc_course_options:
-                    best_option = min(cc_course_options, key=len)
-                    possible_combinations.append(best_option)
+                receiving_course = row['Receiving']
+                course_group_1 = str(row['Courses Group 1']).strip().lower()
 
-            possible_combinations.sort(key=len)
-            for combination in possible_combinations:
-                if unmet_requirements > 0:
-                    selected_courses.update(combination)
-                    unmet_requirements -= 1
+                if course_group_1 != "not articulated":
+                    fulfilled.add(receiving_course)
+                else:
+                    unfulfilled.add(receiving_course)
 
-            if unmet_requirements == 0:
-                articulated_courses.update(selected_courses)
+            if len(fulfilled) >= num_required:
+                articulated_courses.update(fulfilled)
+                group_fulfilled = True
                 break
 
-        if unmet_requirements > 0:
-            missing_courses = set_df['Receiving'].dropna().unique()
-            for _ in range(unmet_requirements):
-                if missing_courses.size > 0:
-                    unarticulated_courses.add(missing_courses[0])
+        if not group_fulfilled:
+            first_set_id = next(iter(group_df.groupby('Set ID')))
+            set_df = group_df[group_df['Set ID'] == first_set_id[0]]
+            num_required = set_df['Num Required'].iloc[0]
+
+            fulfilled = set()
+            unfulfilled = set()
+
+            for _, row in set_df.iterrows():
+                receiving_course = row['Receiving']
+                course_group_1 = str(row['Courses Group 1']).strip().lower()
+
+                if course_group_1 != "not articulated":
+                    fulfilled.add(receiving_course)
+                else:
+                    unfulfilled.add(receiving_course)
+
+            articulated_courses.update(fulfilled)
+            num_unmet = num_required - len(fulfilled)
+            for uc_course in list(unfulfilled)[:num_unmet]:
+                unarticulated_courses.add(uc_course)
 
     new_articulated = articulated_courses - articulated_tracker
     new_unarticulated = unarticulated_courses - unarticulated_tracker
@@ -91,7 +106,6 @@ def process_folder(folder_path):
     overall_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
     num_files = 0
 
-    # Define column structure properly for the 3 DataFrames
     role_columns = [f"{uc} Art" for uc in uc_list] + [f"{uc} Unart" for uc in uc_list]
     df_1st = pd.DataFrame(columns=role_columns)
     df_2nd = pd.DataFrame(columns=role_columns)
@@ -111,33 +125,32 @@ def process_folder(folder_path):
                 print(f"\n{uc}:")
                 for role in ['1st', '2nd', '3rd']:
                     a, u = file_counts[uc][role]
-                    print(f"  As {role}: {a} Courses, {u} Unarticulated")
+                    print(f"  As {role}: {round(a / 56, 2)} Courses, {round(u / 56, 2)} Unarticulated")
 
             for uc in uc_list:
                 for role in ['1st', '2nd', '3rd']:
                     overall_counts[uc][role][0] += file_counts[uc][role][0]
                     overall_counts[uc][role][1] += file_counts[uc][role][1]
 
-            # Populate row data for each role
             row_1st, row_2nd, row_3rd = {}, {}, {}
             for uc in uc_list:
-                row_1st[f"{uc} Art"] = file_counts[uc]['1st'][0]
-                row_1st[f"{uc} Unart"] = file_counts[uc]['1st'][1]
-                row_2nd[f"{uc} Art"] = file_counts[uc]['2nd'][0]
-                row_2nd[f"{uc} Unart"] = file_counts[uc]['2nd'][1]
-                row_3rd[f"{uc} Art"] = file_counts[uc]['3rd'][0]
-                row_3rd[f"{uc} Unart"] = file_counts[uc]['3rd'][1]
+                row_1st[f"{uc} Art"] = round(file_counts[uc]['1st'][0] / 56, 2)
+                row_1st[f"{uc} Unart"] = round(file_counts[uc]['1st'][1] / 56, 2)
+                row_2nd[f"{uc} Art"] = round(file_counts[uc]['2nd'][0] / 56, 2)
+                row_2nd[f"{uc} Unart"] = round(file_counts[uc]['2nd'][1] / 56, 2)
+                row_3rd[f"{uc} Art"] = round(file_counts[uc]['3rd'][0] / 56, 2)
+                row_3rd[f"{uc} Unart"] = round(file_counts[uc]['3rd'][1] / 56, 2)
 
             df_1st.loc[district_name] = row_1st
             df_2nd.loc[district_name] = row_2nd
             df_3rd.loc[district_name] = row_3rd
 
-    print("\n=== FINAL TOTAL ACROSS ALL FILES ===")
+    print("\n=== FINAL TOTAL ACROSS ALL FILES (DIVIDED BY 56) ===")
     for uc in uc_list:
         print(f"\n{uc}:")
         for role in ['1st', '2nd', '3rd']:
             a, u = overall_counts[uc][role]
-            print(f"  As {role}: {a} Courses, {u} Unarticulated")
+            print(f"  As {role}: {round(a / 56, 2)} Courses, {round(u / 56, 2)} Unarticulated")
 
     print("\n=== AVERAGE PER FILE ===")
     if num_files > 0:
@@ -145,20 +158,19 @@ def process_folder(folder_path):
             print(f"\n{uc}:")
             for role in ['1st', '2nd', '3rd']:
                 a, u = overall_counts[uc][role]
-                avg_a = round(a / num_files, 2)
-                avg_u = round(u / num_files, 2)
+                avg_a = round(a / num_files / 56, 2)
+                avg_u = round(u / num_files / 56, 2)
                 print(f"  As {role}: {avg_a} Avg Courses, {avg_u} Avg Unarticulated")
     else:
         print("No CSV files processed.")
 
-    # Save the 3 labeled tables to one CSV file
     output_path = os.path.join(folder_path, "combination_totals_by_role.csv")
     with open(output_path, "w") as f:
-        f.write("=== 1st Order UC Totals ===\n")
+        f.write("=== 1st Order UC Totals (DIVIDED BY 56) ===\n")
         df_1st.to_csv(f)
-        f.write("\n=== 2nd Order UC Totals ===\n")
+        f.write("\n=== 2nd Order UC Totals (DIVIDED BY 56) ===\n")
         df_2nd.to_csv(f)
-        f.write("\n=== 3rd Order UC Totals ===\n")
+        f.write("\n=== 3rd Order UC Totals (DIVIDED BY 56) ===\n")
         df_3rd.to_csv(f)
 
     print(f"\n✅ CSV with UC totals by role saved to: {output_path}")
