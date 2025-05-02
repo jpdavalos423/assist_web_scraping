@@ -195,7 +195,7 @@
     "Mt. San Antonio Community College District": {
       "region": "Southern",
       "counties_served": ["Los Angeles"],
-      "colleges": ["Mt. San Antonio College"]
+      "colleges": ["Mount San Antonio College"]
     },
     "Mt. San Jacinto Community College District": {
       "region": "Southern",
@@ -239,13 +239,14 @@
         "Berkeley City College",
         "College of Alameda",
         "Laney College",
-        "Merritt College"
+        "Merritt College",
+        "Vista Community College"
       ]
     },
     "Rancho Santiago Community College District": {
       "region": "Southern",
       "counties_served": ["Orange"],
-      "colleges": ["Santa Ana College", "Santiago Canyon College"]
+      "colleges": ["Santa Ana College", "Santiago Canyon College", "Rancho Santiago College"]
     },
     "Redwoods Community College District": {
       "region": "Northern",
@@ -367,7 +368,8 @@
         "Clovis Community College",
         "Fresno City College",
         "Madera Community College",
-        "Reedley College"
+        "Reedley College",
+        "Kings River College"
       ]
     },
     "Ventura County Community College District": {

@@ -21,30 +21,31 @@ def generate_combinations(uc_schools):
     return combinations
 
 def count_required_courses(df, selected_school, articulated_tracker, unarticulated_tracker):
-    df.columns = df.columns.str.replace('\u200b', '').str.strip()
+    # Normalize column headers
+    df.columns = df.columns.str.replace('\u200b', '', regex=False).str.strip().str.lower()
 
-    if 'UC Name' not in df.columns:
+    if 'uc name' not in df.columns:
         raise ValueError(f"'UC Name' column not found. Found columns: {list(df.columns)}")
 
-    df['UC Name'] = df['UC Name'].str.lower().str.strip()
+    df['uc name'] = df['uc name'].str.lower().str.strip()
     selected_school = selected_school[0].lower()
-    filtered_df = df[df['UC Name'] == selected_school]
+    filtered_df = df[df['uc name'] == selected_school]
 
     articulated_courses = set()
     unarticulated_courses = set()
 
-    for (uc, req_group), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
+    for (uc, req_group), group_df in filtered_df.groupby(['uc name', 'group id']):
         group_fulfilled = False
 
-        for set_id, set_df in group_df.groupby('Set ID'):
-            num_required = set_df['Num Required'].iloc[0]
+        for set_id, set_df in group_df.groupby('set id'):
+            num_required = set_df['num required'].iloc[0]
 
             fulfilled = set()
             unfulfilled = set()
 
             for _, row in set_df.iterrows():
-                receiving_course = row['Receiving']
-                course_group_1 = str(row['Courses Group 1']).strip().lower()
+                receiving_course = row['receiving']
+                course_group_1 = str(row['courses group 1']).strip().lower()
 
                 if course_group_1 != "not articulated":
                     fulfilled.add(receiving_course)
@@ -57,16 +58,16 @@ def count_required_courses(df, selected_school, articulated_tracker, unarticulat
                 break
 
         if not group_fulfilled:
-            first_set_id = next(iter(group_df.groupby('Set ID')))
-            set_df = group_df[group_df['Set ID'] == first_set_id[0]]
-            num_required = set_df['Num Required'].iloc[0]
+            first_set_id = next(iter(group_df.groupby('set id')))
+            set_df = group_df[group_df['set id'] == first_set_id[0]]
+            num_required = set_df['num required'].iloc[0]
 
             fulfilled = set()
             unfulfilled = set()
 
             for _, row in set_df.iterrows():
-                receiving_course = row['Receiving']
-                course_group_1 = str(row['Courses Group 1']).strip().lower()
+                receiving_course = row['receiving']
+                course_group_1 = str(row['courses group 1']).strip().lower()
 
                 if course_group_1 != "not articulated":
                     fulfilled.add(receiving_course)
@@ -101,7 +102,7 @@ def process_combinations_with_roles(df, uc_list, file_counts):
             file_counts[uc][role][0] += art
             file_counts[uc][role][1] += unart
 
-def process_folder(folder_path):
+def process_folder(input_folder):
     uc_list = uc_schools
     overall_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
     num_files = 0
@@ -111,12 +112,16 @@ def process_folder(folder_path):
     df_2nd = pd.DataFrame(columns=role_columns)
     df_3rd = pd.DataFrame(columns=role_columns)
 
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".csv"):
+    for filename in os.listdir(input_folder):
+        if (
+            filename.endswith(".csv")
+            and not filename.startswith("order_")
+            and "combination_totals" not in filename.lower()
+        ):
             district_name = os.path.splitext(filename)[0]
             num_files += 1
             print(f"\n--- Processing {filename} ---")
-            df = load_csv(os.path.join(folder_path, filename))
+            df = load_csv(os.path.join(input_folder, filename))
 
             file_counts = {uc: {'1st': [0, 0], '2nd': [0, 0], '3rd': [0, 0]} for uc in uc_list}
             process_combinations_with_roles(df, uc_list, file_counts)
@@ -164,16 +169,18 @@ def process_folder(folder_path):
     else:
         print("No CSV files processed.")
 
-    output_path = os.path.join(folder_path, "combination_totals_by_role.csv")
-    with open(output_path, "w") as f:
-        f.write("=== 1st Order UC Totals (DIVIDED BY 56) ===\n")
-        df_1st.to_csv(f)
-        f.write("\n=== 2nd Order UC Totals (DIVIDED BY 56) ===\n")
-        df_2nd.to_csv(f)
-        f.write("\n=== 3rd Order UC Totals (DIVIDED BY 56) ===\n")
-        df_3rd.to_csv(f)
+    # ✅ Save outputs to a clean output folder
+    output_dir = os.path.join(input_folder, "question_1")
+    os.makedirs(output_dir, exist_ok=True)
 
-    print(f"\n✅ CSV with UC totals by role saved to: {output_path}")
+    df_1st.to_csv(os.path.join(output_dir, "order_1_totals.csv"))
+    df_2nd.to_csv(os.path.join(output_dir, "order_2_totals.csv"))
+    df_3rd.to_csv(os.path.join(output_dir, "order_3_totals.csv"))
+
+    print(f"\n✅ CSVs saved to: {output_dir}")
+    print("  - order_1_totals.csv")
+    print("  - order_2_totals.csv")
+    print("  - order_3_totals.csv")
 
 # Redirect output to a text file
 if __name__ == "__main__":
@@ -185,6 +192,5 @@ if __name__ == "__main__":
     print(f"\n✅ All printed output saved to '{output_file}'")
 
 
-
     #/workspaces/assist_web_scraping/district_csvs
-    #path: /Users/yasminkabir/assist_web_scraping/district_csvs
+    #path: /Users/yasminkabir/assist_web_scraping-1/district_csvs

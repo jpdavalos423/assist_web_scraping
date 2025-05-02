@@ -1,4 +1,0 @@
-Warning: Mount San Antonio College not found in districts.json, skipping.
-Warning: Vista Community College not found in districts.json, skipping.
-Warning: Kings River College not found in districts.json, skipping.
-Warning: Rancho Santiago College not found in districts.json, skipping.
