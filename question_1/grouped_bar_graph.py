@@ -9,23 +9,28 @@ def plot_grouped_bar_charts(order_1_path, order_2_path, order_3_path):
     order_2_df = pd.read_csv(order_2_path)
     order_3_df = pd.read_csv(order_3_path)
 
-    # Extract UC names from column labels
-    uc_list = [col.replace(" Art", "") for col in order_1_df.columns if "Art" in col]
+    # Get list of UCs by splitting columns
+    uc_list = sorted(set(col.split()[0] for col in order_1_df.columns if col != "Community College"))
     roles = ['1st', '2nd', '3rd']
+    dfs = [order_1_df, order_2_df, order_3_df]
 
-    # Prepare long-form data for seaborn
+    # Prepare long-form data
     art_data = {'UC': [], 'Role': [], 'Avg Articulated Courses': []}
     unart_data = {'UC': [], 'Role': [], 'Avg Unarticulated Courses': []}
 
     for uc in uc_list:
-        for df, role in zip([order_1_df, order_2_df, order_3_df], roles):
-            art_data['UC'].append(uc)
-            art_data['Role'].append(role)
-            art_data['Avg Articulated Courses'].append(df[f"{uc} Art"].mean())
+        for df, role in zip(dfs, roles):
+            art_col = f"{uc} Articulated"
+            unart_col = f"{uc} Unarticulated"
 
-            unart_data['UC'].append(uc)
-            unart_data['Role'].append(role)
-            unart_data['Avg Unarticulated Courses'].append(df[f"{uc} Unart"].mean())
+            if art_col in df.columns and unart_col in df.columns:
+                art_data['UC'].append(uc)
+                art_data['Role'].append(role)
+                art_data['Avg Articulated Courses'].append(df[art_col].mean())
+
+                unart_data['UC'].append(uc)
+                unart_data['Role'].append(role)
+                unart_data['Avg Unarticulated Courses'].append(df[unart_col].mean())
 
     art_df = pd.DataFrame(art_data)
     unart_df = pd.DataFrame(unart_data)

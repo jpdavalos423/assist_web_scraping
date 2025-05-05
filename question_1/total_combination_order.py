@@ -79,7 +79,6 @@ def process_folder(folder_path):
         uc: {role: {'articulated': 0, 'unarticulated': 0} for role in roles} for uc in uc_list
     }
 
-    # For final CSV output (accumulating per order, per CC)
     per_order_cc_totals = {role: [] for role in roles}
     per_order_cc_averages = {role: [] for role in roles}
 
@@ -113,7 +112,7 @@ def process_folder(folder_path):
                 uc_role_totals[uc][role]['articulated'] += art_count
                 uc_role_totals[uc][role]['unarticulated'] += unart_count
 
-        # Write .txt totals
+        # Write totals to text file
         with open("total_combination_order.txt", "a") as f:
             f.write(f"--- Processing {file_name} ---\n")
             for uc in uc_list:
@@ -126,7 +125,7 @@ def process_folder(folder_path):
                     overall_totals[uc][role]['unarticulated'] += unart
                 f.write("\n")
 
-        # Write .txt averages
+        # Write averages to text file
         with open("average_combination_order.txt", "a") as f:
             f.write(f"--- Averages for {file_name} ---\n")
             for uc in uc_list:
@@ -137,7 +136,7 @@ def process_folder(folder_path):
                     f.write(f"  As {role}: {art / role_count_per_uc:.2f} Avg Courses, {unart / role_count_per_uc:.2f} Avg Unarticulated\n")
                 f.write("\n")
 
-        # Save row for CSVs per order
+        # Save rows for CSVs
         for role in roles:
             row_total = {"Community College": file_name}
             row_avg = {"Community College": file_name}
@@ -151,7 +150,7 @@ def process_folder(folder_path):
             per_order_cc_totals[role].append(row_total)
             per_order_cc_averages[role].append(row_avg)
 
-    # Final .txt output
+    # Write final totals and averages to text files
     with open("total_combination_order.txt", "a") as f:
         f.write("--- GRAND TOTALS ACROSS ALL FILES ---\n")
         for uc in uc_list:
@@ -173,12 +172,25 @@ def process_folder(folder_path):
                 f.write(f"  As {role}: {total_art / divisor:.2f} Avg Courses, {total_unart / divisor:.2f} Avg Unarticulated\n")
             f.write("\n")
 
-    # Write CSVs for each order
+    # Write CSVs per order with AVERAGE row
     for role in roles:
-        pd.DataFrame(per_order_cc_totals[role]).to_csv(f"order_{role[0]}_totals.csv", index=False)
-        pd.DataFrame(per_order_cc_averages[role]).to_csv(f"order_{role[0]}_averages.csv", index=False)
+        # Totals
+        df_total = pd.DataFrame(per_order_cc_totals[role])
+        avg_row_total = {"Community College": "AVERAGE"}
+        for col in df_total.columns[1:]:
+            avg_row_total[col] = round(df_total[col].mean(), 2)
+        df_total.loc[len(df_total)] = avg_row_total
+        df_total.to_csv(f"order_{role[0]}_totals.csv", index=False, float_format="%.2f")
 
-    print("✅ All totals, averages, and CSVs written successfully.")
+        # Averages
+        df_avg = pd.DataFrame(per_order_cc_averages[role])
+        avg_row_avg = {"Community College": "AVERAGE"}
+        for col in df_avg.columns[1:]:
+            avg_row_avg[col] = round(df_avg[col].mean(), 2)
+        df_avg.loc[len(df_avg)] = avg_row_avg
+        df_avg.to_csv(f"order_{role[0]}_averages.csv", index=False, float_format="%.2f")
+
+    print("✅ All outputs generated including AVERAGE rows in CSVs.")
 
 if __name__ == "__main__":
     folder_path = input("Enter the path to the folder of CSV files: ")
