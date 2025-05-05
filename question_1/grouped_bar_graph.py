@@ -55,7 +55,7 @@ def plot_grouped_bar_charts(order_1_path, order_2_path, order_3_path):
 if __name__ == "__main__":
     # Replace with actual paths or use command-line arguments
     plot_grouped_bar_charts(
-        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs/order_1_totals.csv",
-        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs/order_2_totals.csv",
-        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs/order_3_totals.csv"
+        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv",
+        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv",
+        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv"
     )
