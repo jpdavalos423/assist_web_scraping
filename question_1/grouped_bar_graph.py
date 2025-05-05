@@ -61,6 +61,6 @@ if __name__ == "__main__":
     # Replace with actual paths or use command-line arguments
     plot_grouped_bar_charts(
         "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv",
-        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv",
-        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_1_averages.csv"
+        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_2_averages.csv",
+        "/Users/yasminkabir/assist_web_scraping-1/question_1/order_csvs_averages/order_3_averages.csv"
     )
