@@ -8,6 +8,7 @@ Usage:  python post_process.py          # no args needed
 
 import os
 import csv
+
 from course_reqs import UC_REQUIREMENTS
 
 # ----- UC name → abbreviation mapping -----------------------------
@@ -23,6 +24,11 @@ UC_ABBREVIATIONS = {
     "University of California Santa Barbara":  "UCSB",
 }
 
+# ----- Base directory configuration --------------------------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RESULTS_DIR = os.path.join(BASE_DIR, "..", "results")
+FILTERED_DIR = os.path.join(BASE_DIR, "..", "filtered_results")
+
 # ------------------------------------------------------------------
 def match_requirement(uc_abbr: str, receiving_course: str):
     """
@@ -33,7 +39,7 @@ def match_requirement(uc_abbr: str, receiving_course: str):
     reqs = UC_REQUIREMENTS.get(uc_abbr, {})
     for group_id, entries in reqs.items():
         if not isinstance(entries[0], list):
-            entries = [entries]  # normalise single entry
+            entries = [entries]  # normalize single entry
         for course_code, set_id, num_required in entries:
             if course_code.lower() in receiving_course.lower():
                 matches.append((group_id, set_id, num_required))
@@ -42,7 +48,7 @@ def match_requirement(uc_abbr: str, receiving_course: str):
 
 def process_csv(csv_path):
     """
-    Read one *_allUC.csv file and return a list of matched‑row dicts.
+    Read one *_allUC.csv file and return a list of matched-row dicts.
     """
     matched_rows = []
     total, matched_total = 0, 0
@@ -95,8 +101,8 @@ def save_filtered_csv(cc_name, rows):
         print(f"⚠️  {cc_name}: no matched rows, skipping file.")
         return
 
-    os.makedirs("filtered_results", exist_ok=True)
-    out_path = os.path.join("filtered_results", f"{cc_name}_filtered.csv")
+    os.makedirs(FILTERED_DIR, exist_ok=True)
+    out_path = os.path.join(FILTERED_DIR, f"{cc_name}_filtered.csv")
 
     max_or = max(len(r["OR Groups"]) for r in rows)
     headers = (
@@ -124,10 +130,13 @@ def save_filtered_csv(cc_name, rows):
 
 
 def main():
-    results_dir = "results"
+    if not os.path.isdir(RESULTS_DIR):
+        print(f"❌ No 'results/' directory found at expected path: {RESULTS_DIR}")
+        return
+
     csv_files = [
-        os.path.join(results_dir, f)
-        for f in os.listdir(results_dir)
+        os.path.join(RESULTS_DIR, f)
+        for f in os.listdir(RESULTS_DIR)
         if f.endswith("_allUC.csv")
     ]
 

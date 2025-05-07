@@ -1,15 +1,13 @@
-
 --- Processing Merced_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 168 Courses, 0 Unarticulated
-  As 3rd: 108 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 133 Courses, 112 Unarticulated
+  As 3rd: 88 Courses, 112 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 142 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 182 Courses, 56 Unarticulated
+  As 3rd: 122 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -17,9 +15,9 @@ UCSC:
   As 3rd: 92 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 154 Courses, 0 Unarticulated
-  As 3rd: 82 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 119 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -32,9 +30,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 259 Courses, 0 Unarticulated
-  As 3rd: 180 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 224 Courses, 56 Unarticulated
+  As 3rd: 160 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -47,11 +45,10 @@ UCM:
   As 3rd: 88 Courses, 0 Unarticulated
 
 --- Processing Marin_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 112 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 133 Courses, 56 Unarticulated
+  As 3rd: 56 Courses, 56 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -94,26 +91,25 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Siskiyou_Joint_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 98 Courses, 0 Unarticulated
-  As 3rd: 36 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 168 Unarticulated
+  As 3rd: 24 Courses, 168 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 100 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 133 Courses, 112 Unarticulated
+  As 3rd: 88 Courses, 112 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 98 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 56 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -126,9 +122,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 128 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 175 Courses, 112 Unarticulated
+  As 3rd: 116 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -141,26 +137,25 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Imperial_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 114 Courses, 0 Unarticulated
+  As 2nd: 217 Courses, 0 Unarticulated
+  As 3rd: 150 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 80 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 126 Courses, 112 Unarticulated
+  As 3rd: 74 Courses, 112 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 48 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 63 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -173,14 +168,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 168 Courses, 0 Unarticulated
-  As 3rd: 116 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 147 Courses, 168 Unarticulated
+  As 3rd: 110 Courses, 168 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 77 Courses, 56 Unarticulated
-  As 3rd: 62 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 49 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -188,21 +183,20 @@ UCM:
   As 3rd: 86 Courses, 0 Unarticulated
 
 --- Processing Kern_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 48 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 84 Courses, 161 Unarticulated
+  As 3rd: 28 Courses, 154 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 224 Courses, 0 Unarticulated
-  As 3rd: 142 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 189 Courses, 56 Unarticulated
+  As 3rd: 122 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 174 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 182 Courses, 49 Unarticulated
+  As 3rd: 154 Courses, 42 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
@@ -220,9 +214,9 @@ UCI:
   As 3rd: 4 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 134 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 182 Courses, 112 Unarticulated
+  As 3rd: 114 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -235,31 +229,30 @@ UCM:
   As 3rd: 60 Courses, 0 Unarticulated
 
 --- Processing Lassen_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 280 Unarticulated
+  As 2nd: 14 Courses, 273 Unarticulated
+  As 3rd: 0 Courses, 266 Unarticulated
 
 UCSB:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 280 Unarticulated
+  As 2nd: 14 Courses, 280 Unarticulated
+  As 3rd: 0 Courses, 280 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 280 Unarticulated
+  As 2nd: 14 Courses, 280 Unarticulated
+  As 3rd: 0 Courses, 280 Unarticulated
 
 UCB:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 112 Unarticulated
+  As 2nd: 14 Courses, 112 Unarticulated
+  As 3rd: 0 Courses, 112 Unarticulated
 
 UCI:
   As 1st: 112 Courses, 56 Unarticulated
@@ -267,22 +260,21 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 336 Unarticulated
+  As 2nd: 14 Courses, 336 Unarticulated
+  As 3rd: 0 Courses, 336 Unarticulated
 
 UCR:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 7 Courses, 56 Unarticulated
-  As 3rd: 0 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCM:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 --- Processing Cabrillo_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 196 Courses, 0 Unarticulated
@@ -329,7 +321,6 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing San_Mateo_County_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 238 Courses, 0 Unarticulated
@@ -376,11 +367,10 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing West_Kern_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 63 Courses, 0 Unarticulated
-  As 3rd: 18 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 224 Unarticulated
+  As 2nd: 42 Courses, 217 Unarticulated
+  As 3rd: 12 Courses, 210 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -388,14 +378,14 @@ UCSB:
   As 3rd: 192 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 35 Courses, 0 Unarticulated
-  As 3rd: 6 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 98 Courses, 0 Unarticulated
-  As 3rd: 38 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 112 Unarticulated
+  As 2nd: 77 Courses, 112 Unarticulated
+  As 3rd: 32 Courses, 112 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -408,26 +398,25 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 48 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 224 Unarticulated
+  As 2nd: 84 Courses, 224 Unarticulated
+  As 3rd: 42 Courses, 224 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 63 Courses, 56 Unarticulated
-  As 3rd: 36 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCM:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 68 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 119 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 --- Processing Desert_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -440,9 +429,9 @@ UCSC:
   As 3rd: 82 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -455,9 +444,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 124 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 161 Courses, 112 Unarticulated
+  As 3rd: 94 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -470,11 +459,10 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing San_Jose-Evergreen_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 252 Courses, 0 Unarticulated
-  As 3rd: 156 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 203 Courses, 56 Unarticulated
+  As 3rd: 114 Courses, 56 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -502,9 +490,9 @@ UCI:
   As 3rd: 40 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 336 Courses, 0 Unarticulated
-  As 3rd: 254 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 287 Courses, 56 Unarticulated
+  As 3rd: 212 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -517,11 +505,10 @@ UCM:
   As 3rd: 140 Courses, 0 Unarticulated
 
 --- Processing Shasta-Tehama-Trinity_Joint_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 168 Unarticulated
+  As 3rd: 24 Courses, 168 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -529,14 +516,14 @@ UCSB:
   As 3rd: 112 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 92 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 72 Courses, 56 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -549,9 +536,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 245 Courses, 0 Unarticulated
-  As 3rd: 154 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 210 Courses, 56 Unarticulated
+  As 3rd: 134 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -564,63 +551,61 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Palo_Verde_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 112 Courses, 0 Unarticulated
-  As 2nd: 42 Courses, 0 Unarticulated
-  As 3rd: 30 Courses, 0 Unarticulated
+  As 1st: 56 Courses, 336 Unarticulated
+  As 2nd: 42 Courses, 329 Unarticulated
+  As 3rd: 30 Courses, 322 Unarticulated
 
 UCSB:
-  As 1st: 56 Courses, 0 Unarticulated
-  As 2nd: 0 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 0 Courses, 392 Unarticulated
+  As 2nd: 0 Courses, 392 Unarticulated
+  As 3rd: 0 Courses, 392 Unarticulated
 
 UCSC:
-  As 1st: 56 Courses, 0 Unarticulated
-  As 2nd: 0 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 0 Courses, 280 Unarticulated
+  As 2nd: 0 Courses, 273 Unarticulated
+  As 3rd: 0 Courses, 266 Unarticulated
 
 UCLA:
-  As 1st: 112 Courses, 0 Unarticulated
-  As 2nd: 42 Courses, 0 Unarticulated
-  As 3rd: 30 Courses, 0 Unarticulated
+  As 1st: 56 Courses, 336 Unarticulated
+  As 2nd: 42 Courses, 336 Unarticulated
+  As 3rd: 30 Courses, 336 Unarticulated
 
 UCB:
-  As 1st: 56 Courses, 0 Unarticulated
-  As 2nd: 0 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 0 Courses, 224 Unarticulated
+  As 2nd: 0 Courses, 224 Unarticulated
+  As 3rd: 0 Courses, 224 Unarticulated
 
 UCI:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 0 Courses, 56 Unarticulated
-  As 3rd: 0 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCD:
-  As 1st: 56 Courses, 0 Unarticulated
-  As 2nd: 0 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 0 Courses, 448 Unarticulated
+  As 2nd: 0 Courses, 448 Unarticulated
+  As 3rd: 0 Courses, 448 Unarticulated
 
 UCR:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 0 Courses, 56 Unarticulated
-  As 3rd: 0 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCM:
-  As 1st: 112 Courses, 0 Unarticulated
-  As 2nd: 42 Courses, 0 Unarticulated
-  As 3rd: 30 Courses, 0 Unarticulated
+  As 1st: 56 Courses, 224 Unarticulated
+  As 2nd: 42 Courses, 224 Unarticulated
+  As 3rd: 30 Courses, 224 Unarticulated
 
 --- Processing San_Luis_Obispo_County_Community_College_District.csv ---
-
 UCSD:
   As 1st: 448 Courses, 0 Unarticulated
   As 2nd: 224 Courses, 0 Unarticulated
   As 3rd: 132 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 175 Courses, 0 Unarticulated
-  As 3rd: 116 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 126 Courses, 56 Unarticulated
+  As 3rd: 74 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 336 Courses, 0 Unarticulated
@@ -628,9 +613,9 @@ UCSC:
   As 3rd: 94 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 66 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 24 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 224 Courses, 0 Unarticulated
@@ -658,7 +643,6 @@ UCM:
   As 3rd: 36 Courses, 0 Unarticulated
 
 --- Processing San_Francisco_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 217 Courses, 0 Unarticulated
@@ -705,11 +689,10 @@ UCM:
   As 3rd: 70 Courses, 0 Unarticulated
 
 --- Processing Santa_Clarita_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 224 Courses, 0 Unarticulated
-  As 3rd: 126 Courses, 0 Unarticulated
+  As 1st: 504 Courses, 0 Unarticulated
+  As 2nd: 287 Courses, 0 Unarticulated
+  As 3rd: 196 Courses, 0 Unarticulated
 
 UCSB:
   As 1st: 560 Courses, 0 Unarticulated
@@ -737,9 +720,9 @@ UCI:
   As 3rd: 56 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 124 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 154 Courses, 112 Unarticulated
+  As 3rd: 82 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -752,11 +735,10 @@ UCM:
   As 3rd: 84 Courses, 0 Unarticulated
 
 --- Processing Long_Beach_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -764,9 +746,9 @@ UCSB:
   As 3rd: 102 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 80 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 91 Courses, 56 Unarticulated
+  As 3rd: 50 Courses, 56 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
@@ -784,9 +766,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 252 Courses, 0 Unarticulated
-  As 3rd: 168 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 210 Courses, 56 Unarticulated
+  As 3rd: 138 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -799,7 +781,6 @@ UCM:
   As 3rd: 44 Courses, 0 Unarticulated
 
 --- Processing Santa_Barbara_Community_College_District.csv ---
-
 UCSD:
   As 1st: 448 Courses, 0 Unarticulated
   As 2nd: 217 Courses, 0 Unarticulated
@@ -807,8 +788,8 @@ UCSD:
 
 UCSB:
   As 1st: 504 Courses, 0 Unarticulated
-  As 2nd: 273 Courses, 0 Unarticulated
-  As 3rd: 170 Courses, 0 Unarticulated
+  As 2nd: 266 Courses, 0 Unarticulated
+  As 3rd: 156 Courses, 0 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -831,9 +812,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 245 Courses, 0 Unarticulated
-  As 3rd: 158 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 196 Courses, 56 Unarticulated
+  As 3rd: 116 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -846,7 +827,6 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Coast_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 210 Courses, 0 Unarticulated
@@ -893,26 +873,25 @@ UCM:
   As 3rd: 48 Courses, 0 Unarticulated
 
 --- Processing Napa_Valley_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 91 Courses, 0 Unarticulated
-  As 3rd: 30 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 161 Unarticulated
+  As 3rd: 24 Courses, 154 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 196 Courses, 0 Unarticulated
-  As 3rd: 124 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 175 Courses, 56 Unarticulated
+  As 3rd: 118 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 77 Courses, 0 Unarticulated
-  As 3rd: 36 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 56 Courses, 105 Unarticulated
+  As 3rd: 30 Courses, 98 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -925,14 +904,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 78 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 126 Courses, 168 Unarticulated
+  As 3rd: 72 Courses, 168 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 63 Courses, 56 Unarticulated
-  As 3rd: 36 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -940,26 +919,25 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing Redwoods_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 26 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 161 Unarticulated
+  As 3rd: 24 Courses, 154 Unarticulated
 
 UCSB:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 91 Courses, 0 Unarticulated
-  As 3rd: 34 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 77 Courses, 168 Unarticulated
+  As 3rd: 32 Courses, 168 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 28 Courses, 0 Unarticulated
-  As 3rd: 2 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 46 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -972,41 +950,40 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 112 Courses, 0 Unarticulated
-  As 3rd: 70 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 224 Unarticulated
+  As 2nd: 98 Courses, 224 Unarticulated
+  As 3rd: 68 Courses, 224 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 70 Courses, 56 Unarticulated
-  As 3rd: 58 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 56 Courses, 112 Unarticulated
+  As 3rd: 56 Courses, 112 Unarticulated
 
 UCM:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 46 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 --- Processing Mendocino-Lake_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 66 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 112 Courses, 105 Unarticulated
+  As 3rd: 54 Courses, 98 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 100 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 133 Courses, 112 Unarticulated
+  As 3rd: 88 Courses, 112 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 42 Courses, 0 Unarticulated
-  As 3rd: 12 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 56 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1019,9 +996,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 175 Courses, 0 Unarticulated
-  As 3rd: 122 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 147 Courses, 168 Unarticulated
+  As 3rd: 110 Courses, 168 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1034,7 +1011,6 @@ UCM:
   As 3rd: 130 Courses, 0 Unarticulated
 
 --- Processing Santa_Monica_Community_College_District.csv ---
-
 UCSD:
   As 1st: 448 Courses, 0 Unarticulated
   As 2nd: 245 Courses, 0 Unarticulated
@@ -1066,9 +1042,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 156 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 161 Courses, 112 Unarticulated
+  As 3rd: 100 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1081,11 +1057,10 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing San_Joaquin_Delta_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 77 Courses, 168 Unarticulated
+  As 3rd: 32 Courses, 168 Unarticulated
 
 UCSB:
   As 1st: 448 Courses, 0 Unarticulated
@@ -1113,9 +1088,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 134 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 140 Courses, 168 Unarticulated
+  As 3rd: 92 Courses, 168 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1128,31 +1103,30 @@ UCM:
   As 3rd: 82 Courses, 0 Unarticulated
 
 --- Processing Feather_River_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 280 Unarticulated
+  As 2nd: 14 Courses, 273 Unarticulated
+  As 3rd: 0 Courses, 266 Unarticulated
 
 UCSB:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 77 Courses, 0 Unarticulated
-  As 3rd: 56 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 224 Unarticulated
+  As 2nd: 70 Courses, 224 Unarticulated
+  As 3rd: 56 Courses, 224 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 280 Unarticulated
+  As 2nd: 14 Courses, 280 Unarticulated
+  As 3rd: 0 Courses, 280 Unarticulated
 
 UCB:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 70 Courses, 0 Unarticulated
-  As 3rd: 42 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 56 Unarticulated
+  As 2nd: 63 Courses, 56 Unarticulated
+  As 3rd: 42 Courses, 56 Unarticulated
 
 UCI:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1160,31 +1134,30 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 21 Courses, 0 Unarticulated
-  As 3rd: 0 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 336 Unarticulated
+  As 2nd: 14 Courses, 336 Unarticulated
+  As 3rd: 0 Courses, 336 Unarticulated
 
 UCR:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 7 Courses, 56 Unarticulated
-  As 3rd: 0 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCM:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 70 Courses, 0 Unarticulated
-  As 3rd: 42 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 63 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
 
 --- Processing Cerritos_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 106 Courses, 0 Unarticulated
+  As 2nd: 196 Courses, 0 Unarticulated
+  As 3rd: 120 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 94 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 112 Courses, 56 Unarticulated
+  As 3rd: 52 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1222,11 +1195,10 @@ UCM:
   As 3rd: 44 Courses, 0 Unarticulated
 
 --- Processing Riverside_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 100 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 161 Courses, 56 Unarticulated
+  As 3rd: 100 Courses, 56 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -1269,7 +1241,6 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing South_Orange_County_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 210 Courses, 0 Unarticulated
@@ -1315,17 +1286,62 @@ UCM:
   As 2nd: 133 Courses, 0 Unarticulated
   As 3rd: 56 Courses, 0 Unarticulated
 
---- Processing Monterey_Peninsula_Community_College_District.csv ---
-
+--- Processing Mt._San_Antonio_Community_College_District.csv ---
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 96 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 203 Courses, 0 Unarticulated
+  As 3rd: 128 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 210 Courses, 0 Unarticulated
-  As 3rd: 134 Courses, 0 Unarticulated
+  As 1st: 448 Courses, 0 Unarticulated
+  As 2nd: 301 Courses, 0 Unarticulated
+  As 3rd: 250 Courses, 0 Unarticulated
+
+UCSC:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 161 Courses, 0 Unarticulated
+  As 3rd: 132 Courses, 0 Unarticulated
+
+UCLA:
+  As 1st: 336 Courses, 0 Unarticulated
+  As 2nd: 161 Courses, 0 Unarticulated
+  As 3rd: 94 Courses, 0 Unarticulated
+
+UCB:
+  As 1st: 224 Courses, 0 Unarticulated
+  As 2nd: 77 Courses, 0 Unarticulated
+  As 3rd: 32 Courses, 0 Unarticulated
+
+UCI:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
+
+UCD:
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 168 Courses, 112 Unarticulated
+  As 3rd: 108 Courses, 112 Unarticulated
+
+UCR:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 112 Courses, 56 Unarticulated
+  As 3rd: 112 Courses, 56 Unarticulated
+
+UCM:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 133 Courses, 0 Unarticulated
+  As 3rd: 88 Courses, 0 Unarticulated
+
+--- Processing Monterey_Peninsula_Community_College_District.csv ---
+UCSD:
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 119 Courses, 112 Unarticulated
+  As 3rd: 66 Courses, 112 Unarticulated
+
+UCSB:
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 168 Courses, 56 Unarticulated
+  As 3rd: 104 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1348,9 +1364,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 259 Courses, 0 Unarticulated
-  As 3rd: 176 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 217 Courses, 56 Unarticulated
+  As 3rd: 146 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1363,11 +1379,10 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Glendale_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 96 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 168 Courses, 56 Unarticulated
+  As 3rd: 110 Courses, 56 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -1375,9 +1390,9 @@ UCSB:
   As 3rd: 102 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 104 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 98 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
@@ -1410,7 +1425,6 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Los_Angeles_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 189 Courses, 0 Unarticulated
@@ -1457,7 +1471,6 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing San_Diego_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 196 Courses, 0 Unarticulated
@@ -1469,9 +1482,9 @@ UCSB:
   As 3rd: 124 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 154 Courses, 0 Unarticulated
-  As 3rd: 118 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 76 Courses, 56 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
@@ -1489,9 +1502,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 231 Courses, 0 Unarticulated
-  As 3rd: 172 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 182 Courses, 112 Unarticulated
+  As 3rd: 130 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1504,11 +1517,10 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing Chaffey_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 161 Unarticulated
+  As 3rd: 24 Courses, 154 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -1516,9 +1528,9 @@ UCSB:
   As 3rd: 146 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 49 Courses, 0 Unarticulated
-  As 3rd: 20 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
   As 1st: 392 Courses, 0 Unarticulated
@@ -1536,14 +1548,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 210 Courses, 0 Unarticulated
-  As 3rd: 134 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 175 Courses, 112 Unarticulated
+  As 3rd: 114 Courses, 112 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 77 Courses, 56 Unarticulated
-  As 3rd: 50 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -1551,26 +1563,25 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing Compton_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 224 Courses, 0 Unarticulated
-  As 3rd: 144 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 210 Courses, 0 Unarticulated
+  As 3rd: 142 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 76 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 126 Courses, 56 Unarticulated
+  As 3rd: 74 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 63 Courses, 0 Unarticulated
-  As 3rd: 22 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 49 Courses, 112 Unarticulated
+  As 3rd: 20 Courses, 112 Unarticulated
 
 UCLA:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 26 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 24 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 224 Courses, 0 Unarticulated
@@ -1583,41 +1594,86 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 91 Courses, 0 Unarticulated
-  As 3rd: 34 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 224 Unarticulated
+  As 2nd: 77 Courses, 224 Unarticulated
+  As 3rd: 32 Courses, 224 Unarticulated
 
 UCR:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 14 Courses, 56 Unarticulated
-  As 3rd: 2 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCM:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 26 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 24 Courses, 56 Unarticulated
 
---- Processing Peralta_Community_College_District.csv ---
-
+--- Processing Rio_Hondo_Community_College_District.csv ---
 UCSD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 130 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 196 Courses, 56 Unarticulated
+  As 3rd: 152 Courses, 56 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 196 Courses, 0 Unarticulated
-  As 3rd: 112 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 147 Courses, 56 Unarticulated
+  As 3rd: 102 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 92 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 119 Courses, 56 Unarticulated
+  As 3rd: 98 Courses, 56 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 2nd: 175 Courses, 0 Unarticulated
+  As 3rd: 114 Courses, 0 Unarticulated
+
+UCB:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 140 Courses, 0 Unarticulated
+  As 3rd: 96 Courses, 0 Unarticulated
+
+UCI:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
+
+UCD:
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 126 Courses, 168 Unarticulated
+  As 3rd: 72 Courses, 168 Unarticulated
+
+UCR:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 84 Courses, 56 Unarticulated
+  As 3rd: 60 Courses, 56 Unarticulated
+
+UCM:
+  As 1st: 336 Courses, 0 Unarticulated
+  As 2nd: 189 Courses, 0 Unarticulated
+  As 3rd: 140 Courses, 0 Unarticulated
+
+--- Processing Peralta_Community_College_District.csv ---
+UCSD:
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 161 Courses, 56 Unarticulated
+  As 3rd: 100 Courses, 56 Unarticulated
+
+UCSB:
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 182 Courses, 0 Unarticulated
+  As 3rd: 92 Courses, 0 Unarticulated
+
+UCSC:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 133 Courses, 0 Unarticulated
+  As 3rd: 82 Courses, 0 Unarticulated
+
+UCLA:
+  As 1st: 336 Courses, 0 Unarticulated
+  As 2nd: 140 Courses, 0 Unarticulated
+  As 3rd: 64 Courses, 0 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1630,31 +1686,30 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 210 Courses, 0 Unarticulated
-  As 3rd: 134 Courses, 0 Unarticulated
+  As 1st: 448 Courses, 0 Unarticulated
+  As 2nd: 252 Courses, 0 Unarticulated
+  As 3rd: 170 Courses, 0 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 98 Courses, 56 Unarticulated
-  As 3rd: 86 Courses, 56 Unarticulated
+  As 2nd: 91 Courses, 56 Unarticulated
+  As 3rd: 76 Courses, 56 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 2nd: 140 Courses, 0 Unarticulated
+  As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Antelope_Valley_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 504 Courses, 0 Unarticulated
-  As 2nd: 273 Courses, 0 Unarticulated
-  As 3rd: 172 Courses, 0 Unarticulated
+  As 1st: 560 Courses, 0 Unarticulated
+  As 2nd: 357 Courses, 0 Unarticulated
+  As 3rd: 272 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 182 Courses, 0 Unarticulated
-  As 3rd: 94 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 154 Courses, 56 Unarticulated
+  As 3rd: 82 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1662,9 +1717,9 @@ UCSC:
   As 3rd: 92 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 56 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -1677,46 +1732,45 @@ UCI:
   As 3rd: 56 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 196 Courses, 0 Unarticulated
-  As 3rd: 116 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 168 Courses, 112 Unarticulated
+  As 3rd: 104 Courses, 112 Unarticulated
 
 UCR:
-  As 1st: 56 Courses, 56 Unarticulated
-  As 2nd: 28 Courses, 56 Unarticulated
-  As 3rd: 12 Courses, 56 Unarticulated
+  As 1st: 0 Courses, 168 Unarticulated
+  As 2nd: 0 Courses, 168 Unarticulated
+  As 3rd: 0 Courses, 168 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
   As 2nd: 147 Courses, 0 Unarticulated
   As 3rd: 74 Courses, 0 Unarticulated
 
---- Processing Victor_Valley_Community_College_District.csv ---
-
+--- Processing West_Valley-Mission_Community_College_District.csv ---
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 91 Courses, 0 Unarticulated
-  As 3rd: 30 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 217 Courses, 0 Unarticulated
+  As 3rd: 150 Courses, 0 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 224 Courses, 0 Unarticulated
-  As 3rd: 160 Courses, 0 Unarticulated
+  As 2nd: 182 Courses, 0 Unarticulated
+  As 3rd: 92 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 48 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 140 Courses, 0 Unarticulated
+  As 3rd: 96 Courses, 0 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 2nd: 147 Courses, 0 Unarticulated
+  As 3rd: 72 Courses, 0 Unarticulated
 
 UCB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 112 Courses, 0 Unarticulated
+  As 3rd: 52 Courses, 0 Unarticulated
 
 UCI:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1724,9 +1778,55 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
+  As 1st: 560 Courses, 0 Unarticulated
+  As 2nd: 399 Courses, 0 Unarticulated
+  As 3rd: 340 Courses, 0 Unarticulated
+
+UCR:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 40 Courses, 56 Unarticulated
+
+UCM:
   As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 154 Courses, 0 Unarticulated
-  As 3rd: 90 Courses, 0 Unarticulated
+  As 2nd: 161 Courses, 0 Unarticulated
+  As 3rd: 94 Courses, 0 Unarticulated
+
+--- Processing Victor_Valley_Community_College_District.csv ---
+UCSD:
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 126 Courses, 112 Unarticulated
+  As 3rd: 80 Courses, 112 Unarticulated
+
+UCSB:
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 224 Courses, 0 Unarticulated
+  As 3rd: 160 Courses, 0 Unarticulated
+
+UCSC:
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 63 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
+
+UCLA:
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
+
+UCB:
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
+
+UCI:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
+
+UCD:
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 133 Courses, 168 Unarticulated
+  As 3rd: 84 Courses, 168 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1734,12 +1834,11 @@ UCR:
   As 3rd: 72 Courses, 56 Unarticulated
 
 UCM:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 --- Processing Pasadena_Area_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 217 Courses, 0 Unarticulated
@@ -1771,9 +1870,9 @@ UCI:
   As 3rd: 168 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 273 Courses, 0 Unarticulated
-  As 3rd: 202 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 217 Courses, 56 Unarticulated
+  As 3rd: 146 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1786,7 +1885,6 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing MiraCosta_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 196 Courses, 0 Unarticulated
@@ -1833,7 +1931,6 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Contra_Costa_Community_College_District.csv ---
-
 UCSD:
   As 1st: 504 Courses, 0 Unarticulated
   As 2nd: 336 Courses, 0 Unarticulated
@@ -1880,11 +1977,10 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing Allan_Hancock_Joint_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 175 Courses, 0 Unarticulated
-  As 3rd: 86 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 133 Courses, 56 Unarticulated
+  As 3rd: 56 Courses, 56 Unarticulated
 
 UCSB:
   As 1st: 336 Courses, 0 Unarticulated
@@ -1897,9 +1993,9 @@ UCSC:
   As 3rd: 74 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 112 Courses, 0 Unarticulated
-  As 3rd: 54 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 24 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 224 Courses, 0 Unarticulated
@@ -1912,9 +2008,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 168 Courses, 0 Unarticulated
-  As 3rd: 104 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 126 Courses, 168 Unarticulated
+  As 3rd: 74 Courses, 168 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -1927,7 +2023,6 @@ UCM:
   As 3rd: 36 Courses, 0 Unarticulated
 
 --- Processing Ventura_County_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 210 Courses, 0 Unarticulated
@@ -1964,9 +2059,9 @@ UCD:
   As 3rd: 232 Courses, 0 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 105 Courses, 56 Unarticulated
-  As 3rd: 98 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 49 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -1974,7 +2069,6 @@ UCM:
   As 3rd: 72 Courses, 0 Unarticulated
 
 --- Processing North_Orange_County_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 203 Courses, 0 Unarticulated
@@ -2021,7 +2115,6 @@ UCM:
   As 3rd: 44 Courses, 0 Unarticulated
 
 --- Processing State_Center_Community_College_District.csv ---
-
 UCSD:
   As 1st: 336 Courses, 0 Unarticulated
   As 2nd: 182 Courses, 0 Unarticulated
@@ -2068,7 +2161,6 @@ UCM:
   As 3rd: 48 Courses, 0 Unarticulated
 
 --- Processing Chabot-Las_Positas_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 189 Courses, 0 Unarticulated
@@ -2115,16 +2207,15 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Sonoma_County_Junior_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 154 Courses, 56 Unarticulated
+  As 3rd: 86 Courses, 56 Unarticulated
 
 UCSB:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 231 Courses, 0 Unarticulated
-  As 3rd: 140 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 196 Courses, 56 Unarticulated
+  As 3rd: 120 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2132,9 +2223,9 @@ UCSC:
   As 3rd: 74 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2147,9 +2238,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 245 Courses, 0 Unarticulated
-  As 3rd: 162 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 203 Courses, 56 Unarticulated
+  As 3rd: 128 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2162,21 +2253,20 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Citrus_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 98 Courses, 0 Unarticulated
-  As 3rd: 36 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 168 Unarticulated
+  As 3rd: 24 Courses, 168 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 104 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 161 Courses, 56 Unarticulated
+  As 3rd: 92 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 84 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 72 Courses, 56 Unarticulated
 
 UCLA:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2194,9 +2284,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 152 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 189 Courses, 112 Unarticulated
+  As 3rd: 140 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2204,31 +2294,30 @@ UCR:
   As 3rd: 86 Courses, 56 Unarticulated
 
 UCM:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 56 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 --- Processing Lake_Tahoe_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 189 Courses, 0 Unarticulated
-  As 3rd: 106 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 161 Courses, 56 Unarticulated
+  As 3rd: 94 Courses, 56 Unarticulated
 
 UCSB:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 77 Courses, 168 Unarticulated
+  As 3rd: 32 Courses, 168 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 112 Unarticulated
+  As 2nd: 77 Courses, 112 Unarticulated
+  As 3rd: 32 Courses, 112 Unarticulated
 
 UCLA:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 168 Courses, 0 Unarticulated
-  As 3rd: 76 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 140 Courses, 56 Unarticulated
+  As 3rd: 64 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2241,9 +2330,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 70 Courses, 0 Unarticulated
-  As 3rd: 24 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 280 Unarticulated
+  As 2nd: 42 Courses, 280 Unarticulated
+  As 3rd: 12 Courses, 280 Unarticulated
 
 UCR:
   As 1st: 168 Courses, 56 Unarticulated
@@ -2256,11 +2345,10 @@ UCM:
   As 3rd: 84 Courses, 0 Unarticulated
 
 --- Processing Sierra_Joint_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 130 Courses, 0 Unarticulated
+  As 2nd: 182 Courses, 0 Unarticulated
+  As 3rd: 94 Courses, 0 Unarticulated
 
 UCSB:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2289,30 +2377,29 @@ UCI:
 
 UCD:
   As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 259 Courses, 0 Unarticulated
-  As 3rd: 176 Courses, 0 Unarticulated
+  As 2nd: 252 Courses, 0 Unarticulated
+  As 3rd: 166 Courses, 0 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 98 Courses, 56 Unarticulated
-  As 3rd: 86 Courses, 56 Unarticulated
+  As 2nd: 91 Courses, 56 Unarticulated
+  As 3rd: 76 Courses, 56 Unarticulated
 
 UCM:
   As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 112 Courses, 0 Unarticulated
-  As 3rd: 54 Courses, 0 Unarticulated
+  As 2nd: 105 Courses, 0 Unarticulated
+  As 3rd: 44 Courses, 0 Unarticulated
 
 --- Processing Southwestern_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 182 Courses, 0 Unarticulated
-  As 3rd: 94 Courses, 0 Unarticulated
+  As 2nd: 203 Courses, 0 Unarticulated
+  As 3rd: 130 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 182 Courses, 0 Unarticulated
-  As 3rd: 92 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 147 Courses, 56 Unarticulated
+  As 3rd: 72 Courses, 56 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2335,14 +2422,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 196 Courses, 0 Unarticulated
-  As 3rd: 114 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 161 Courses, 112 Unarticulated
+  As 3rd: 94 Courses, 112 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 70 Courses, 56 Unarticulated
-  As 3rd: 40 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 35 Courses, 112 Unarticulated
+  As 3rd: 20 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2350,11 +2437,10 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing El_Camino_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 182 Courses, 0 Unarticulated
-  As 3rd: 98 Courses, 0 Unarticulated
+  As 2nd: 189 Courses, 0 Unarticulated
+  As 3rd: 112 Courses, 0 Unarticulated
 
 UCSB:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2382,9 +2468,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 238 Courses, 0 Unarticulated
-  As 3rd: 148 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 189 Courses, 56 Unarticulated
+  As 3rd: 106 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2396,27 +2482,26 @@ UCM:
   As 2nd: 98 Courses, 0 Unarticulated
   As 3rd: 36 Courses, 0 Unarticulated
 
---- Processing Sequoias_Community_College_District.csv ---
-
+--- Processing Yosemite_Community_College_District.csv ---
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 147 Courses, 56 Unarticulated
+  As 3rd: 78 Courses, 56 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 156 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 119 Courses, 112 Unarticulated
+  As 3rd: 62 Courses, 112 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 77 Courses, 0 Unarticulated
-  As 3rd: 32 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 133 Courses, 0 Unarticulated
+  As 3rd: 84 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 210 Courses, 0 Unarticulated
+  As 3rd: 142 Courses, 0 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2429,9 +2514,55 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 210 Courses, 56 Unarticulated
+  As 3rd: 138 Courses, 56 Unarticulated
+
+UCR:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 77 Courses, 56 Unarticulated
+  As 3rd: 54 Courses, 56 Unarticulated
+
+UCM:
+  As 1st: 336 Courses, 0 Unarticulated
+  As 2nd: 133 Courses, 0 Unarticulated
+  As 3rd: 56 Courses, 0 Unarticulated
+
+--- Processing Sequoias_Community_College_District.csv ---
+UCSD:
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 161 Unarticulated
+  As 3rd: 24 Courses, 154 Unarticulated
+
+UCSB:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 210 Courses, 0 Unarticulated
-  As 3rd: 142 Courses, 0 Unarticulated
+  As 2nd: 217 Courses, 0 Unarticulated
+  As 3rd: 156 Courses, 0 Unarticulated
+
+UCSC:
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 105 Unarticulated
+  As 3rd: 12 Courses, 98 Unarticulated
+
+UCLA:
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
+
+UCB:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 105 Courses, 0 Unarticulated
+  As 3rd: 44 Courses, 0 Unarticulated
+
+UCI:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
+
+UCD:
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 175 Courses, 112 Unarticulated
+  As 3rd: 122 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2444,11 +2575,10 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Butte-Glenn_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 105 Courses, 0 Unarticulated
-  As 3rd: 44 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 168 Unarticulated
+  As 3rd: 24 Courses, 168 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -2456,14 +2586,14 @@ UCSB:
   As 3rd: 128 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 91 Courses, 56 Unarticulated
+  As 3rd: 54 Courses, 56 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2476,9 +2606,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 203 Courses, 0 Unarticulated
-  As 3rd: 128 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 112 Unarticulated
+  As 2nd: 168 Courses, 112 Unarticulated
+  As 3rd: 108 Courses, 112 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2491,11 +2621,10 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing San_Bernardino_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 100 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -2538,7 +2667,6 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Foothill-De_Anza_Community_College_District.csv ---
-
 UCSD:
   As 1st: 448 Courses, 0 Unarticulated
   As 2nd: 224 Courses, 0 Unarticulated
@@ -2585,11 +2713,10 @@ UCM:
   As 3rd: 78 Courses, 0 Unarticulated
 
 --- Processing Copper_Mountain_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -2597,14 +2724,14 @@ UCSB:
   As 3rd: 102 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 133 Courses, 0 Unarticulated
-  As 3rd: 82 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 98 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2617,9 +2744,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 238 Courses, 0 Unarticulated
-  As 3rd: 144 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 203 Courses, 56 Unarticulated
+  As 3rd: 124 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2632,16 +2759,15 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Grossmont-Cuyamaca_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 217 Courses, 0 Unarticulated
-  As 3rd: 152 Courses, 0 Unarticulated
+  As 2nd: 210 Courses, 0 Unarticulated
+  As 3rd: 140 Courses, 0 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 210 Courses, 0 Unarticulated
-  As 3rd: 142 Courses, 0 Unarticulated
+  As 2nd: 203 Courses, 0 Unarticulated
+  As 3rd: 130 Courses, 0 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2664,14 +2790,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 266 Courses, 0 Unarticulated
-  As 3rd: 194 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 217 Courses, 56 Unarticulated
+  As 3rd: 152 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 77 Courses, 56 Unarticulated
-  As 3rd: 54 Courses, 56 Unarticulated
+  As 2nd: 70 Courses, 56 Unarticulated
+  As 3rd: 42 Courses, 56 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2679,26 +2805,25 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Barstow_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 182 Courses, 0 Unarticulated
-  As 3rd: 94 Courses, 0 Unarticulated
+  As 2nd: 203 Courses, 0 Unarticulated
+  As 3rd: 124 Courses, 0 Unarticulated
 
 UCSB:
-  As 1st: 392 Courses, 0 Unarticulated
-  As 2nd: 196 Courses, 0 Unarticulated
-  As 3rd: 112 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 168 Courses, 56 Unarticulated
+  As 3rd: 100 Courses, 56 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 42 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 112 Unarticulated
+  As 2nd: 56 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCLA:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 70 Courses, 0 Unarticulated
-  As 3rd: 24 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 168 Unarticulated
+  As 2nd: 42 Courses, 168 Unarticulated
+  As 3rd: 12 Courses, 168 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2711,14 +2836,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 70 Courses, 0 Unarticulated
-  As 3rd: 24 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 280 Unarticulated
+  As 2nd: 42 Courses, 280 Unarticulated
+  As 3rd: 12 Courses, 280 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 91 Courses, 56 Unarticulated
-  As 3rd: 76 Courses, 56 Unarticulated
+  As 2nd: 84 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -2726,7 +2851,6 @@ UCM:
   As 3rd: 82 Courses, 0 Unarticulated
 
 --- Processing Los_Rios_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 189 Courses, 0 Unarticulated
@@ -2773,7 +2897,6 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Mt._San_Jacinto_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 196 Courses, 0 Unarticulated
@@ -2820,11 +2943,10 @@ UCM:
   As 3rd: 44 Courses, 0 Unarticulated
 
 --- Processing Rancho_Santiago_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 70 Courses, 0 Unarticulated
+  As 1st: 336 Courses, 56 Unarticulated
+  As 2nd: 182 Courses, 49 Unarticulated
+  As 3rd: 124 Courses, 42 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -2832,9 +2954,9 @@ UCSB:
   As 3rd: 230 Courses, 0 Unarticulated
 
 UCSC:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 91 Courses, 0 Unarticulated
-  As 3rd: 50 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 56 Unarticulated
+  As 2nd: 98 Courses, 49 Unarticulated
+  As 3rd: 62 Courses, 42 Unarticulated
 
 UCLA:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2847,14 +2969,14 @@ UCB:
   As 3rd: 40 Courses, 0 Unarticulated
 
 UCI:
-  As 1st: 280 Courses, 56 Unarticulated
-  As 2nd: 182 Courses, 56 Unarticulated
-  As 3rd: 168 Courses, 56 Unarticulated
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 168 Courses, 0 Unarticulated
-  As 3rd: 142 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 119 Courses, 168 Unarticulated
+  As 3rd: 98 Courses, 168 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -2867,7 +2989,6 @@ UCM:
   As 3rd: 60 Courses, 0 Unarticulated
 
 --- Processing Palomar_Community_College_District.csv ---
-
 UCSD:
   As 1st: 392 Courses, 0 Unarticulated
   As 2nd: 189 Courses, 0 Unarticulated
@@ -2914,26 +3035,25 @@ UCM:
   As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing West_Hills_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 84 Courses, 0 Unarticulated
-  As 3rd: 26 Courses, 0 Unarticulated
+  As 1st: 224 Courses, 168 Unarticulated
+  As 2nd: 70 Courses, 161 Unarticulated
+  As 3rd: 24 Courses, 154 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 76 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 126 Courses, 112 Unarticulated
+  As 3rd: 74 Courses, 112 Unarticulated
 
 UCSC:
-  As 1st: 168 Courses, 0 Unarticulated
-  As 2nd: 28 Courses, 0 Unarticulated
-  As 3rd: 2 Courses, 0 Unarticulated
+  As 1st: 112 Courses, 168 Unarticulated
+  As 2nd: 14 Courses, 161 Unarticulated
+  As 3rd: 0 Courses, 154 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 46 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2946,26 +3066,71 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 224 Courses, 0 Unarticulated
-  As 2nd: 56 Courses, 0 Unarticulated
-  As 3rd: 14 Courses, 0 Unarticulated
+  As 1st: 168 Courses, 280 Unarticulated
+  As 2nd: 42 Courses, 280 Unarticulated
+  As 3rd: 12 Courses, 280 Unarticulated
+
+UCR:
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 49 Courses, 112 Unarticulated
+  As 3rd: 42 Courses, 112 Unarticulated
+
+UCM:
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
+
+--- Processing Ohlone_Community_College_District.csv ---
+UCSD:
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 189 Courses, 0 Unarticulated
+  As 3rd: 112 Courses, 0 Unarticulated
+
+UCSB:
+  As 1st: 392 Courses, 0 Unarticulated
+  As 2nd: 175 Courses, 0 Unarticulated
+  As 3rd: 84 Courses, 0 Unarticulated
+
+UCSC:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 126 Courses, 0 Unarticulated
+  As 3rd: 74 Courses, 0 Unarticulated
+
+UCLA:
+  As 1st: 336 Courses, 0 Unarticulated
+  As 2nd: 140 Courses, 0 Unarticulated
+  As 3rd: 64 Courses, 0 Unarticulated
+
+UCB:
+  As 1st: 280 Courses, 0 Unarticulated
+  As 2nd: 105 Courses, 0 Unarticulated
+  As 3rd: 44 Courses, 0 Unarticulated
+
+UCI:
+  As 1st: 112 Courses, 56 Unarticulated
+  As 2nd: 14 Courses, 56 Unarticulated
+  As 3rd: 0 Courses, 56 Unarticulated
+
+UCD:
+  As 1st: 448 Courses, 0 Unarticulated
+  As 2nd: 238 Courses, 0 Unarticulated
+  As 3rd: 148 Courses, 0 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 63 Courses, 56 Unarticulated
-  As 3rd: 44 Courses, 56 Unarticulated
+  As 2nd: 84 Courses, 56 Unarticulated
+  As 3rd: 62 Courses, 56 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 119 Courses, 0 Unarticulated
-  As 3rd: 46 Courses, 0 Unarticulated
+  As 2nd: 133 Courses, 0 Unarticulated
+  As 3rd: 56 Courses, 0 Unarticulated
 
 --- Processing Gavilan_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -2978,9 +3143,9 @@ UCSC:
   As 3rd: 124 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -2993,9 +3158,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 504 Courses, 0 Unarticulated
-  As 2nd: 322 Courses, 0 Unarticulated
-  As 3rd: 244 Courses, 0 Unarticulated
+  As 1st: 448 Courses, 56 Unarticulated
+  As 2nd: 280 Courses, 56 Unarticulated
+  As 3rd: 214 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -3008,11 +3173,10 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Hartnell_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 100 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 126 Courses, 112 Unarticulated
+  As 3rd: 80 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -3025,9 +3189,9 @@ UCSC:
   As 3rd: 172 Courses, 0 Unarticulated
 
 UCLA:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 140 Courses, 0 Unarticulated
-  As 3rd: 64 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 56 Unarticulated
+  As 2nd: 105 Courses, 56 Unarticulated
+  As 3rd: 44 Courses, 56 Unarticulated
 
 UCB:
   As 1st: 280 Courses, 0 Unarticulated
@@ -3040,14 +3204,14 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 92 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 168 Unarticulated
+  As 2nd: 126 Courses, 168 Unarticulated
+  As 3rd: 72 Courses, 168 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 77 Courses, 56 Unarticulated
-  As 3rd: 50 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -3055,16 +3219,15 @@ UCM:
   As 3rd: 74 Courses, 0 Unarticulated
 
 --- Processing Solano_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 147 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 105 Courses, 112 Unarticulated
+  As 3rd: 44 Courses, 112 Unarticulated
 
 UCSB:
-  As 1st: 336 Courses, 0 Unarticulated
-  As 2nd: 161 Courses, 0 Unarticulated
-  As 3rd: 92 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 119 Courses, 112 Unarticulated
+  As 3rd: 62 Courses, 112 Unarticulated
 
 UCSC:
   As 1st: 280 Courses, 0 Unarticulated
@@ -3092,9 +3255,9 @@ UCD:
   As 3rd: 134 Courses, 0 Unarticulated
 
 UCR:
-  As 1st: 112 Courses, 56 Unarticulated
-  As 2nd: 84 Courses, 56 Unarticulated
-  As 3rd: 60 Courses, 56 Unarticulated
+  As 1st: 56 Courses, 112 Unarticulated
+  As 2nd: 42 Courses, 112 Unarticulated
+  As 3rd: 30 Courses, 112 Unarticulated
 
 UCM:
   As 1st: 336 Courses, 0 Unarticulated
@@ -3102,11 +3265,10 @@ UCM:
   As 3rd: 64 Courses, 0 Unarticulated
 
 --- Processing Yuba_Community_College_District.csv ---
-
 UCSD:
-  As 1st: 280 Courses, 0 Unarticulated
-  As 2nd: 126 Courses, 0 Unarticulated
-  As 3rd: 74 Courses, 0 Unarticulated
+  As 1st: 280 Courses, 112 Unarticulated
+  As 2nd: 133 Courses, 112 Unarticulated
+  As 3rd: 88 Courses, 112 Unarticulated
 
 UCSB:
   As 1st: 392 Courses, 0 Unarticulated
@@ -3134,9 +3296,9 @@ UCI:
   As 3rd: 0 Courses, 56 Unarticulated
 
 UCD:
-  As 1st: 448 Courses, 0 Unarticulated
-  As 2nd: 266 Courses, 0 Unarticulated
-  As 3rd: 188 Courses, 0 Unarticulated
+  As 1st: 392 Courses, 56 Unarticulated
+  As 2nd: 217 Courses, 56 Unarticulated
+  As 3rd: 146 Courses, 56 Unarticulated
 
 UCR:
   As 1st: 112 Courses, 56 Unarticulated
@@ -3148,98 +3310,49 @@ UCM:
   As 2nd: 119 Courses, 0 Unarticulated
   As 3rd: 62 Courses, 0 Unarticulated
 
-=== FINAL TOTAL ACROSS ALL FILES ===
-
+--- GRAND TOTALS ACROSS ALL FILES ---
 UCSD:
-  As 1st: 23576 Courses, 0 Unarticulated
-  As 2nd: 11137 Courses, 0 Unarticulated
-  As 3rd: 6482 Courses, 0 Unarticulated
+  As 1st: 23856 Courses, 4928 Unarticulated
+  As 2nd: 11417 Courses, 4844 Unarticulated
+  As 3rd: 6876 Courses, 4760 Unarticulated
 
 UCSB:
-  As 1st: 25200 Courses, 0 Unarticulated
-  As 2nd: 12733 Courses, 0 Unarticulated
-  As 3rd: 7726 Courses, 0 Unarticulated
+  As 1st: 25760 Courses, 2632 Unarticulated
+  As 2nd: 13041 Courses, 2632 Unarticulated
+  As 3rd: 7956 Courses, 2632 Unarticulated
 
 UCSC:
-  As 1st: 17696 Courses, 0 Unarticulated
-  As 2nd: 8288 Courses, 0 Unarticulated
-  As 3rd: 5262 Courses, 0 Unarticulated
+  As 1st: 17696 Courses, 2856 Unarticulated
+  As 2nd: 8337 Courses, 2772 Unarticulated
+  As 3rd: 5424 Courses, 2688 Unarticulated
 
 UCLA:
-  As 1st: 21616 Courses, 0 Unarticulated
-  As 2nd: 9338 Courses, 0 Unarticulated
-  As 3rd: 4752 Courses, 0 Unarticulated
+  As 1st: 21896 Courses, 2352 Unarticulated
+  As 2nd: 9464 Courses, 2352 Unarticulated
+  As 3rd: 4866 Courses, 2352 Unarticulated
 
 UCB:
-  As 1st: 17864 Courses, 0 Unarticulated
-  As 2nd: 6762 Courses, 0 Unarticulated
-  As 3rd: 2938 Courses, 0 Unarticulated
+  As 1st: 18984 Courses, 448 Unarticulated
+  As 2nd: 7266 Courses, 448 Unarticulated
+  As 3rd: 3200 Courses, 448 Unarticulated
 
 UCI:
-  As 1st: 8120 Courses, 3752 Unarticulated
-  As 2nd: 1771 Courses, 3752 Unarticulated
-  As 3rd: 806 Courses, 3752 Unarticulated
+  As 1st: 8456 Courses, 4144 Unarticulated
+  As 2nd: 1673 Courses, 4144 Unarticulated
+  As 3rd: 638 Courses, 4144 Unarticulated
 
 UCD:
-  As 1st: 25984 Courses, 0 Unarticulated
-  As 2nd: 14056 Courses, 0 Unarticulated
-  As 3rd: 9360 Courses, 0 Unarticulated
+  As 1st: 25704 Courses, 6384 Unarticulated
+  As 2nd: 13804 Courses, 6384 Unarticulated
+  As 3rd: 9234 Courses, 6384 Unarticulated
 
 UCR:
-  As 1st: 7392 Courses, 3752 Unarticulated
-  As 2nd: 5460 Courses, 3752 Unarticulated
-  As 3rd: 4194 Courses, 3752 Unarticulated
+  As 1st: 7112 Courses, 5152 Unarticulated
+  As 2nd: 5502 Courses, 5152 Unarticulated
+  As 3rd: 4280 Courses, 5152 Unarticulated
 
 UCM:
-  As 1st: 21392 Courses, 0 Unarticulated
-  As 2nd: 8841 Courses, 0 Unarticulated
-  As 3rd: 4138 Courses, 0 Unarticulated
+  As 1st: 22512 Courses, 840 Unarticulated
+  As 2nd: 9450 Courses, 840 Unarticulated
+  As 3rd: 4522 Courses, 840 Unarticulated
 
-=== AVERAGE PER FILE ===
-
-UCSD:
-  As 1st: 351.88 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 166.22 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 96.75 Avg Courses, 0.0 Avg Unarticulated
-
-UCSB:
-  As 1st: 376.12 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 190.04 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 115.31 Avg Courses, 0.0 Avg Unarticulated
-
-UCSC:
-  As 1st: 264.12 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 123.7 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 78.54 Avg Courses, 0.0 Avg Unarticulated
-
-UCLA:
-  As 1st: 322.63 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 139.37 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 70.93 Avg Courses, 0.0 Avg Unarticulated
-
-UCB:
-  As 1st: 266.63 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 100.93 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 43.85 Avg Courses, 0.0 Avg Unarticulated
-
-UCI:
-  As 1st: 121.19 Avg Courses, 56.0 Avg Unarticulated
-  As 2nd: 26.43 Avg Courses, 56.0 Avg Unarticulated
-  As 3rd: 12.03 Avg Courses, 56.0 Avg Unarticulated
-
-UCD:
-  As 1st: 387.82 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 209.79 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 139.7 Avg Courses, 0.0 Avg Unarticulated
-
-UCR:
-  As 1st: 110.33 Avg Courses, 56.0 Avg Unarticulated
-  As 2nd: 81.49 Avg Courses, 56.0 Avg Unarticulated
-  As 3rd: 62.6 Avg Courses, 56.0 Avg Unarticulated
-
-UCM:
-  As 1st: 319.28 Avg Courses, 0.0 Avg Unarticulated
-  As 2nd: 131.96 Avg Courses, 0.0 Avg Unarticulated
-  As 3rd: 61.76 Avg Courses, 0.0 Avg Unarticulated
-
-✅ CSV with UC totals by role saved to: /Users/yasminkabir/assist_web_scraping/district_csvs/combination_totals_by_role.csv
