@@ -227,14 +227,14 @@ def create_group_frequency_graph(data):
         },
         'intro_programming': {
             'color': '#4ECDC4',  # Teal
-            'patterns': ['intro', 'comp']
+            'patterns': ['intro', 'comp', 'problem']
         },
         'data_structures': {
             'color': '#9B59B6',  # Purple
             'patterns': ['data', 'struct', 'algorithm']
         },
         'math_advanced': {
-            'color': '#2E7657',  # Sea Green
+            'color': '#2E8B57',  # Sea Green (darker)
             'patterns': ['linear', 'differential']
         },
         'computer_systems': {
@@ -262,10 +262,33 @@ def create_group_frequency_graph(data):
         if not assigned:
             ungrouped.append(group)
     
-    # Prepare data for stacked bar plot
-    bottom = np.zeros(len(uc_names))
+    # Calculate total counts and percentages for each category
+    category_totals = {}
+    total_unarticulated = 0
+    
+    for category, groups in color_grouped_courses.items():
+        if not groups:
+            continue
+        category_total = 0
+        for group in groups:
+            for uc in uc_names:
+                count = uc_group_counts[uc].get(group, 0)
+                category_total += count
+        category_totals[category] = category_total
+        total_unarticulated += category_total
+    
+    # Add ungrouped total
+    ungrouped_total = sum(
+        uc_group_counts[uc].get(group, 0)
+        for group in ungrouped
+        for uc in uc_names
+    )
+    if ungrouped_total > 0:
+        category_totals['Other'] = ungrouped_total
+        total_unarticulated += ungrouped_total
     
     # Plot each category's groups together
+    bottom = np.zeros(len(uc_names))
     for category, groups in color_grouped_courses.items():
         if not groups:  # Skip empty categories
             continue
@@ -280,29 +303,40 @@ def create_group_frequency_graph(data):
                 heights.append(count)
             category_total += heights
         
+        # Calculate percentage for legend label
+        percentage = (category_totals[category] / total_unarticulated) * 100
+        label = f"{category.replace('_', ' ').title()} ({percentage:.1f}%)"
+        
         # Plot the combined category
         plt.bar(uc_names, category_total, bottom=bottom, 
-               label=category.replace('_', ' ').title(), color=color)
+               label=label, color=color)
         bottom += category_total
     
     # Plot ungrouped courses last as a single category
     if ungrouped:
-        ungrouped_total = np.zeros(len(uc_names))
+        ungrouped_total_heights = np.zeros(len(uc_names))
         for group in sorted(ungrouped):
             heights = []
             for uc in uc_names:
                 count = uc_group_counts[uc].get(group, 0)
                 heights.append(count)
-            ungrouped_total += heights
+            ungrouped_total_heights += heights
         
-        plt.bar(uc_names, ungrouped_total, bottom=bottom, 
-               label='Other Courses', color='#CCCCCC')
+        percentage = (category_totals['Other'] / total_unarticulated) * 100
+        plt.bar(uc_names, ungrouped_total_heights, bottom=bottom, 
+               label=f"Other Courses ({percentage:.1f}%)", color='#CCCCCC')
     
-    plt.title('Frequency of Unarticulated Course Groups by UC Campus')
+    # Add total counts on top of each bar
+    total_heights = bottom  # bottom now contains cumulative heights
+    for i, uc in enumerate(uc_names):
+        plt.text(i, total_heights[i], f'Total: {int(total_heights[i])}',
+                ha='center', va='bottom')
+    
+    plt.title('Distribution of Unarticulated Course Groups by UC Campus')
     plt.xlabel('UC Campus')
     plt.ylabel('Number of Unarticulated Course Groups')
     plt.xticks(rotation=30, ha='right')
-    plt.legend(title='Course Categories', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.legend(title='Course Categories (% of Total)', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout()
     
     # Save to course_analysis directory
