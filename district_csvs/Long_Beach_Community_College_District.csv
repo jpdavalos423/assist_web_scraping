@@ -3,14 +3,14 @@ Long Beach City College,UCB,Calc1,A,1,MATH 1A,MATH 60,MATH 60H
 Long Beach City College,UCB,Calc2,A,1,MATH 1B,MATH 70,MATH 70H
 Long Beach City College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 84,
 Long Beach City College,UCB,MultivariableCalc,A,1,MATH 53,MATH 80,
-Not Articulated,UCD,Algorithms,A,1,ECS 036C,Not Articulated,
 Long Beach City College,UCD,Calc1,A,1,MAT 021A,MATH 60,MATH 60H
 Long Beach City College,UCD,Calc2,A,1,MAT 021B,MATH 70,MATH 70H
 Long Beach City College,UCD,Calc3,A,1,MAT 021C,MATH 80,
+Not Articulated,UCD,DataStructures,A,1,ECS 036C,Not Articulated,
 Long Beach City College,UCD,DiscreteMath,A,1,ECS 020,MATH 55,
-Long Beach City College,UCD,ObjectOriented,A,1,ECS 036B,CS 12,
+Long Beach City College,UCD,Intro1,A,1,ECS 036A,CS 11,CS 21
+Long Beach City College,UCD,Intro2,A,1,ECS 036B,CS 12,
 Long Beach City College,UCD,Organization,A,1,ECS 050,CS 51,
-Long Beach City College,UCD,ProblemSolving,A,1,ECS 036A,CS 11,CS 21
 Long Beach City College,UCI,Calc1,A,1,MATH 2A,MATH 60,MATH 60H
 Long Beach City College,UCI,Calc2,A,1,MATH 2B,MATH 70,MATH 70H
 Long Beach City College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,CS 11; CS 12,

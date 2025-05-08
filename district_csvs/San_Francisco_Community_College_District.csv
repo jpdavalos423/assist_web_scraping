@@ -3,14 +3,14 @@ City College of San Francisco,UCB,Calc1,A,1,MATH 1A,MATH 110A,
 City College of San Francisco,UCB,Calc2,A,1,MATH 1B,MATH 110B,
 City College of San Francisco,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 120; MATH 125,MATH 130
 City College of San Francisco,UCB,MultivariableCalc,A,1,MATH 53,MATH 110C,
-City College of San Francisco,UCD,Algorithms,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
 City College of San Francisco,UCD,Calc1,A,1,MAT 021A,MATH 110A,
 City College of San Francisco,UCD,Calc2,A,1,MAT 021B,MATH 110A; MATH 110B,
 City College of San Francisco,UCD,Calc3,A,1,MAT 021C,MATH 110B; MATH 110C,
+City College of San Francisco,UCD,DataStructures,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
 City College of San Francisco,UCD,DiscreteMath,A,1,ECS 020,MATH 115,
-City College of San Francisco,UCD,ObjectOriented,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
+City College of San Francisco,UCD,Intro1,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
+City College of San Francisco,UCD,Intro2,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
 City College of San Francisco,UCD,Organization,A,1,ECS 050,CS 270,
-City College of San Francisco,UCD,ProblemSolving,A,1,ECS 036A; ECS 036B; ECS 036C,CS 110B; CS 110C,CS 111B; CS 111C
 City College of San Francisco,UCI,Calc1,A,1,MATH 2A,MATH 100A,MATH 110A
 City College of San Francisco,UCI,Calc2,A,1,MATH 2B,MATH 100B,MATH 110B
 City College of San Francisco,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,CS 131B; CS 231,

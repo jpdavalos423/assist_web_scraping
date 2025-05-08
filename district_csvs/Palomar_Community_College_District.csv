@@ -3,14 +3,14 @@ Palomar College,UCB,Calc1,A,1,MATH 1A,MATH 140,MATH 140E
 Palomar College,UCB,Calc2,A,1,MATH 1B,MATH 141E; MATH 206,MATH 141
 Palomar College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 200; MATH 206,
 Palomar College,UCB,MultivariableCalc,A,1,MATH 53,MATH 205,
-Palomar College,UCD,Algorithms,A,1,ECS 036C,CSCI 210,
 Palomar College,UCD,Calc1,A,1,MAT 021A,MATH 140,MATH 140E
 Palomar College,UCD,Calc2,A,1,MAT 021B,MATH 141,MATH 141E
 Palomar College,UCD,Calc3,A,1,MAT 021C; MAT 021D,MATH 205,
+Palomar College,UCD,DataStructures,A,1,ECS 036C,CSCI 210,
 Palomar College,UCD,DiscreteMath,A,1,ECS 020,MATH 245,
-Palomar College,UCD,ObjectOriented,A,1,ECS 036B,CSCI 222,
+Palomar College,UCD,Intro1,A,1,ECS 036A,CSCI 112,CSCI 114
+Palomar College,UCD,Intro2,A,1,ECS 036B,CSCI 222,
 Palomar College,UCD,Organization,A,1,ECS 050,CSCI 212,
-Palomar College,UCD,ProblemSolving,A,1,ECS 036A,CSCI 112,CSCI 114
 Palomar College,UCI,Calc1,A,1,MATH 2A,MATH 140; MATH 140E,
 Palomar College,UCI,Calc2,A,1,MATH 2B,MATH 141; MATH 141E,
 Palomar College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,CSCI 114; CSCI 210,

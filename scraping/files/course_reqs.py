@@ -18,9 +18,9 @@ UC_REQUIREMENTS = {
         "Calc2": [["MAT 021B", "A", 1]],
         "Calc3": [["MAT 021C", "A", 1]],
         "DiscreteMath": [["ECS 020", "A", 1]],
-        "ProblemSolving": [["ECS 036A", "A", 1]],
-        "ObjectOriented": [["ECS 036B", "A", 1]],
-        "Algorithms": [["ECS 036C", "A", 1]],
+        "Intro1": [["ECS 036A", "A", 1]],
+        "Intro2": [["ECS 036B", "A", 1]],
+        "DataStructures": [["ECS 036C", "A", 1]],
         "Organization": [["ECS 050", "A", 1]],
     },
     "UCR": {

@@ -4,9 +4,9 @@ UCB,Calc2,A,1,MATH 1B,MATH 2,
 UCB,MultivariableCalc,A,1,MATH 53,MATH 3,
 UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 5; MATH 7,
 UCD,DiscreteMath,A,1,ECS 020,CS 17,MATH 10
-UCD,ProblemSolving,A,1,ECS 036A,CS 1,
-UCD,ObjectOriented,A,1,ECS 036B,CS 2,CS 31
-UCD,Algorithms,A,1,ECS 036C,CS 20,
+UCD,Intro1,A,1,ECS 036A,CS 1,
+UCD,Intro2,A,1,ECS 036B,CS 2,CS 31
+UCD,DataStructures,A,1,ECS 036C,CS 20,
 UCD,Organization,A,1,ECS 050,CS 21,
 UCD,Calc1,A,1,MAT 021A,MATH 1,
 UCD,Calc2,A,1,MAT 021B,MATH 2,

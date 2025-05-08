@@ -4,9 +4,9 @@ UCB,Calc2,A,1,MATH 1B,MATH G185,
 UCB,MultivariableCalc,A,1,MATH 53,MATH G280,
 UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH G285,
 UCD,DiscreteMath,A,1,ECS 020,CS G262,
-UCD,ProblemSolving,A,1,ECS 036A,CS G153,CS G175
-UCD,ObjectOriented,A,1,ECS 036B,CS G189,
-UCD,Algorithms,A,1,ECS 036C,Not Articulated,
+UCD,Intro1,A,1,ECS 036A,CS G153,CS G175
+UCD,Intro2,A,1,ECS 036B,CS G189,
+UCD,DataStructures,A,1,ECS 036C,Not Articulated,
 UCD,Organization,A,1,ECS 050,Not Articulated,
 UCD,Calc1,A,1,MAT 021A,MATH G180,
 UCD,Calc2,A,1,MAT 021B; MAT 021C; MAT 021D,MATH G185; MATH G280,

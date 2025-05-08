@@ -4,9 +4,9 @@ UCB,Calc2,A,1,MATH 1B,MATH 121
 UCB,MultivariableCalc,A,1,MATH 53,MATH 221
 UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 220; MATH 222
 UCD,DiscreteMath,A,1,ECS 020,Not Articulated
-UCD,ProblemSolving,A,1,ECS 036A,COMS 215
-UCD,ObjectOriented,A,1,ECS 036B,COMS 216
-UCD,Algorithms,A,1,ECS 036C,Not Articulated
+UCD,Intro1,A,1,ECS 036A,COMS 215
+UCD,Intro2,A,1,ECS 036B,COMS 216
+UCD,DataStructures,A,1,ECS 036C,Not Articulated
 UCD,Organization,A,1,ECS 050,Not Articulated
 UCD,Calc1,A,1,MAT 021A,MATH 120
 UCD,Calc2,A,1,MAT 021B,MATH 121

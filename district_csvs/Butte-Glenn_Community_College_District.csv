@@ -3,14 +3,14 @@ Butte College,UCB,Calc1,A,1,MATH 1A,MATH 30
 Butte College,UCB,Calc2,A,1,MATH 1B,MATH 31
 Butte College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 40; MATH 42
 Butte College,UCB,MultivariableCalc,A,1,MATH 53,MATH 32
-Not Articulated,UCD,Algorithms,A,1,ECS 036C,Not Articulated
 Butte College,UCD,Calc1,A,1,MAT 021A,MATH 30
 Butte College,UCD,Calc2,A,1,MAT 021B,MATH 30; MATH 31
 Butte College,UCD,Calc3,A,1,MAT 021C,MATH 31; MATH 32
+Not Articulated,UCD,DataStructures,A,1,ECS 036C,Not Articulated
 Butte College,UCD,DiscreteMath,A,1,ECS 020,CSCI 22
-Butte College,UCD,ObjectOriented,A,1,ECS 036B,CSCI 21
+Not Articulated,UCD,Intro1,A,1,ECS 036A,Not Articulated
+Butte College,UCD,Intro2,A,1,ECS 036B,CSCI 21
 Butte College,UCD,Organization,A,1,ECS 050,CSCI 10
-Not Articulated,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
 Butte College,UCI,Calc1,A,1,MATH 2A,MATH 30
 Butte College,UCI,Calc2,A,1,MATH 2B,MATH 31
 Not Articulated,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated

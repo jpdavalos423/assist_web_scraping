@@ -3,14 +3,14 @@ Solano Community College,UCB,Calc1,A,1,MATH 1A,MATH 020,
 Solano Community College,UCB,Calc2,A,1,MATH 1B,MATH 021; MATH 023,
 Solano Community College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 023; MATH 040,
 Solano Community College,UCB,MultivariableCalc,A,1,MATH 53,MATH 022,
-Solano Community College,UCD,Algorithms,A,1,ECS 036C,CIS 023,
 Solano Community College,UCD,Calc1,A,1,MAT 021A,MATH 020,
 Solano Community College,UCD,Calc2,A,1,MAT 021B,MATH 021,
 Solano Community College,UCD,Calc3,A,1,MAT 021C; MAT 021D,MATH 022,
+Solano Community College,UCD,DataStructures,A,1,ECS 036C,CIS 023,
 Solano Community College,UCD,DiscreteMath,A,1,ECS 020,CIS 021,
-Solano Community College,UCD,ObjectOriented,A,1,ECS 036B,CIS 023,
+Solano Community College,UCD,Intro1,A,1,ECS 036A,CIS 022,CIS 035
+Solano Community College,UCD,Intro2,A,1,ECS 036B,CIS 023,
 Solano Community College,UCD,Organization,A,1,ECS 050,CIS 020,
-Solano Community College,UCD,ProblemSolving,A,1,ECS 036A,CIS 022,CIS 035
 Solano Community College,UCI,Calc1,A,1,MATH 2A,MATH 020,MATH 030
 Solano Community College,UCI,Calc2,A,1,MATH 2B,MATH 021,MATH 031
 Not Articulated,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated,

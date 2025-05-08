@@ -3,14 +3,14 @@ Rio Hondo College,UCB,Calc1,A,1,MATH 1A,MATH 190,MATH 190H
 Rio Hondo College,UCB,Calc2,A,1,MATH 1B,MATH 191,
 Rio Hondo College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 260; MATH 270,
 Rio Hondo College,UCB,MultivariableCalc,A,1,MATH 53,MATH 250,
-Not Articulated,UCD,Algorithms,A,1,ECS 036C,Not Articulated,
 Rio Hondo College,UCD,Calc1,A,1,MAT 021A,MATH 190,MATH 190H
 Rio Hondo College,UCD,Calc2,A,1,MAT 021B,MATH 191,
 Rio Hondo College,UCD,Calc3,A,1,MAT 021C,MATH 250,
+Not Articulated,UCD,DataStructures,A,1,ECS 036C,Not Articulated,
 Not Articulated,UCD,DiscreteMath,A,1,ECS 020,Not Articulated,
-Rio Hondo College,UCD,ObjectOriented,A,1,ECS 036B,CIT 126,
+Rio Hondo College,UCD,Intro1,A,1,ECS 036A,CIT 125,CIT 135
+Rio Hondo College,UCD,Intro2,A,1,ECS 036B,CIT 126,
 Not Articulated,UCD,Organization,A,1,ECS 050,Not Articulated,
-Rio Hondo College,UCD,ProblemSolving,A,1,ECS 036A,CIT 125,CIT 135
 Rio Hondo College,UCI,Calc1,A,1,MATH 2A,MATH 190,MATH 190H
 Rio Hondo College,UCI,Calc2,A,1,MATH 2B,MATH 191,
 Rio Hondo College,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32,CIT 127; CIT 128,
