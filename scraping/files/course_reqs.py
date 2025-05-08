@@ -3,8 +3,8 @@ UC_REQUIREMENTS = {
         "Intro": [["CSE 8B", "A", 1], ["CSE 11", "B", 1]],
         "DataStructures": [["CSE 12", "A", 1]],
         "DiscreteMath": [["CSE 20", "A", 1]],
-        "Cal1": [["MATH 20A", "A", 1]],
-        "Cal2": [["MATH 20B", "A", 1]],
+        "Calc1": [["MATH 20A", "A", 1]],
+        "Calc2": [["MATH 20B", "A", 1]],
         "Calc3": [["MATH 20C", "A", 1]],
         "LinearAlgebra": [["MATH 18", "A", 1]],
     },
@@ -41,20 +41,20 @@ UC_REQUIREMENTS = {
     "UCB": {
         "Calc1": [["MATH 1A", "A", 1]],
         "Calc2": [["MATH 1B", "A", 1]],
-        "MultivariableCalc": [["MATH 53", "A", 1]],
+        "MultivariableCalc": [["MATH 53", "A", 1]], # Change to Calc3?
         "LinearAlgebraAndDifferentialEqations": [["MATH 54", "A", 1]],
     },
     "UCM": {
         "DataStructures": [["CSE 030", "A", 1]],
         "Calc1": [["MATH 021", "A", 1]],
         "Calc2": [["MATH 022", "A", 1]],
-        "VectorCalc": [["MATH 023", "A", 1]],
+        "VectorCalc": [["MATH 023", "A", 1]], # Change to Calc3?
         "LinearAlgebra": [["MATH 024", "A", 1]],
     },
     "UCSC": {
         "DataStructures": [["CSE 12", "A", 1]],
         "DiscreteMath": [["CSE 16", "A", 1]],
-        "Python": [["CSE 30", "A", 1]],
+        "Intro": [["CSE 30", "A", 1]],
         "Calc1": [["MATH 19A", "A", 1]],
         "Calc2": [["MATH 19B", "A", 1]],
     },
