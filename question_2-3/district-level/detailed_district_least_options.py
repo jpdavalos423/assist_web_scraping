@@ -237,8 +237,8 @@ def create_group_frequency_graph(data):
             'color': '#2E8B57',  # Sea Green (darker)
             'patterns': ['linear', 'differential']
         },
-        'computer_systems': {
-            'color': '#FFBE0B',  # Gold
+        'computer_organization': {
+            'color': '#3498DB',  # Blue
             'patterns': ['organ', 'system', 'computer']
         },
         'discrete_math': {
