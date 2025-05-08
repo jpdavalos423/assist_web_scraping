@@ -188,7 +188,7 @@ def create_heatmap(data):
 def create_group_frequency_graph(data):
     """
     Creates a segmented bar graph showing the frequency of each Group ID
-    across UC campuses.
+    across UC campuses with simplified color scheme for related courses.
     """
     plt.figure(figsize=(15, 8))
     
@@ -219,20 +219,76 @@ def create_group_frequency_graph(data):
         all_groups.update(counts.keys())
     all_groups = sorted(list(all_groups))
     
+    # Define color groups for related courses
+    color_groups = {
+        'calculus': {
+            'color': '#FF6B6B',  # Red
+            'patterns': ['calc', 'vector', 'multivar']
+        },
+        'intro_programming': {
+            'color': '#4ECDC4',  # Teal
+            'patterns': ['intro', 'comp', 'problem']
+        },
+        'data_structures': {
+            'color': '#9B59B6',  # Purple
+            'patterns': ['data', 'struct', 'algorithm']
+        },
+        'math_advanced': {
+            'color': '#2E8B57',  # Sea Green
+            'patterns': ['linear', 'differential']
+        },
+        'computer_systems': {
+            'color': '#FFBE0B',  # Gold
+            'patterns': ['organ', 'system', 'computer']
+        },
+        'discrete_math': {
+            'color': '#FF9F1C',  # Orange
+            'patterns': ['discrete']
+        },
+    }
+    
+    # Group courses by their color category
+    color_grouped_courses = {category: [] for category in color_groups.keys()}
+    ungrouped = []
+    
+    for group in all_groups:
+        group_lower = group.lower()
+        assigned = False
+        for category, info in color_groups.items():
+            if any(pattern in group_lower for pattern in info['patterns']):
+                color_grouped_courses[category].append(group)
+                assigned = True
+                break
+        if not assigned:
+            ungrouped.append(group)
+    
     # Prepare data for stacked bar plot
     bottom = np.zeros(len(uc_names))
     
-    # Create color map - Updated to use recommended approach
-    colors = plt.colormaps['tab20'](np.linspace(0, 1, len(all_groups)))
+    # Plot each category's groups together
+    for category, groups in color_grouped_courses.items():
+        if not groups:  # Skip empty categories
+            continue
+        color = color_groups[category]['color']
+        for group in sorted(groups):  # Sort groups within each category
+            heights = []
+            for uc in uc_names:
+                count = uc_group_counts[uc].get(group, 0)
+                heights.append(count)
+            
+            plt.bar(uc_names, heights, bottom=bottom, 
+                   label=group, color=color)
+            bottom += heights
     
-    # Plot each Group ID segment
-    for i, group in enumerate(all_groups):
+    # Plot ungrouped courses last
+    for group in sorted(ungrouped):
         heights = []
         for uc in uc_names:
             count = uc_group_counts[uc].get(group, 0)
             heights.append(count)
         
-        plt.bar(uc_names, heights, bottom=bottom, label=group, color=colors[i])
+        plt.bar(uc_names, heights, bottom=bottom, 
+               label=group, color='#CCCCCC')  # Default gray
         bottom += heights
     
     plt.title('Frequency of Unarticulated Course Groups by UC Campus')
