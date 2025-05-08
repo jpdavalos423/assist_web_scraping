@@ -185,6 +185,68 @@ def create_heatmap(data):
     plt.savefig(detailed_out, dpi=300, bbox_inches='tight')
     plt.close()
 
+def create_group_frequency_graph(data):
+    """
+    Creates a segmented bar graph showing the frequency of each Group ID
+    across UC campuses.
+    """
+    plt.figure(figsize=(15, 8))
+    
+    # Get unique UCs and Group IDs
+    uc_names = data['UC Name'].unique()
+    
+    # Count Group ID frequencies for each UC
+    uc_group_counts = {}
+    for uc in uc_names:
+        uc_data = data[data['UC Name'] == uc]
+        group_counts = {}
+        
+        for _, row in uc_data.iterrows():
+            if pd.notna(row['unarticulated_courses']):
+                groups = row['unarticulated_courses'].split('\n')
+                for group in groups:
+                    if ':' in group:
+                        group_id = group.split(':')[0].strip()
+                        if group_id not in group_counts:
+                            group_counts[group_id] = 0
+                        group_counts[group_id] += 1
+        
+        uc_group_counts[uc] = group_counts
+    
+    # Get all unique Group IDs
+    all_groups = set()
+    for counts in uc_group_counts.values():
+        all_groups.update(counts.keys())
+    all_groups = sorted(list(all_groups))
+    
+    # Prepare data for stacked bar plot
+    bottom = np.zeros(len(uc_names))
+    
+    # Create color map
+    colors = plt.cm.get_cmap('tab20')(np.linspace(0, 1, len(all_groups)))
+    
+    # Plot each Group ID segment
+    for i, group in enumerate(all_groups):
+        heights = []
+        for uc in uc_names:
+            count = uc_group_counts[uc].get(group, 0)
+            heights.append(count)
+        
+        plt.bar(uc_names, heights, bottom=bottom, label=group, color=colors[i])
+        bottom += heights
+    
+    plt.title('Frequency of Unarticulated Course Groups by UC Campus')
+    plt.xlabel('UC Campus')
+    plt.ylabel('Number of Districts with Unarticulated Courses')
+    plt.xticks(rotation=30, ha='right')
+    plt.legend(title='Group ID', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.tight_layout()
+    
+    # Save to course_analysis directory
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'group_frequency_analysis.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+
 def main():
     # Directory containing the district CSV files
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -195,6 +257,7 @@ def main():
     
     # Create visualizations
     create_heatmap(combined_data)
+    create_group_frequency_graph(combined_data)
     
     # Find district with fewest options
     # total_options = combined_data.groupby('District')['counts'].sum()
