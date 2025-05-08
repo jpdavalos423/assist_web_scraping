@@ -32,10 +32,10 @@ Rio Hondo College,UCR,Intro1,A,1,CS 10A,CIT 125,CIT 135
 Rio Hondo College,UCR,Intro2,A,1,CS 10B,CIT 126,
 Rio Hondo College,UCSB,Calc1,A,1,MATH 3A,MATH 190,MATH 190H
 Rio Hondo College,UCSB,Calc2,A,1,MATH 3B,MATH 191,
-Rio Hondo College,UCSB,Comp1,A,1,CMPSC 16,CIT 125,
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated,
-Rio Hondo College,UCSB,Comp3,A,1,CMPSC 40,CS 152,
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated,
 Rio Hondo College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 251,MATH 270
+Rio Hondo College,UCSB,DiscreteMath,A,1,CMPSC 40,CS 152,
+Rio Hondo College,UCSB,Intro,A,1,CMPSC 16,CIT 125,
 Rio Hondo College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 251,MATH 260
 Rio Hondo College,UCSC,Calc1,A,1,MATH 19A,MATH 190,
 Rio Hondo College,UCSC,Calc2,A,1,MATH 19B,MATH 191,

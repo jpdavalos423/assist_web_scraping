@@ -32,10 +32,10 @@ MiraCosta College,UCR,Intro1,A,1,CS 10A,CS 111,CS 138,CS 150
 MiraCosta College,UCR,Intro2,A,1,CS 10B,CS 112,CS 151,
 MiraCosta College,UCSB,Calc1,A,1,MATH 3A,MATH 150,MATH 150H,MATH 150S
 MiraCosta College,UCSB,Calc2,A,1,MATH 3B,MATH 155,MATH 155H,
-MiraCosta College,UCSB,Comp1,A,1,CMPSC 16,CS 150,,
-MiraCosta College,UCSB,Comp2,A,1,CMPSC 24,CS 113; CS 151,,
-MiraCosta College,UCSB,Comp3,A,1,CMPSC 40,CS 226,MATH 226,MATH 226H
+MiraCosta College,UCSB,DataStructures,A,1,CMPSC 24,CS 113; CS 151,,
 MiraCosta College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 265,MATH 265H,
+MiraCosta College,UCSB,DiscreteMath,A,1,CMPSC 40,CS 226,MATH 226,MATH 226H
+MiraCosta College,UCSB,Intro,A,1,CMPSC 16,CS 150,,
 MiraCosta College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 270,MATH 270H,
 MiraCosta College,UCSC,Calc1,A,1,MATH 19A,MATH 150,MATH 150H,
 MiraCosta College,UCSC,Calc2,A,1,MATH 19B,MATH 155,MATH 155H,

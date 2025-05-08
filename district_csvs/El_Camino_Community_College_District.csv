@@ -31,10 +31,10 @@ El Camino College,UCR,Intro1,A,1,CS 10A,CSCI 1,CSCI 3
 El Camino College,UCR,Intro2,A,1,CS 10B,CSCI 30,
 El Camino College,UCSB,Calc1,A,1,MATH 3A,MATH 190,
 El Camino College,UCSB,Calc2,A,1,MATH 3B,MATH 191,
-El Camino College,UCSB,Comp1,A,1,CMPSC 16,CSCI 1,CSCI 1H
-El Camino College,UCSB,Comp2,A,1,CMPSC 24,CSCI 2,
-El Camino College,UCSB,Comp3,A,1,CMPSC 40,MATH 210,
+El Camino College,UCSB,DataStructures,A,1,CMPSC 24,CSCI 2,
 El Camino College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 270,
+El Camino College,UCSB,DiscreteMath,A,1,CMPSC 40,MATH 210,
+El Camino College,UCSB,Intro,A,1,CMPSC 16,CSCI 1,CSCI 1H
 El Camino College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 270,
 El Camino College,UCSC,Calc1,A,1,MATH 19A,MATH 190,
 El Camino College,UCSC,Calc2,A,1,MATH 19B,MATH 191,

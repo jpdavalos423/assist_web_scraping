@@ -31,10 +31,10 @@ Not Articulated,UCR,Intro1,A,1,CS 10A,Not Articulated,
 Imperial Valley College,UCR,Intro2,A,1,CS 10B,CS 221,
 Imperial Valley College,UCSB,Calc1,A,1,MATH 3A,MATH 192,
 Imperial Valley College,UCSB,Calc2,A,1,MATH 3B,MATH 194,
-Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated,
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated,
-Imperial Valley College,UCSB,Comp3,A,1,CMPSC 40,CS 240,MATH 240
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated,
 Imperial Valley College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 220,
+Imperial Valley College,UCSB,DiscreteMath,A,1,CMPSC 40,CS 240,MATH 240
+Not Articulated,UCSB,Intro,A,1,CMPSC 16,Not Articulated,
 Imperial Valley College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 230,
 Imperial Valley College,UCSC,Calc1,A,1,MATH 19A,MATH 192,
 Imperial Valley College,UCSC,Calc2,A,1,MATH 19B,MATH 194,

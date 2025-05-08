@@ -31,10 +31,10 @@ Barstow Community College,UCR,Intro1,A,1,CS 10A,CSIS 33
 Barstow Community College,UCR,Intro2,A,1,CS 10B,CSIS 35
 Barstow Community College,UCSB,Calc1,A,1,MATH 3A,MATH 4A
 Barstow Community College,UCSB,Calc2,A,1,MATH 3B,MATH 4B
-Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
-Barstow Community College,UCSB,Comp2,A,1,CMPSC 24,CSIS 35
-Barstow Community College,UCSB,Comp3,A,1,CMPSC 40,CSIS 18
+Barstow Community College,UCSB,DataStructures,A,1,CMPSC 24,CSIS 35
 Barstow Community College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 9
+Barstow Community College,UCSB,DiscreteMath,A,1,CMPSC 40,CSIS 18
+Not Articulated,UCSB,Intro,A,1,CMPSC 16,Not Articulated
 Barstow Community College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 10
 Barstow Community College,UCSC,Calc1,A,1,MATH 19A,MATH 4A
 Barstow Community College,UCSC,Calc2,A,1,MATH 19B,MATH 4B

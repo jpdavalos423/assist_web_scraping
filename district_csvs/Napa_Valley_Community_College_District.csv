@@ -31,10 +31,10 @@ Napa Valley College,UCR,Intro1,A,1,CS 10A,COMS 215
 Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated
 Napa Valley College,UCSB,Calc1,A,1,MATH 3A,MATH 120
 Napa Valley College,UCSB,Calc2,A,1,MATH 3B,MATH 121
-Napa Valley College,UCSB,Comp1,A,1,CMPSC 16,COMS 215
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-Napa Valley College,UCSB,Comp3,A,1,CMPSC 40,COMS 218
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated
 Napa Valley College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 222
+Napa Valley College,UCSB,DiscreteMath,A,1,CMPSC 40,COMS 218
+Napa Valley College,UCSB,Intro,A,1,CMPSC 16,COMS 215
 Napa Valley College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 220
 Napa Valley College,UCSC,Calc1,A,1,MATH 19A,MATH 120
 Napa Valley College,UCSC,Calc2,A,1,MATH 19B,MATH 121

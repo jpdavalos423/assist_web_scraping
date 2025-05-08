@@ -31,10 +31,10 @@ Solano Community College,UCR,Intro1,A,1,CS 10A,CIS 022,CIS 035
 Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated,
 Solano Community College,UCSB,Calc1,A,1,MATH 3A,MATH 020,
 Solano Community College,UCSB,Calc2,A,1,MATH 3B,MATH 021,
-Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated,
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated,
-Solano Community College,UCSB,Comp3,A,1,CMPSC 40,CIS 021,ENGR 012
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated,
 Solano Community College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 023,
+Solano Community College,UCSB,DiscreteMath,A,1,CMPSC 40,CIS 021,ENGR 012
+Not Articulated,UCSB,Intro,A,1,CMPSC 16,Not Articulated,
 Solano Community College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 040,
 Solano Community College,UCSC,Calc1,A,1,MATH 19A,MATH 020,
 Solano Community College,UCSC,Calc2,A,1,MATH 19B,MATH 021,

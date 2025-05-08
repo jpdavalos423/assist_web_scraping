@@ -31,10 +31,10 @@ Butte College,UCR,Intro1,A,1,CS 10A,CSCI 20
 Butte College,UCR,Intro2,A,1,CS 10B,CSCI 21
 Butte College,UCSB,Calc1,A,1,MATH 3A,MATH 30
 Butte College,UCSB,Calc2,A,1,MATH 3B,MATH 31
-Butte College,UCSB,Comp1,A,1,CMPSC 16,CSCI 20
-Butte College,UCSB,Comp2,A,1,CMPSC 24,CSCI 21
-Butte College,UCSB,Comp3,A,1,CMPSC 40,CSCI 22
+Butte College,UCSB,DataStructures,A,1,CMPSC 24,CSCI 21
 Butte College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 40
+Butte College,UCSB,DiscreteMath,A,1,CMPSC 40,CSCI 22
+Butte College,UCSB,Intro,A,1,CMPSC 16,CSCI 20
 Butte College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 42
 Butte College,UCSC,Calc1,A,1,MATH 19A,MATH 30
 Butte College,UCSC,Calc2,A,1,MATH 19B,MATH 31

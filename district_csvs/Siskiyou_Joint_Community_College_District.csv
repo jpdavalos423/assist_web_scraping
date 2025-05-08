@@ -31,10 +31,10 @@ College of the Siskiyous,UCR,Intro1,A,1,CS 10A,CSCI 1007
 College of the Siskiyous,UCR,Intro2,A,1,CS 10B,CSCI 1507
 College of the Siskiyous,UCSB,Calc1,A,1,MATH 3A,MATH 1400
 College of the Siskiyous,UCSB,Calc2,A,1,MATH 3B,MATH 1500
-Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-College of the Siskiyous,UCSB,Comp3,A,1,CMPSC 40,CSCI 2010
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated
 College of the Siskiyous,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 2500
+College of the Siskiyous,UCSB,DiscreteMath,A,1,CMPSC 40,CSCI 2010
+Not Articulated,UCSB,Intro,A,1,CMPSC 16,Not Articulated
 College of the Siskiyous,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 2600
 College of the Siskiyous,UCSC,Calc1,A,1,MATH 19A,MATH 1400
 College of the Siskiyous,UCSC,Calc2,A,1,MATH 19B,MATH 1500

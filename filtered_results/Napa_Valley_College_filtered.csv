@@ -46,9 +46,9 @@ UCSB,Calc1,A,1,MATH 3A,MATH 120
 UCSB,Calc2,A,1,MATH 3B,MATH 121
 UCSB,LinearAlgebra,A,1,MATH 4A,MATH 220
 UCSB,DifferentialEquations,A,1,MATH 4B,MATH 222
-UCSB,Comp1,A,1,CMPSC 16,COMS 215
-UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-UCSB,Comp3,A,1,CMPSC 40,COMS 218
+UCSB,Intro,A,1,CMPSC 16,COMS 215
+UCSB,DataStructures,A,1,CMPSC 24,Not Articulated
+UCSB,DiscreteMath,A,1,CMPSC 40,COMS 218
 UCSC,DataStructures,A,1,CSE 12,Not Articulated
 UCSC,DiscreteMath,A,1,CSE 16,Not Articulated
 UCSC,Intro,A,1,CSE 30,COMS 216

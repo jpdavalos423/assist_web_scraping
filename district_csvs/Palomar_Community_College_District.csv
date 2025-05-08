@@ -31,10 +31,10 @@ Palomar College,UCR,Intro1,A,1,CS 10A,CSCI 112,CSCI 114
 Palomar College,UCR,Intro2,A,1,CS 10B,CSCI 222,
 Palomar College,UCSB,Calc1,A,1,MATH 3A,MATH 140,MATH 140E
 Palomar College,UCSB,Calc2,A,1,MATH 3B,MATH 141,MATH 141E
-Palomar College,UCSB,Comp1,A,1,CMPSC 16,CSCI 112,
-Palomar College,UCSB,Comp2,A,1,CMPSC 24,CSCI 210; CSCI 222,
-Palomar College,UCSB,Comp3,A,1,CMPSC 40,MATH 245,
+Palomar College,UCSB,DataStructures,A,1,CMPSC 24,CSCI 210; CSCI 222,
 Palomar College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 206,
+Palomar College,UCSB,DiscreteMath,A,1,CMPSC 40,MATH 245,
+Palomar College,UCSB,Intro,A,1,CMPSC 16,CSCI 112,
 Palomar College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 200,
 Palomar College,UCSC,Calc1,A,1,MATH 19A,MATH 140,MATH 140E
 Palomar College,UCSC,Calc2,A,1,MATH 19B,MATH 141,MATH 141E

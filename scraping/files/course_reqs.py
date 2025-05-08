@@ -42,7 +42,7 @@ UC_REQUIREMENTS = {
         "Calc1": [["MATH 1A", "A", 1]],
         "Calc2": [["MATH 1B", "A", 1]],
         "MultivariableCalc": [["MATH 53", "A", 1]], # Change to Calc3?
-        "LinearAlgebraAndDifferentialEqations": [["MATH 54", "A", 1]],
+        "LinearAlgebraAndDifferentialEqations": [["MATH 54", "A", 1]], # Too long
     },
     "UCM": {
         "DataStructures": [["CSE 030", "A", 1]],
@@ -63,8 +63,8 @@ UC_REQUIREMENTS = {
         "Calc2": [["MATH 3B", "A", 1]],
         "LinearAlgebra": [["MATH 4A", "A", 1]],
         "DifferentialEquations": [["MATH 4B", "A", 1]],
-        "Comp1": [["CMPSC 16", "A", 1]],
-        "Comp2": [["CMPSC 24", "A", 1]],
-        "Comp3": [["CMPSC 40", "A", 1]],
+        "Intro": [["CMPSC 16", "A", 1]],
+        "DataStructures": [["CMPSC 24", "A", 1]],
+        "DiscreteMath": [["CMPSC 40", "A", 1]],
     }
 }

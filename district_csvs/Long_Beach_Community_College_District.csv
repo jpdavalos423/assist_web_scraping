@@ -31,10 +31,10 @@ Long Beach City College,UCR,Intro1,A,1,CS 10A,CS 11,ENGR 54
 Long Beach City College,UCR,Intro2,A,1,CS 10B,CS 12,
 Long Beach City College,UCSB,Calc1,A,1,MATH 3A,MATH 60,MATH 60H
 Long Beach City College,UCSB,Calc2,A,1,MATH 3B,MATH 70,MATH 70H
-Long Beach City College,UCSB,Comp1,A,1,CMPSC 16,CS 11,ENGR 54
-Long Beach City College,UCSB,Comp2,A,1,CMPSC 24,CS 12; CS 22,
-Long Beach City College,UCSB,Comp3,A,1,CMPSC 40,MATH 55,
+Long Beach City College,UCSB,DataStructures,A,1,CMPSC 24,CS 12; CS 22,
 Long Beach City College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 84,
+Long Beach City College,UCSB,DiscreteMath,A,1,CMPSC 40,MATH 55,
+Long Beach City College,UCSB,Intro,A,1,CMPSC 16,CS 11,ENGR 54
 Long Beach City College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 84,
 Long Beach City College,UCSC,Calc1,A,1,MATH 19A,MATH 60,
 Long Beach City College,UCSC,Calc2,A,1,MATH 19B,MATH 70,
