@@ -227,14 +227,14 @@ def create_group_frequency_graph(data):
         },
         'intro_programming': {
             'color': '#4ECDC4',  # Teal
-            'patterns': ['intro', 'comp', 'problem']
+            'patterns': ['intro', 'comp']
         },
         'data_structures': {
             'color': '#9B59B6',  # Purple
             'patterns': ['data', 'struct', 'algorithm']
         },
         'math_advanced': {
-            'color': '#2E8B57',  # Sea Green
+            'color': '#2E7657',  # Sea Green
             'patterns': ['linear', 'differential']
         },
         'computer_systems': {
@@ -270,32 +270,39 @@ def create_group_frequency_graph(data):
         if not groups:  # Skip empty categories
             continue
         color = color_groups[category]['color']
-        for group in sorted(groups):  # Sort groups within each category
+        category_total = np.zeros(len(uc_names))
+        
+        # Combine all groups in the category
+        for group in sorted(groups):
             heights = []
             for uc in uc_names:
                 count = uc_group_counts[uc].get(group, 0)
                 heights.append(count)
-            
-            plt.bar(uc_names, heights, bottom=bottom, 
-                   label=group, color=color)
-            bottom += heights
-    
-    # Plot ungrouped courses last
-    for group in sorted(ungrouped):
-        heights = []
-        for uc in uc_names:
-            count = uc_group_counts[uc].get(group, 0)
-            heights.append(count)
+            category_total += heights
         
-        plt.bar(uc_names, heights, bottom=bottom, 
-               label=group, color='#CCCCCC')  # Default gray
-        bottom += heights
+        # Plot the combined category
+        plt.bar(uc_names, category_total, bottom=bottom, 
+               label=category.replace('_', ' ').title(), color=color)
+        bottom += category_total
+    
+    # Plot ungrouped courses last as a single category
+    if ungrouped:
+        ungrouped_total = np.zeros(len(uc_names))
+        for group in sorted(ungrouped):
+            heights = []
+            for uc in uc_names:
+                count = uc_group_counts[uc].get(group, 0)
+                heights.append(count)
+            ungrouped_total += heights
+        
+        plt.bar(uc_names, ungrouped_total, bottom=bottom, 
+               label='Other Courses', color='#CCCCCC')
     
     plt.title('Frequency of Unarticulated Course Groups by UC Campus')
     plt.xlabel('UC Campus')
-    plt.ylabel('Number of Districts with Unarticulated Courses')
+    plt.ylabel('Number of Unarticulated Course Groups')
     plt.xticks(rotation=30, ha='right')
-    plt.legend(title='Group ID', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.legend(title='Course Categories', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout()
     
     # Save to course_analysis directory
