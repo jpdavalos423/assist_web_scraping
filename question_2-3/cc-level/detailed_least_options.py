@@ -130,6 +130,8 @@ def analyze_all_colleges(directory):
         if file.endswith('_filtered.csv'):
             file_path = os.path.join(directory, file)
             college_name, transfer_counts = count_transfer_options(file_path)
+
+            college_name = college_name.replace('_', ' ')
             
             # Add college name to each row
             transfer_counts['College'] = college_name
@@ -140,27 +142,8 @@ def analyze_all_colleges(directory):
     return combined_data
 
 def create_heatmap(data):
-    """
-    Creates two files:
-      - transfer_availability_heatmap.png  (binary 0/1 overview)
-      - detailed_transfer_availability_heatmap.png
-    The detailed version overlays each group’s missing courses
-    on the red cells, one line per group.
-    """
-    # --- binary overview (unchanged) ---
-    # plt.figure(figsize=(20, 30))
-    # hm = data.pivot(index='College', columns='UC Name', values='counts')
-    # sns.heatmap(hm, annot=True, cmap='RdYlGn', fmt='g', vmin=0, vmax=1)
-    # plt.title('Valid Transfer Paths to UCs\n(1 = all articulated, 0 = some missing)', pad=20)
-    # plt.ylabel('Community College')
-    # plt.xlabel('UC Campus')
-    # plt.xticks(rotation=30, ha='right')
-    # plt.tight_layout()
-    # plt.savefig('transfer_availability_heatmap.png', dpi=300, bbox_inches='tight')
-    # plt.close()
-
     # --- detailed view with per-group lines ---
-    plt.figure(figsize=(30, 80))
+    plt.figure(figsize=(30, 85))
     detailed = data.pivot(index='College', columns='UC Name', values='unarticulated_courses')
     # blank → NaN so that isna()==True means "good" → green
     detailed = detailed.replace('', np.nan)
@@ -203,22 +186,6 @@ def create_heatmap(data):
     )
     plt.savefig(detailed_out, dpi=300, bbox_inches='tight')
     plt.close()
-
-# def create_bar_plot(data):
-#     # Calculate total transfer options per college
-#     total_options = data.groupby('College')['counts'].sum().sort_values()
-    
-#     plt.figure(figsize=(20, 10))
-#     ax = total_options.plot(kind='bar')
-#     plt.title('Number of Valid UC Transfer Paths by Community College')
-#     plt.xlabel('Community College')
-#     plt.ylabel('Number of UCs with All Courses Articulated')
-#     plt.xticks(rotation=90, ha='center')
-#     plt.subplots_adjust(bottom=0.2)
-#     plt.tight_layout()
-#     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'total_transfer_availability.png')
-#     plt.savefig(output_path)
-#     plt.close()
 
 def main():
     # Directory containing the filtered CSV files

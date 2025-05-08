@@ -69,6 +69,9 @@ def analyze_all_colleges(directory):
             file_path = os.path.join(directory, file)
             college_name, transfer_counts = count_transfer_options(file_path)
             
+            # Remove underscores and replace with spaces
+            college_name = college_name.replace('_', ' ')
+            
             # Add college name to each row
             transfer_counts['College'] = college_name
             all_data.append(transfer_counts)

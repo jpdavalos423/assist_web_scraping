@@ -92,10 +92,10 @@ def create_heatmap(data):
     heatmap_data = data.pivot(index='District', columns='UC Name', values='counts')
     
     # Create a figure with larger size
-    plt.figure(figsize=(20, 30))  # Increased height to accommodate all districts
+    plt.figure(figsize=(15, 30))  # Increased height to accommodate all districts
     
     # Create heatmap with a different colormap to emphasize binary nature
-    sns.heatmap(heatmap_data, annot=True, cmap='RdYlGn', fmt='g', vmin=0, vmax=1)
+    sns.heatmap(heatmap_data, annot=True, cbar=False, cmap='RdYlGn', fmt='g', vmin=0, vmax=1, linewidths=1, linecolor='black')
     plt.title('Valid Transfer Paths to UCs by District\n(1=All courses articulated, 0=Some courses not articulated)', pad=20)
     plt.ylabel('Community College District')
     plt.xlabel('UC Campus')
