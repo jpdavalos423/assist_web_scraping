@@ -13,7 +13,7 @@
     "Barstow Community College District": {
       "region": "Inland Empire",
       "counties_served": ["San Bernardino"],
-      "colleges": ["Barstow College"]
+      "colleges": ["Barstow Community College"]
     },
     "Butte-Glenn Community College District": {
       "region": "Northern",
@@ -49,7 +49,7 @@
       "region": "Southern",
       "counties_served": ["Orange"],
       "colleges": [
-        "Coastline College",
+        "Coastline Community College",
         "Golden West College",
         "Orange Coast College"
       ]
@@ -152,7 +152,7 @@
         "Los Angeles Mission College",
         "Los Angeles Pierce College",
         "Los Angeles Southwest College",
-        "Los Angeles Trade-Technical College",
+        "Los Angeles Trade Technical College",
         "Los Angeles Valley College",
         "West Los Angeles College"
       ]
