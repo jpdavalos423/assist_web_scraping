@@ -146,19 +146,19 @@ def main():
     create_bar_plot(combined_data)
     
     # Find district with fewest options
-    total_options = combined_data.groupby('District')['counts'].sum()
-    min_district = total_options.idxmin()
-    min_count = total_options.min()
+    # total_options = combined_data.groupby('District')['counts'].sum()
+    # min_district = total_options.idxmin()
+    # min_count = total_options.min()
     
-    print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
-    print(f"Number of UCs with all courses articulated: {min_count}")
+    # print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
+    # print(f"Number of UCs with all courses articulated: {min_count}")
     
-    # Show which UCs have all courses articulated for the district with fewest options
-    district_data = combined_data[combined_data['District'] == min_district]
-    available_ucs = district_data[district_data['counts'] == 1]['UC Name'].tolist()
-    print(f"\nUCs with all courses articulated:")
-    for uc in available_ucs:
-        print(f"- {uc}")
+    # # Show which UCs have all courses articulated for the district with fewest options
+    # district_data = combined_data[combined_data['District'] == min_district]
+    # available_ucs = district_data[district_data['counts'] == 1]['UC Name'].tolist()
+    # print(f"\nUCs with all courses articulated:")
+    # for uc in available_ucs:
+    #     print(f"- {uc}")
 
 if __name__ == "__main__":
     main()

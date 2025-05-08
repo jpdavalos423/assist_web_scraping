@@ -139,19 +139,19 @@ def main():
     create_bar_plot(combined_data)
     
     # Find college with fewest options
-    total_options = combined_data.groupby('College')['counts'].sum()
-    min_college = total_options.idxmin()
-    min_count = total_options.min()
+    # total_options = combined_data.groupby('College')['counts'].sum()
+    # min_college = total_options.idxmin()
+    # min_count = total_options.min()
     
-    print(f"\nCollege with fewest valid UC transfer paths: {min_college}")
-    print(f"Number of UCs with all courses articulated: {min_count}")
+    # print(f"\nCollege with fewest valid UC transfer paths: {min_college}")
+    # print(f"Number of UCs with all courses articulated: {min_count}")
     
-    # Show which UCs have all courses articulated for the college with fewest options
-    college_data = combined_data[combined_data['College'] == min_college]
-    available_ucs = college_data[college_data['counts'] == 1]['UC Name'].tolist()
-    print(f"\nUCs with all courses articulated:")
-    for uc in available_ucs:
-        print(f"- {uc}")
+    # # Show which UCs have all courses articulated for the college with fewest options
+    # college_data = combined_data[combined_data['College'] == min_college]
+    # available_ucs = college_data[college_data['counts'] == 1]['UC Name'].tolist()
+    # print(f"\nUCs with all courses articulated:")
+    # for uc in available_ucs:
+    #     print(f"- {uc}")
 
 if __name__ == "__main__":
     main()

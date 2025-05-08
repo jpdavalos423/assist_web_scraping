@@ -197,21 +197,21 @@ def main():
     create_heatmap(combined_data)
     
     # Find district with fewest options
-    total_options = combined_data.groupby('District')['counts'].sum()
-    min_district = total_options.idxmin()
-    min_count = total_options.min()
+    # total_options = combined_data.groupby('District')['counts'].sum()
+    # min_district = total_options.idxmin()
+    # min_count = total_options.min()
     
-    print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
-    print(f"Number of UCs with all courses articulated: {min_count}")
+    # print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
+    # print(f"Number of UCs with all courses articulated: {min_count}")
     
-    # Show which UCs have all courses articulated and which courses are not articulated
-    district_data = combined_data[combined_data['District'] == min_district]
-    print(f"\nDetailed transfer information for {min_district}:")
-    for _, row in district_data.iterrows():
-        if row['counts'] == 1:
-            print(f"- {row['UC Name']}: All courses articulated")
-        else:
-            print(f"- {row['UC Name']}: Missing articulation for {row['unarticulated_courses']}")
+    # # Show which UCs have all courses articulated and which courses are not articulated
+    # district_data = combined_data[combined_data['District'] == min_district]
+    # print(f"\nDetailed transfer information for {min_district}:")
+    # for _, row in district_data.iterrows():
+    #     if row['counts'] == 1:
+    #         print(f"- {row['UC Name']}: All courses articulated")
+    #     else:
+    #         print(f"- {row['UC Name']}: Missing articulation for {row['unarticulated_courses']}")
 
 if __name__ == "__main__":
     main()

@@ -204,17 +204,17 @@ def main():
     min_college = total_options.idxmin()
     min_count = total_options.min()
     
-    print(f"\nCollege with fewest valid UC transfer paths: {min_college}")
-    print(f"Number of UCs with all courses articulated: {min_count}")
+    # print(f"\nCollege with fewest valid UC transfer paths: {min_college}")
+    # print(f"Number of UCs with all courses articulated: {min_count}")
     
-    # Show which UCs have all courses articulated and which courses are not articulated
-    college_data = combined_data[combined_data['College'] == min_college]
-    print(f"\nDetailed transfer information for {min_college}:")
-    for _, row in college_data.iterrows():
-        if row['counts'] == 1:
-            print(f"- {row['UC Name']}: All courses articulated")
-        else:
-            print(f"- {row['UC Name']}: Missing articulation for {row['unarticulated_courses']}")
+    # # Show which UCs have all courses articulated and which courses are not articulated
+    # college_data = combined_data[combined_data['College'] == min_college]
+    # print(f"\nDetailed transfer information for {min_college}:")
+    # for _, row in college_data.iterrows():
+    #     if row['counts'] == 1:
+    #         print(f"- {row['UC Name']}: All courses articulated")
+    #     else:
+    #         print(f"- {row['UC Name']}: Missing articulation for {row['unarticulated_courses']}")
 
 if __name__ == "__main__":
     main()
