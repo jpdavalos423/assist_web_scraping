@@ -31,10 +31,10 @@ Monterey Peninsula College,UCR,Intro1,A,1,CS 10A,CSIS 10A,CSIS 10C
 Monterey Peninsula College,UCR,Intro2,A,1,CS 10B,CSIS 10B,
 Monterey Peninsula College,UCSB,Calc1,A,1,MATH 3A,MATH 20A,
 Monterey Peninsula College,UCSB,Calc2,A,1,MATH 3B,MATH 20B,
-Monterey Peninsula College,UCSB,Comp1,A,1,CMPSC 16,CSIS 10C,
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated,
-Monterey Peninsula College,UCSB,Comp3,A,1,CMPSC 40,CSIS 12,MATH 40
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated,
 Monterey Peninsula College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 32,
+Monterey Peninsula College,UCSB,DiscreteMath,A,1,CMPSC 40,CSIS 12,MATH 40
+Monterey Peninsula College,UCSB,Intro,A,1,CMPSC 16,CSIS 10C,
 Monterey Peninsula College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 31,
 Monterey Peninsula College,UCSC,Calc1,A,1,MATH 19A,MATH 20A,
 Monterey Peninsula College,UCSC,Calc2,A,1,MATH 19B,MATH 20B,

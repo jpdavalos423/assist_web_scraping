@@ -31,10 +31,10 @@ Allan Hancock College,UCR,Intro1,A,1,CS 10A,CS 111
 Allan Hancock College,UCR,Intro2,A,1,CS 10B,CS 112
 Allan Hancock College,UCSB,Calc1,A,1,MATH 3A,MATH 181
 Allan Hancock College,UCSB,Calc2,A,1,MATH 3B,MATH 182
-Allan Hancock College,UCSB,Comp1,A,1,CMPSC 16,CS 111
-Allan Hancock College,UCSB,Comp2,A,1,CMPSC 24,CS 112
-Allan Hancock College,UCSB,Comp3,A,1,CMPSC 40,CS 161
+Allan Hancock College,UCSB,DataStructures,A,1,CMPSC 24,CS 112
 Allan Hancock College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 184
+Allan Hancock College,UCSB,DiscreteMath,A,1,CMPSC 40,CS 161
+Allan Hancock College,UCSB,Intro,A,1,CMPSC 16,CS 111
 Allan Hancock College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 184
 Allan Hancock College,UCSC,Calc1,A,1,MATH 19A,MATH 181
 Allan Hancock College,UCSC,Calc2,A,1,MATH 19B,MATH 182

@@ -31,10 +31,10 @@ Hartnell College,UCR,Intro1,A,1,CS 10A,CSS 2A,CSS 4
 Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated,
 Hartnell College,UCSB,Calc1,A,1,MATH 3A,MAT 3A,
 Hartnell College,UCSB,Calc2,A,1,MATH 3B,MAT 3B,
-Hartnell College,UCSB,Comp1,A,1,CMPSC 16,CSS 2A,
-Hartnell College,UCSB,Comp2,A,1,CMPSC 24,CSS 2B,
-Hartnell College,UCSB,Comp3,A,1,CMPSC 40,CSS 7,MAT 7
+Hartnell College,UCSB,DataStructures,A,1,CMPSC 24,CSS 2B,
 Hartnell College,UCSB,DifferentialEquations,A,1,MATH 4B,MAT 5,
+Hartnell College,UCSB,DiscreteMath,A,1,CMPSC 40,CSS 7,MAT 7
+Hartnell College,UCSB,Intro,A,1,CMPSC 16,CSS 2A,
 Hartnell College,UCSB,LinearAlgebra,A,1,MATH 4A,MAT 4,
 Hartnell College,UCSC,Calc1,A,1,MATH 19A,MAT 3A,
 Hartnell College,UCSC,Calc2,A,1,MATH 19B,MAT 3B,

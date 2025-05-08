@@ -31,10 +31,10 @@ College of Marin,UCR,Intro1,A,1,CS 10A,COMP 130,COMP 135
 College of Marin,UCR,Intro2,A,1,CS 10B,COMP 235,
 College of Marin,UCSB,Calc1,A,1,MATH 3A,MATH 123,
 College of Marin,UCSB,Calc2,A,1,MATH 3B,MATH 124,
-College of Marin,UCSB,Comp1,A,1,CMPSC 16,COMP 130,
-College of Marin,UCSB,Comp2,A,1,CMPSC 24,COMP 220,
-College of Marin,UCSB,Comp3,A,1,CMPSC 40,COMP 117,MATH 117
+College of Marin,UCSB,DataStructures,A,1,CMPSC 24,COMP 220,
 College of Marin,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 224,
+College of Marin,UCSB,DiscreteMath,A,1,CMPSC 40,COMP 117,MATH 117
+College of Marin,UCSB,Intro,A,1,CMPSC 16,COMP 130,
 College of Marin,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 116,
 College of Marin,UCSC,Calc1,A,1,MATH 19A,MATH 123,
 College of Marin,UCSC,Calc2,A,1,MATH 19B,MATH 124,

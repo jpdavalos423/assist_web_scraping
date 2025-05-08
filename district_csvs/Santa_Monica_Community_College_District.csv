@@ -32,10 +32,10 @@ Santa Monica College,UCR,Intro1,A,1,CS 10A,CS 50,CS 55
 Santa Monica College,UCR,Intro2,A,1,CS 10B,CS 52,CS 56
 Santa Monica College,UCSB,Calc1,A,1,MATH 3A,MATH 7,
 Santa Monica College,UCSB,Calc2,A,1,MATH 3B,MATH 8,
-Santa Monica College,UCSB,Comp1,A,1,CMPSC 16,CS 50,
-Santa Monica College,UCSB,Comp2,A,1,CMPSC 24,CS 20A,
-Santa Monica College,UCSB,Comp3,A,1,CMPSC 40,MATH 10,
+Santa Monica College,UCSB,DataStructures,A,1,CMPSC 24,CS 20A,
 Santa Monica College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 15,
+Santa Monica College,UCSB,DiscreteMath,A,1,CMPSC 40,MATH 10,
+Santa Monica College,UCSB,Intro,A,1,CMPSC 16,CS 50,
 Santa Monica College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 13,
 Santa Monica College,UCSC,Calc1,A,1,MATH 19A,MATH 7,
 Santa Monica College,UCSC,Calc2,A,1,MATH 19B,MATH 7; MATH 8,

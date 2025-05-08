@@ -31,10 +31,10 @@ Victor Valley College,UCR,Intro1,A,1,CS 10A,CIS 201,CIS 206
 Victor Valley College,UCR,Intro2,A,1,CS 10B,CIS 202,CIS 203
 Victor Valley College,UCSB,Calc1,A,1,MATH 3A,MATH 226,MATH 226H
 Victor Valley College,UCSB,Calc2,A,1,MATH 3B,MATH 227,MATH 227H
-Victor Valley College,UCSB,Comp1,A,1,CMPSC 16,CIS 201; CIS 202,
-Victor Valley College,UCSB,Comp2,A,1,CMPSC 24,CIS 202,
-Victor Valley College,UCSB,Comp3,A,1,CMPSC 40,CIS 264,
+Victor Valley College,UCSB,DataStructures,A,1,CMPSC 24,CIS 202,
 Victor Valley College,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 270,
+Victor Valley College,UCSB,DiscreteMath,A,1,CMPSC 40,CIS 264,
+Victor Valley College,UCSB,Intro,A,1,CMPSC 16,CIS 201; CIS 202,
 Victor Valley College,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 231,
 Victor Valley College,UCSC,Calc1,A,1,MATH 19A,MATH 226,MATH 226H
 Victor Valley College,UCSC,Calc2,A,1,MATH 19B,MATH 227,MATH 227H

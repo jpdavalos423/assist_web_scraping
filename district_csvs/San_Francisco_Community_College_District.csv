@@ -31,10 +31,10 @@ City College of San Francisco,UCR,Intro1,A,1,CS 10A,CS 110A,CS 110B
 City College of San Francisco,UCR,Intro2,A,1,CS 10B,CS 110B,
 City College of San Francisco,UCSB,Calc1,A,1,MATH 3A,MATH 110A,
 City College of San Francisco,UCSB,Calc2,A,1,MATH 3B,MATH 110B,
-City College of San Francisco,UCSB,Comp1,A,1,CMPSC 16,CS 110B,
-City College of San Francisco,UCSB,Comp2,A,1,CMPSC 24,CS 110C,
-City College of San Francisco,UCSB,Comp3,A,1,CMPSC 40,MATH 115,
+City College of San Francisco,UCSB,DataStructures,A,1,CMPSC 24,CS 110C,
 City College of San Francisco,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 125,MATH 130
+City College of San Francisco,UCSB,DiscreteMath,A,1,CMPSC 40,MATH 115,
+City College of San Francisco,UCSB,Intro,A,1,CMPSC 16,CS 110B,
 City College of San Francisco,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 120,MATH 130
 City College of San Francisco,UCSC,Calc1,A,1,MATH 19A,MATH 110A,
 City College of San Francisco,UCSC,Calc2,A,1,MATH 19B,MATH 110B,

@@ -31,10 +31,10 @@ West Hills College Lemoore,UCR,Intro1,A,1,CS 10A,ENGR 015
 Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated
 West Hills College Coalinga,UCSB,Calc1,A,1,MATH 3A,MATH 001A
 West Hills College Coalinga,UCSB,Calc2,A,1,MATH 3B,MATH 001B
-West Hills College Lemoore,UCSB,Comp1,A,1,CMPSC 16,ENGR 015
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-Not Articulated,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated
 West Hills College Coalinga,UCSB,DifferentialEquations,A,1,MATH 4B,MATH 002B
+Not Articulated,UCSB,DiscreteMath,A,1,CMPSC 40,Not Articulated
+West Hills College Lemoore,UCSB,Intro,A,1,CMPSC 16,ENGR 015
 West Hills College Lemoore,UCSB,LinearAlgebra,A,1,MATH 4A,MATH 003A
 West Hills College Coalinga,UCSC,Calc1,A,1,MATH 19A,MATH 001A
 West Hills College Coalinga,UCSC,Calc2,A,1,MATH 19B,MATH 001B

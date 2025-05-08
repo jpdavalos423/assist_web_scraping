@@ -31,10 +31,10 @@ Not Articulated,UCR,Intro1,A,1,CS 10A,Not Articulated
 Not Articulated,UCR,Intro2,A,1,CS 10B,Not Articulated
 Lassen Community College,UCSB,Calc1,A,1,MATH 3A,MATH 1A
 Lassen Community College,UCSB,Calc2,A,1,MATH 3B,MATH 1B
-Not Articulated,UCSB,Comp1,A,1,CMPSC 16,Not Articulated
-Not Articulated,UCSB,Comp2,A,1,CMPSC 24,Not Articulated
-Not Articulated,UCSB,Comp3,A,1,CMPSC 40,Not Articulated
+Not Articulated,UCSB,DataStructures,A,1,CMPSC 24,Not Articulated
 Not Articulated,UCSB,DifferentialEquations,A,1,MATH 4B,Not Articulated
+Not Articulated,UCSB,DiscreteMath,A,1,CMPSC 40,Not Articulated
+Not Articulated,UCSB,Intro,A,1,CMPSC 16,Not Articulated
 Not Articulated,UCSB,LinearAlgebra,A,1,MATH 4A,Not Articulated
 Lassen Community College,UCSC,Calc1,A,1,MATH 19A,MATH 1A
 Lassen Community College,UCSC,Calc2,A,1,MATH 19B,MATH 1B
