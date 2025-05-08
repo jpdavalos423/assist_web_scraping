@@ -9,7 +9,7 @@ Usage:  python post_process.py          # no args needed
 import os
 import csv
 
-from course_reqs import UC_REQUIREMENTS
+from files.course_reqs import UC_REQUIREMENTS
 
 # ----- UC name → abbreviation mapping -----------------------------
 UC_ABBREVIATIONS = {
