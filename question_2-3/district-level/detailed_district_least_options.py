@@ -222,8 +222,8 @@ def create_group_frequency_graph(data):
     # Prepare data for stacked bar plot
     bottom = np.zeros(len(uc_names))
     
-    # Create color map
-    colors = plt.cm.get_cmap('tab20')(np.linspace(0, 1, len(all_groups)))
+    # Create color map - Updated to use recommended approach
+    colors = plt.colormaps['tab20'](np.linspace(0, 1, len(all_groups)))
     
     # Plot each Group ID segment
     for i, group in enumerate(all_groups):
