@@ -3,14 +3,14 @@ Hartnell College,UCB,Calc1,A,1,MATH 1A,MAT 3A,
 Hartnell College,UCB,Calc2,A,1,MATH 1B,MAT 3B,
 Hartnell College,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MAT 4; MAT 5,
 Hartnell College,UCB,MultivariableCalc,A,1,MATH 53,MAT 3C,
-Not Articulated,UCD,Algorithms,A,1,ECS 036C,Not Articulated,
 Hartnell College,UCD,Calc1,A,1,MAT 021A,MAT 3A,
 Hartnell College,UCD,Calc2,A,1,MAT 021B,MAT 3B,
 Hartnell College,UCD,Calc3,A,1,MAT 021C,MAT 3C,
+Not Articulated,UCD,DataStructures,A,1,ECS 036C,Not Articulated,
 Hartnell College,UCD,DiscreteMath,A,1,ECS 020,CSS 7,MAT 7
-Hartnell College,UCD,ObjectOriented,A,1,ECS 036B,CSS 2A,CSS 2B
+Not Articulated,UCD,Intro1,A,1,ECS 036A,Not Articulated,
+Hartnell College,UCD,Intro2,A,1,ECS 036B,CSS 2A,CSS 2B
 Not Articulated,UCD,Organization,A,1,ECS 050,Not Articulated,
-Not Articulated,UCD,ProblemSolving,A,1,ECS 036A,Not Articulated,
 Hartnell College,UCI,Calc1,A,1,MATH 2A,MAT 3A,
 Hartnell College,UCI,Calc2,A,1,MATH 2B,MAT 3B,
 Not Articulated,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,Not Articulated,

@@ -3,14 +3,14 @@ College of Marin,UCB,Calc1,A,1,MATH 1A,MATH 123,
 College of Marin,UCB,Calc2,A,1,MATH 1B,MATH 124,
 College of Marin,UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH 116; MATH 224,
 College of Marin,UCB,MultivariableCalc,A,1,MATH 53,MATH 223,
-College of Marin,UCD,Algorithms,A,1,ECS 036C,COMP 220,
 College of Marin,UCD,Calc1,A,1,MAT 021A,MATH 123,
 College of Marin,UCD,Calc2,A,1,MAT 021B,MATH 124,
 College of Marin,UCD,Calc3,A,1,MAT 021C; MAT 021D,MATH 223,
+College of Marin,UCD,DataStructures,A,1,ECS 036C,COMP 220,
 College of Marin,UCD,DiscreteMath,A,1,ECS 020,COMP 117,MATH 117
-College of Marin,UCD,ObjectOriented,A,1,ECS 036B,COMP 232,COMP 235
+College of Marin,UCD,Intro1,A,1,ECS 036A,COMP 130,COMP 135
+College of Marin,UCD,Intro2,A,1,ECS 036B,COMP 232,COMP 235
 College of Marin,UCD,Organization,A,1,ECS 050,COMP 160,
-College of Marin,UCD,ProblemSolving,A,1,ECS 036A,COMP 130,COMP 135
 College of Marin,UCI,Calc1,A,1,MATH 2A,MATH 123,
 College of Marin,UCI,Calc2,A,1,MATH 2B,MATH 124,
 College of Marin,UCI,Intro,A,3,I&C SCI 31; I&C SCI 32; I&C SCI 33,COMP 135; COMP 232,COMP 130; COMP 235

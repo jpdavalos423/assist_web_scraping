@@ -4,9 +4,9 @@ UCB,Calc2,A,1,MATH 1B,MATH C152; MATH C255
 UCB,MultivariableCalc,A,1,MATH 53,MATH C152; MATH C251
 UCB,LinearAlgebraAndDifferentialEqations,A,1,MATH 54,MATH C255; MATH C257
 UCD,DiscreteMath,A,1,ECS 020,CSCI C255
-UCD,ProblemSolving,A,1,ECS 036A,Not Articulated
-UCD,ObjectOriented,A,1,ECS 036B,Not Articulated
-UCD,Algorithms,A,1,ECS 036C,Not Articulated
+UCD,Intro1,A,1,ECS 036A,Not Articulated
+UCD,Intro2,A,1,ECS 036B,Not Articulated
+UCD,DataStructures,A,1,ECS 036C,Not Articulated
 UCD,Organization,A,1,ECS 050,CSCI C257
 UCD,Calc1,A,1,MAT 021A; MAT 021B,MATH C151; MATH C152
 UCD,Calc2,A,1,MAT 021A; MAT 021B,MATH C151; MATH C152
