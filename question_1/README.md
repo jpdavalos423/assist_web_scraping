@@ -9,4 +9,8 @@ total_number_of_courses.py
 
 total_combination_order.py
     After inputting path to folder filled with csvs of either the community colleges or districts you want to analyze it outputs two txt files and 6 csvs (which will be shown below). Before getting into the contents of these output files understanding the combination logic used is important. 
+        Combination Logic:
+            This script is using specifically 3 UC Combination Groups which means it groups UCs into groups of 3.
+                Ex: ['UCSD' 'UCSB' 'UCLA']
+            With these 3 UC Combination Pairs the script is counting how much each UC contributes to the number of courses a hypothetical UC student would need to take. That is why when 
         total_combination_order.txt
