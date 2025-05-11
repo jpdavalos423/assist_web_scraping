@@ -133,6 +133,50 @@ def create_bar_plot(data):
     plt.savefig(output_path)
     plt.close()
 
+def create_simple_bar_plot(data):
+    """
+    Creates a simplified bar plot showing the distribution of how many UCs
+    each district has complete articulation with.
+    """
+    # Calculate how many UCs each district has complete articulation with
+    district_complete_counts = {}
+    for district in data['District'].unique():
+        district_data = data[data['District'] == district]
+        complete_count = sum(district_data['counts'])
+        district_complete_counts[district] = complete_count
+    
+    # Count frequency of each number of complete articulations (0-9 UCs)
+    frequency = {i: 0 for i in range(10)}  # 0 to 9 UCs
+    for count in district_complete_counts.values():
+        frequency[count] += 1
+    
+    # Create bar plot
+    plt.figure(figsize=(12, 6))
+    x = list(frequency.keys())
+    y = list(frequency.values())
+    
+    bars = plt.bar(x, y)
+    
+    # Add value labels on top of each bar
+    for bar in bars:
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2., height,
+                f'{int(height)}',
+                ha='center', va='bottom')
+    
+    plt.title('Distribution of Complete UC Articulations per District')
+    plt.xlabel('Number of UCs with Complete Articulation')
+    plt.ylabel('Number of Districts')
+    plt.xticks(range(10))
+    
+    # Save the plot
+    output_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        'district_simple_total_transfer_availability.png'
+    )
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+
 def main():
     # Directory containing the district CSV files
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -145,20 +189,7 @@ def main():
     create_heatmap(combined_data)
     create_bar_plot(combined_data)
     
-    # Find district with fewest options
-    # total_options = combined_data.groupby('District')['counts'].sum()
-    # min_district = total_options.idxmin()
-    # min_count = total_options.min()
-    
-    # print(f"\nDistrict with fewest valid UC transfer paths: {min_district}")
-    # print(f"Number of UCs with all courses articulated: {min_count}")
-    
-    # # Show which UCs have all courses articulated for the district with fewest options
-    # district_data = combined_data[combined_data['District'] == min_district]
-    # available_ucs = district_data[district_data['counts'] == 1]['UC Name'].tolist()
-    # print(f"\nUCs with all courses articulated:")
-    # for uc in available_ucs:
-    #     print(f"- {uc}")
+    create_simple_bar_plot(combined_data)
 
 if __name__ == "__main__":
     main()
