@@ -25,38 +25,30 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
 
         for set_id, set_df in group_df.groupby('Set ID'):
             num_required = set_df['Num Required'].iloc[0]
-            possible_combinations = []
-            unmet_requirements = num_required
-            selected_courses = set()
+            count_valid_articulations = 0
 
             for _, row in set_df.iterrows():
-                cc_course_options = []
-                if pd.notna(row['Courses Group 1']) and row['Courses Group 1'] != "Not Articulated":
-                    cc_course_options.append(set(map(str.strip, row['Courses Group 1'].split(";"))))
-
+                cc_valid = False
                 for col in row.index[6:]:
-                    if pd.notna(row[col]) and row[col] != "Not Articulated":
-                        cc_course_options.append(set(map(str.strip, row[col].split(";"))))
+                    if pd.notna(row[col]) and row[col].strip() != "Not Articulated":
+                        cc_valid = True
+                        break
+                if cc_valid:
+                    count_valid_articulations += 1
 
-                if cc_course_options:
-                    best_option = min(cc_course_options, key=len)
-                    possible_combinations.append(best_option)
+                if count_valid_articulations >= num_required:
+                    # All required UC courses are considered fulfilled
+                    articulated_courses.update((uc, course.strip()) for course in row['Receiving'].split(';'))
+                    group_fulfilled_flag = True
+                    break
 
-            possible_combinations.sort(key=len)
-            for combination in possible_combinations:
-                if unmet_requirements > 0:
-                    selected_courses.update(combination)
-                    unmet_requirements -= 1
-
-            if unmet_requirements == 0:
-                articulated_courses.update(selected_courses)
-                group_fulfilled_flag = True
+            if group_fulfilled_flag:
                 break
 
         if not group_fulfilled_flag and req_group not in group_fulfilled:
             for _, row in group_df.iterrows():
                 if pd.notna(row['Receiving']) and row['Receiving'] != "Not Articulated":
-                    unarticulated_courses.add(row['Receiving'])
+                    unarticulated_courses.update((uc, course.strip()) for course in row['Receiving'].split(';'))
                     break
             group_fulfilled.add(req_group)
 
@@ -112,7 +104,6 @@ def process_folder(folder_path):
                 uc_role_totals[uc][role]['articulated'] += art_count
                 uc_role_totals[uc][role]['unarticulated'] += unart_count
 
-        # Write totals to text file
         with open("total_combination_order.txt", "a") as f:
             f.write(f"--- Processing {file_name} ---\n")
             for uc in uc_list:
@@ -125,7 +116,6 @@ def process_folder(folder_path):
                     overall_totals[uc][role]['unarticulated'] += unart
                 f.write("\n")
 
-        # Write averages to text file
         with open("average_combination_order.txt", "a") as f:
             f.write(f"--- Averages for {file_name} ---\n")
             for uc in uc_list:
@@ -136,7 +126,6 @@ def process_folder(folder_path):
                     f.write(f"  As {role}: {art / role_count_per_uc:.2f} Avg Courses, {unart / role_count_per_uc:.2f} Avg Unarticulated\n")
                 f.write("\n")
 
-        # Save rows for CSVs
         for role in roles:
             row_total = {"Community College": file_name}
             row_avg = {"Community College": file_name}
@@ -150,7 +139,6 @@ def process_folder(folder_path):
             per_order_cc_totals[role].append(row_total)
             per_order_cc_averages[role].append(row_avg)
 
-    # Write final totals and averages to text files
     with open("total_combination_order.txt", "a") as f:
         f.write("--- GRAND TOTALS ACROSS ALL FILES ---\n")
         for uc in uc_list:
@@ -172,9 +160,7 @@ def process_folder(folder_path):
                 f.write(f"  As {role}: {total_art / divisor:.2f} Avg Courses, {total_unart / divisor:.2f} Avg Unarticulated\n")
             f.write("\n")
 
-    # Write CSVs per order with AVERAGE row
     for role in roles:
-        # Totals
         df_total = pd.DataFrame(per_order_cc_totals[role])
         avg_row_total = {"Community College": "AVERAGE"}
         for col in df_total.columns[1:]:
@@ -182,7 +168,6 @@ def process_folder(folder_path):
         df_total.loc[len(df_total)] = avg_row_total
         df_total.to_csv(f"order_{role[0]}_totals.csv", index=False, float_format="%.2f")
 
-        # Averages
         df_avg = pd.DataFrame(per_order_cc_averages[role])
         avg_row_avg = {"Community College": "AVERAGE"}
         for col in df_avg.columns[1:]:
@@ -195,10 +180,3 @@ def process_folder(folder_path):
 if __name__ == "__main__":
     folder_path = input("Enter the path to the folder of CSV files: ")
     process_folder(folder_path)
-
-
-
-
-    #/workspaces/assist_web_scraping/district_csvs
-    #path: /Users/yasminkabir/assist_web_scraping-1/question_1/question_1/order_1_totals.csv
-    #path: /Users/yasminkabir/assist_web_scraping-1/district_csvs
