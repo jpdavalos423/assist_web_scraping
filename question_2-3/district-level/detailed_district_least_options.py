@@ -308,10 +308,19 @@ def create_group_frequency_graph(data):
         label = f"{category.replace('_', ' ').title()} ({percentage:.1f}%)"
         
         # Plot the combined category
-        plt.bar(uc_names, category_total, bottom=bottom, 
-               label=label, color=color)
+        bars = plt.bar(uc_names, category_total, bottom=bottom,label=label, color=color)
+        for bar, height, base in zip(bars, category_total, bottom):
+            if height > 0:
+                plt.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    base + height / 2,
+                    f'{int(height)}',
+                    ha='center', va='center', fontsize=9, color='white', weight='bold'
+                )
         bottom += category_total
+
     
+
     # Plot ungrouped courses last as a single category
     if ungrouped:
         ungrouped_total_heights = np.zeros(len(uc_names))
@@ -323,8 +332,17 @@ def create_group_frequency_graph(data):
             ungrouped_total_heights += heights
         
         percentage = (category_totals['Other'] / total_unarticulated) * 100
-        plt.bar(uc_names, ungrouped_total_heights, bottom=bottom, 
-               label=f"Other Courses ({percentage:.1f}%)", color='#CCCCCC')
+        bars = plt.bar(uc_names, ungrouped_total_heights, bottom=bottom,label=f"Other Courses ({percentage:.1f}%)", color='#CCCCCC')
+        for bar, height, base in zip(bars, ungrouped_total_heights, bottom):
+            if height > 0:
+                plt.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    base + height / 2,
+                    f'{int(height)}',
+                    ha='center', va='center', fontsize=9, color='black', weight='bold'
+                )
+        bottom += ungrouped_total_heights
+
     
     # Add total counts on top of each bar
     total_heights = bottom  # bottom now contains cumulative heights
