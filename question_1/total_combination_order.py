@@ -4,53 +4,53 @@ import os
 
 uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
 
-def load_csv(file_path):
-    return pd.read_csv(file_path)
-
 def generate_combinations(uc_schools):
     return list(permutations(uc_schools, 3))
 
 def count_required_courses(df, selected_schools, articulated_tracker, unarticulated_tracker):
     df.columns = df.columns.str.strip()
     df['UC Name'] = df['UC Name'].str.lower().str.strip()
-    selected_schools = [school.strip().lower() for school in selected_schools]
+    selected_schools = [school.lower().strip() for school in selected_schools]
     filtered_df = df[df['UC Name'].isin(selected_schools)]
 
     articulated_courses = set()
     unarticulated_courses = set()
-    group_fulfilled = set()
 
-    for (uc, req_group), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
-        group_fulfilled_flag = False
+    for (uc, group_id), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
+        fulfilled = False
+        fallback_receiving = None
 
         for set_id, set_df in group_df.groupby('Set ID'):
-            num_required = set_df['Num Required'].iloc[0]
-            count_valid_articulations = 0
+            all_cc_courses = set()
+            all_receiving_courses = set()
 
             for _, row in set_df.iterrows():
-                cc_valid = False
-                for col in row.index[6:]:
-                    if pd.notna(row[col]) and row[col].strip() != "Not Articulated":
-                        cc_valid = True
-                        break
-                if cc_valid:
-                    count_valid_articulations += 1
+                receiving = [r.strip() for r in str(row['Receiving']).split(';') if r.strip()]
+                all_receiving_courses.update(receiving)
 
-                if count_valid_articulations >= num_required:
-                    # All required UC courses are considered fulfilled
-                    articulated_courses.update((uc, course.strip()) for course in row['Receiving'].split(';'))
-                    group_fulfilled_flag = True
-                    break
+                best_option = None
+                for col in row.index:
+                    if col.lower().startswith("courses group"):
+                        val = str(row[col]).strip()
+                        if val and val.lower() != "not articulated" and val.lower() != "nan":
+                            option = [v.strip() for v in val.split(';') if v.strip()]
+                            if best_option is None or len(option) < len(best_option):
+                                best_option = option
+                if best_option:
+                    all_cc_courses.update(best_option)
 
-            if group_fulfilled_flag:
+            if all_cc_courses:
+                fulfilled = True
+                new_courses = all_cc_courses - set(c for (_, c) in articulated_tracker)
+                articulated_courses.update((uc, course) for course in new_courses)
                 break
 
-        if not group_fulfilled_flag and req_group not in group_fulfilled:
-            for _, row in group_df.iterrows():
-                if pd.notna(row['Receiving']) and row['Receiving'] != "Not Articulated":
-                    unarticulated_courses.update((uc, course.strip()) for course in row['Receiving'].split(';'))
-                    break
-            group_fulfilled.add(req_group)
+            if fallback_receiving is None or len(all_receiving_courses) < len(fallback_receiving):
+                fallback_receiving = all_receiving_courses
+
+        if not fulfilled and fallback_receiving:
+            for course in fallback_receiving:
+                unarticulated_courses.add((uc, course))
 
     new_articulated = articulated_courses - articulated_tracker
     new_unarticulated = unarticulated_courses - unarticulated_tracker
@@ -60,123 +60,182 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
 
     return len(new_articulated), len(new_unarticulated)
 
-def process_folder(folder_path):
-    uc_list = uc_schools
-    all_files = [f for f in os.listdir(folder_path) if f.endswith(".csv")]
-    role_count_per_uc = 56
-    num_files = 0
-    roles = ['1st', '2nd', '3rd']
+def process_combinations_order_sensitive(df, uc_list):
+    all_combinations = generate_combinations(uc_list)
 
-    overall_totals = {
-        uc: {role: {'articulated': 0, 'unarticulated': 0} for role in roles} for uc in uc_list
+    uc_role_totals = {
+        uc: {'1st': {'articulated': 0, 'unarticulated': 0},
+             '2nd': {'articulated': 0, 'unarticulated': 0},
+             '3rd': {'articulated': 0, 'unarticulated': 0}} for uc in uc_list
     }
 
-    per_order_cc_totals = {role: [] for role in roles}
-    per_order_cc_averages = {role: [] for role in roles}
+    for uc1, uc2, uc3 in all_combinations:
+        articulated_tracker = set()
+        unarticulated_tracker = set()
 
-    with open("total_combination_order.txt", "w") as f:
-        f.write("")
-    with open("average_combination_order.txt", "w") as f:
-        f.write("")
+        for idx, uc in enumerate([uc1, uc2, uc3]):
+            role = f"{idx + 1}st" if idx == 0 else f"{idx + 1}nd" if idx == 1 else f"{idx + 1}rd"
+            art_count, unart_count = count_required_courses(
+                df, [uc], articulated_tracker, unarticulated_tracker
+            )
+            uc_role_totals[uc][role]['articulated'] += art_count
+            uc_role_totals[uc][role]['unarticulated'] += unart_count
 
-    for file_name in all_files:
-        file_path = os.path.join(folder_path, file_name)
-        df = load_csv(file_path)
+    return uc_role_totals
 
-        required_cols = {"UC Name", "Group ID", "Set ID", "Num Required", "Receiving", "Courses Group 1"}
-        if not required_cols.issubset(set(df.columns)):
-            print(f"Skipping {file_name} — missing required columns.\n")
-            continue
+def process_all_csvs(folder_path):
+    total_txt = "total_combination_order.txt"
+    avg_txt = "average_combination_order.txt"
+    excluded_txt = "excluded_cc_uc_pairs.txt"
 
-        num_files += 1
-        uc_role_totals = {
-            uc: {role: {'articulated': 0, 'unarticulated': 0} for role in roles} for uc in uc_list
-        }
+    open(total_txt, 'w').close()
+    open(avg_txt, 'w').close()
+    open(excluded_txt, 'w').close()
 
-        for uc1, uc2, uc3 in generate_combinations(uc_list):
-            articulated_tracker = set()
-            unarticulated_tracker = set()
-            for idx, uc in enumerate([uc1, uc2, uc3]):
-                role = roles[idx]
-                art_count, unart_count = count_required_courses(
-                    df, [uc], articulated_tracker, unarticulated_tracker
-                )
-                uc_role_totals[uc][role]['articulated'] += art_count
-                uc_role_totals[uc][role]['unarticulated'] += unart_count
+    overall_totals = {
+        uc: {'1st': {'articulated': 0, 'unarticulated': 0},
+             '2nd': {'articulated': 0, 'unarticulated': 0},
+             '3rd': {'articulated': 0, 'unarticulated': 0}} for uc in uc_schools
+    }
 
-        with open("total_combination_order.txt", "a") as f:
-            f.write(f"--- Processing {file_name} ---\n")
-            for uc in uc_list:
+    csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
+    average_results_list = []
+
+    for idx, file in enumerate(csv_files):
+        print(f"Processing {idx+1}/{len(csv_files)}: {file}")
+        file_path = os.path.join(folder_path, file)
+        df = pd.read_csv(file_path)
+        results = process_combinations_order_sensitive(df, uc_schools)
+
+        for uc in uc_schools:
+            for role in ['1st', '2nd', '3rd']:
+                overall_totals[uc][role]['articulated'] += results[uc][role]['articulated']
+                overall_totals[uc][role]['unarticulated'] += results[uc][role]['unarticulated']
+
+        with open(total_txt, "a") as f:
+            f.write(f"--- Processing {file} ---\n\n")
+            for uc in uc_schools:
                 f.write(f"{uc}:\n")
-                for role in roles:
-                    art = uc_role_totals[uc][role]['articulated']
-                    unart = uc_role_totals[uc][role]['unarticulated']
+                for role in ['1st', '2nd', '3rd']:
+                    art = results[uc][role]['articulated']
+                    unart = results[uc][role]['unarticulated']
                     f.write(f"  As {role}: {art} Courses, {unart} Unarticulated\n")
-                    overall_totals[uc][role]['articulated'] += art
-                    overall_totals[uc][role]['unarticulated'] += unart
                 f.write("\n")
 
-        with open("average_combination_order.txt", "a") as f:
-            f.write(f"--- Averages for {file_name} ---\n")
-            for uc in uc_list:
+        avg = {
+            uc: {role: {
+                'articulated': round(results[uc][role]['articulated'] / 56, 2),
+                'unarticulated': round(results[uc][role]['unarticulated'] / 56, 2)
+            } for role in ['1st', '2nd', '3rd']} for uc in uc_schools
+        }
+        average_results_list.append(avg)
+
+        with open(avg_txt, "a") as f:
+            f.write(f"--- Processing {file} ---\n\n")
+            for uc in uc_schools:
                 f.write(f"{uc}:\n")
-                for role in roles:
-                    art = uc_role_totals[uc][role]['articulated']
-                    unart = uc_role_totals[uc][role]['unarticulated']
-                    f.write(f"  As {role}: {art / role_count_per_uc:.2f} Avg Courses, {unart / role_count_per_uc:.2f} Avg Unarticulated\n")
+                for role in ['1st', '2nd', '3rd']:
+                    art = avg[uc][role]['articulated']
+                    unart = avg[uc][role]['unarticulated']
+                    f.write(f"  As {role}: {art} Courses, {unart} Unarticulated\n")
                 f.write("\n")
 
-        for role in roles:
-            row_total = {"Community College": file_name}
-            row_avg = {"Community College": file_name}
-            for uc in uc_list:
-                art = uc_role_totals[uc][role]['articulated']
-                unart = uc_role_totals[uc][role]['unarticulated']
-                row_total[f"{uc} Articulated"] = art
-                row_total[f"{uc} Unarticulated"] = unart
-                row_avg[f"{uc} Articulated"] = round(art / role_count_per_uc, 2)
-                row_avg[f"{uc} Unarticulated"] = round(unart / role_count_per_uc, 2)
-            per_order_cc_totals[role].append(row_total)
-            per_order_cc_averages[role].append(row_avg)
-
-    with open("total_combination_order.txt", "a") as f:
-        f.write("--- GRAND TOTALS ACROSS ALL FILES ---\n")
-        for uc in uc_list:
+    # Append grand totals and averages
+    with open(total_txt, "a") as f:
+        f.write("\n--- Grand Totals Across All Files ---\n\n")
+        for uc in uc_schools:
             f.write(f"{uc}:\n")
-            for role in roles:
+            for role in ['1st', '2nd', '3rd']:
                 art = overall_totals[uc][role]['articulated']
                 unart = overall_totals[uc][role]['unarticulated']
                 f.write(f"  As {role}: {art} Courses, {unart} Unarticulated\n")
             f.write("\n")
 
-    with open("average_combination_order.txt", "a") as f:
-        f.write("--- OVERALL AVERAGES ACROSS ALL FILES ---\n")
-        for uc in uc_list:
+        n = len(csv_files)
+        f.write("--- Averages (Total ÷ # Files) ---\n\n")
+        for uc in uc_schools:
             f.write(f"{uc}:\n")
-            for role in roles:
-                total_art = overall_totals[uc][role]['articulated']
-                total_unart = overall_totals[uc][role]['unarticulated']
-                divisor = role_count_per_uc * num_files
-                f.write(f"  As {role}: {total_art / divisor:.2f} Avg Courses, {total_unart / divisor:.2f} Avg Unarticulated\n")
+            for role in ['1st', '2nd', '3rd']:
+                art_avg = round(overall_totals[uc][role]['articulated'] / n, 2)
+                unart_avg = round(overall_totals[uc][role]['unarticulated'] / n, 2)
+                f.write(f"  As {role}: {art_avg} Courses, {unart_avg} Unarticulated\n")
             f.write("\n")
 
-    for role in roles:
-        df_total = pd.DataFrame(per_order_cc_totals[role])
-        avg_row_total = {"Community College": "AVERAGE"}
-        for col in df_total.columns[1:]:
-            avg_row_total[col] = round(df_total[col].mean(), 2)
-        df_total.loc[len(df_total)] = avg_row_total
-        df_total.to_csv(f"order_{role[0]}_totals.csv", index=False, float_format="%.2f")
+    with open(avg_txt, "a") as f:
+        f.write("--- Average of Averages ---\n\n")
+        n = len(average_results_list)
+        for uc in uc_schools:
+            f.write(f"{uc}:\n")
+            for role in ['1st', '2nd', '3rd']:
+                art_total = sum(avg[uc][role]['articulated'] for avg in average_results_list)
+                unart_total = sum(avg[uc][role]['unarticulated'] for avg in average_results_list)
+                art_avg = round(art_total / n, 2)
+                unart_avg = round(unart_total / n, 2)
+                f.write(f"  As {role}: {art_avg} Courses, {unart_avg} Unarticulated\n")
+            f.write("\n")
 
-        df_avg = pd.DataFrame(per_order_cc_averages[role])
-        avg_row_avg = {"Community College": "AVERAGE"}
-        for col in df_avg.columns[1:]:
-            avg_row_avg[col] = round(df_avg[col].mean(), 2)
-        df_avg.loc[len(df_avg)] = avg_row_avg
-        df_avg.to_csv(f"order_{role[0]}_averages.csv", index=False, float_format="%.2f")
+    # Create per-order average CSVs with filtered average row
+    for idx, role in enumerate(['1st', '2nd', '3rd']):
+        data = []
+        filtered_pairs = []
+        filtered_sum = {}
+        filtered_count = {}
 
-    print("✅ All outputs generated including AVERAGE rows in CSVs.")
+        for file_name, avg in zip(csv_files, average_results_list):
+            row = {"Community College": file_name}
+            for uc in uc_schools:
+                art = avg[uc][role]['articulated']
+                unart = avg[uc][role]['unarticulated']
+                row[f"{uc} Articulated"] = art
+                row[f"{uc} Unarticulated"] = unart
+
+                if unart == 0:
+                    filtered_sum[f"{uc} Articulated"] = filtered_sum.get(f"{uc} Articulated", 0) + art
+                    filtered_count[f"{uc} Articulated"] = filtered_count.get(f"{uc} Articulated", 0) + 1
+                else:
+                    filtered_pairs.append((file_name, uc))
+            data.append(row)
+
+        df = pd.DataFrame(data)
+
+        avg_row = {"Community College": "AVERAGE"}
+        for col in df.columns[1:]:
+            avg_row[col] = round(df[col].mean(), 2)
+        df = pd.concat([df, pd.DataFrame([avg_row])], ignore_index=True)
+
+        # Add filtered average row
+        transfer_avg_row = {"Community College": "TRANSFERABLE AVERAGE"}
+        for col in df.columns[1:]:
+            if col.endswith("Articulated"):
+                if filtered_count.get(col, 0) > 0:
+                    transfer_avg_row[col] = round(filtered_sum[col] / filtered_count[col], 2)
+                else:
+                    transfer_avg_row[col] = 0.0
+            else:
+                transfer_avg_row[col] = 0.0
+        df = pd.concat([df, pd.DataFrame([transfer_avg_row])], ignore_index=True)
+
+        df.to_csv(f"order_{idx+1}_averages.csv", index=False)
+
+        # Append filtered average to average_combination_order.txt
+        with open(avg_txt, "a") as f:
+            f.write(f"--- Transferable Average of Averages for Order {idx+1} ---\n\n")
+            for col in df.columns[1:]:
+                if col != "Community College":
+                    f.write(f"{col}: {transfer_avg_row[col]}\n")
+            f.write("\n")
+
+        # Write excluded pairs to txt file
+        with open(excluded_txt, "a") as f:
+            f.write(f"--- Order {idx+1} ---\n")
+            cc_grouped = {}
+            for cc, uc in filtered_pairs:
+                cc_grouped.setdefault(cc, []).append(uc)
+            for cc in sorted(cc_grouped):
+                ucs = ", ".join(cc_grouped[cc])
+                f.write(f"{cc}: {ucs}\n")
+            f.write("\n")
 
 if __name__ == "__main__":
-    folder_path = input("Enter the path to the folder of CSV files: ")
-    process_folder(folder_path)
+    folder_path = "/Users/yasminkabir/assist_web_scraping/district_csvs"
+    process_all_csvs(folder_path)

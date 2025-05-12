@@ -10,7 +10,7 @@ uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
 def generate_combinations(uc_schools):
     return list(permutations(uc_schools, 3))
 
-# Fixed logic for counting articulated and unarticulated courses
+# ✅ Finalized articulation logic with all optimizations
 def count_required_courses(df, selected_schools, articulated_tracker, unarticulated_tracker):
     df.columns = df.columns.str.strip()
     df['UC Name'] = df['UC Name'].str.lower().str.strip()
@@ -21,12 +21,22 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
     unarticulated_courses = set()
 
     for (uc, group_id), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
-        group_fulfilled = False
-        best_set_cc_courses = None
+        best_fulfillable_set = None
+        fewest_cc_count = float("inf")
+        best_cc_courses = set()
+        best_unfulfilled_receiving = set()
 
         for set_id, set_df in group_df.groupby('Set ID'):
-            all_cc_courses = set()
+            set_cc_courses = set()
+            set_receiving_courses = set()
+            fulfillable = True
+
             for _, row in set_df.iterrows():
+                # Parse UC receiving courses
+                receiving = [r.strip() for r in str(row['Receiving']).split(';') if r.strip()]
+                set_receiving_courses.update(receiving)
+
+                # Get optimal OR group (Courses Group 1, 2, etc.)
                 best_option = None
                 for col in row.index:
                     if col.lower().startswith("courses group"):
@@ -36,18 +46,25 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
                             if best_option is None or len(option) < len(best_option):
                                 best_option = option
                 if best_option:
-                    all_cc_courses.update(best_option)
+                    set_cc_courses.update(best_option)
+                else:
+                    fulfillable = False
+                    break
 
-            if all_cc_courses:
-                group_fulfilled = True
-                best_set_cc_courses = all_cc_courses
-                break
+            if fulfillable and len(set_cc_courses) < fewest_cc_count:
+                best_fulfillable_set = set_id
+                fewest_cc_count = len(set_cc_courses)
+                best_cc_courses = set_cc_courses
 
-        if group_fulfilled and best_set_cc_courses:
-            new_courses = best_set_cc_courses - set(c for (_, c) in articulated_tracker)
+            if not fulfillable and (not best_unfulfilled_receiving or len(set_receiving_courses) < len(best_unfulfilled_receiving)):
+                best_unfulfilled_receiving = set_receiving_courses
+
+        if best_fulfillable_set:
+            new_courses = best_cc_courses - set(c for (_, c) in articulated_tracker)
             articulated_courses.update((uc, course) for course in new_courses)
-        else:
-            unarticulated_courses.add((uc, f"UNART_{group_id}"))
+        elif best_unfulfilled_receiving:
+            for course in best_unfulfilled_receiving:
+                unarticulated_courses.add((uc, course))
 
     new_articulated = articulated_courses - articulated_tracker
     new_unarticulated = unarticulated_courses - unarticulated_tracker
@@ -57,7 +74,7 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
 
     return len(new_articulated), len(new_unarticulated), new_articulated, new_unarticulated
 
-# Run all 3-UC combinations and count totals per UC by order
+# 🔁 Loop through 3-UC combinations and count totals by order
 def process_combinations(df, uc_list):
     all_combinations = generate_combinations(uc_list)
     print(f"Total UC combinations generated: {len(all_combinations)}")
@@ -98,18 +115,18 @@ def process_combinations(df, uc_list):
             print(f"  As {role}: {art} Courses, {unart} Unarticulated")
         print()
 
-# CSV loader
+# File loading
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
-# Run everything
+# Script entry point
 if __name__ == "__main__":
-    file_path = "/Users/yasminkabir/assist_web_scraping/district_csvs/Merced_Community_College_District.csv"
+    file_path = "/Users/yasminkabir/assist_web_scraping/district_csvs/Santa_Monica_Community_College_District.csv" #change to path of csv of the cc/district you want
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"❌ File not found: {file_path}")
 
-    df = pd.read_csv(file_path)
+    df = load_csv(file_path)
     uc_list = uc_schools
 
     output_file = "articulation_output.txt"
