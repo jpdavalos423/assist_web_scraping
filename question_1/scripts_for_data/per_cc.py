@@ -121,7 +121,7 @@ def load_csv(file_path):
 
 # Script entry point
 if __name__ == "__main__":
-    file_path = "/Users/yasminkabir/assist_web_scraping/district_csvs/Santa_Monica_Community_College_District.csv" #change to path of csv of the cc/district you want
+    file_path = "/Users/yasminkabir/assist_web_scraping/district_csvs/Merced_Community_College_District.csv" #change to path of csv of the cc/district you want
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"❌ File not found: {file_path}")
