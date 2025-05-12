@@ -1,15 +1,16 @@
 import pandas as pd
 from itertools import permutations
-from io import StringIO
-import requests
 import os
 from contextlib import redirect_stdout
 
+# List of UC campuses
 uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
 
+# Generate all 3-UC permutations
 def generate_combinations(uc_schools):
     return list(permutations(uc_schools, 3))
 
+# Fixed logic for counting articulated and unarticulated courses
 def count_required_courses(df, selected_schools, articulated_tracker, unarticulated_tracker):
     df.columns = df.columns.str.strip()
     df['UC Name'] = df['UC Name'].str.lower().str.strip()
@@ -21,44 +22,32 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
 
     for (uc, group_id), group_df in filtered_df.groupby(['UC Name', 'Group ID']):
         group_fulfilled = False
-        fallback_set_courses = []
-        fallback_num_required = float('inf')
+        best_set_cc_courses = None
 
         for set_id, set_df in group_df.groupby('Set ID'):
-            num_required = int(set_df['Num Required'].iloc[0])
-            receiving_to_articulated = {}
-
+            all_cc_courses = set()
             for _, row in set_df.iterrows():
-                receiving_courses = [c.strip() for c in str(row['Receiving']).split(';') if c.strip() and c.strip().lower() != 'not articulated']
-
-                cc_articulated = False
+                best_option = None
                 for col in row.index:
                     if col.lower().startswith("courses group"):
-                        val = str(row[col]).strip().lower()
-                        if val and val != "not articulated":
-                            cc_articulated = True
-                            break
+                        val = str(row[col]).strip()
+                        if val and val.lower() != "not articulated" and val.lower() != "nan":
+                            option = [v.strip() for v in val.split(';') if v.strip()]
+                            if best_option is None or len(option) < len(best_option):
+                                best_option = option
+                if best_option:
+                    all_cc_courses.update(best_option)
 
-                for course in receiving_courses:
-                    if course not in receiving_to_articulated:
-                        receiving_to_articulated[course] = cc_articulated
-                    else:
-                        receiving_to_articulated[course] = receiving_to_articulated[course] or cc_articulated
-
-            # Count how many receiving courses are articulated
-            articulated_list = [course for course, is_art in receiving_to_articulated.items() if is_art]
-            if len(articulated_list) >= num_required:
-                articulated_courses.update((uc, course) for course in articulated_list[:num_required])
+            if all_cc_courses:
                 group_fulfilled = True
-                break  # Stop checking other sets once one is fulfilled
+                best_set_cc_courses = all_cc_courses
+                break
 
-            # Save fallback info in case none are fulfilled
-            if len(receiving_to_articulated) < fallback_num_required:
-                fallback_num_required = num_required
-                fallback_set_courses = list(receiving_to_articulated.keys())[:num_required]
-
-        if not group_fulfilled and fallback_set_courses:
-            unarticulated_courses.update((uc, course) for course in fallback_set_courses)
+        if group_fulfilled and best_set_cc_courses:
+            new_courses = best_set_cc_courses - set(c for (_, c) in articulated_tracker)
+            articulated_courses.update((uc, course) for course in new_courses)
+        else:
+            unarticulated_courses.add((uc, f"UNART_{group_id}"))
 
     new_articulated = articulated_courses - articulated_tracker
     new_unarticulated = unarticulated_courses - unarticulated_tracker
@@ -68,6 +57,7 @@ def count_required_courses(df, selected_schools, articulated_tracker, unarticula
 
     return len(new_articulated), len(new_unarticulated), new_articulated, new_unarticulated
 
+# Run all 3-UC combinations and count totals per UC by order
 def process_combinations(df, uc_list):
     all_combinations = generate_combinations(uc_list)
     print(f"Total UC combinations generated: {len(all_combinations)}")
@@ -108,9 +98,11 @@ def process_combinations(df, uc_list):
             print(f"  As {role}: {art} Courses, {unart} Unarticulated")
         print()
 
+# CSV loader
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
+# Run everything
 if __name__ == "__main__":
     file_path = "/Users/yasminkabir/assist_web_scraping/district_csvs/Merced_Community_College_District.csv"
 
@@ -120,9 +112,7 @@ if __name__ == "__main__":
     df = pd.read_csv(file_path)
     uc_list = uc_schools
 
-    # Set output file name
     output_file = "articulation_output.txt"
-
     with open(output_file, "w") as f:
         with redirect_stdout(f):
             process_combinations(df, uc_list)
