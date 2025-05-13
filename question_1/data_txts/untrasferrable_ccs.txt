@@ -6,7 +6,7 @@ Cerritos_Community_College_District.csv: UCSB
 Chaffey_Community_College_District.csv: UCSD, UCSC, UCD, UCR
 Citrus_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD, UCM
 Compton_Community_College_District.csv: UCSB, UCSC, UCLA, UCD, UCR, UCM
-uc.csv: UCSD, UCSC, UCLA, UCD
+Copper_Mountain_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
 Desert_Community_College_District.csv: UCSD, UCLA, UCI, UCD
 El_Camino_Community_College_District.csv: UCD
 Feather_River_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
@@ -31,7 +31,7 @@ Pasadena_Area_Community_College_District.csv: UCD
 Peralta_Community_College_District.csv: UCSD, UCLA, UCI, UCD
 Rancho_Santiago_Community_College_District.csv: UCSD, UCSC, UCD
 Redwoods_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR, UCM
-Rio_Hondo_Community_College_District.csv: UCSD, UCSB, UCSC, UCD
+Rio_Hondo_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD
 Riverside_Community_College_District.csv: UCSD
 San_Bernardino_Community_College_District.csv: UCSD
 San_Diego_Community_College_District.csv: UCSC, UCD

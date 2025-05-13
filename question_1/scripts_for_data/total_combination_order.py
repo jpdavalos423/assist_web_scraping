@@ -237,5 +237,5 @@ def process_all_csvs(folder_path):
             f.write("\n")
 
 if __name__ == "__main__":
-    folder_path = "/Users/yasminkabir/assist_web_scraping/district_csvs"
+    folder_path = "/workspaces/assist_web_scraping/district_csvs"
     process_all_csvs(folder_path)

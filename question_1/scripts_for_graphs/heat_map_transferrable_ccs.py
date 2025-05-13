@@ -9,10 +9,13 @@ uc_schools = ["UCSD", "UCSB", "UCSC", "UCLA", "UCB", "UCI", "UCD", "UCR", "UCM"]
 
 # Load and prepare data for heatmap per order
 for order in range(1, 4):
-    df = pd.read_csv(f"order_{order}_averages.csv")
+    df = pd.read_csv(f"question_1/order_csvs/order_{order}_averages.csv")
 
     # Remove average rows
     df_filtered = df[~df["Community College"].isin(["AVERAGE", "TRANSFERABLE AVERAGE"])]
+
+    # Sort community colleges alphabetically
+    df_filtered = df_filtered.sort_values("Community College")
 
     # Prepare matrices for heatmap and mask
     articulated_matrix = pd.DataFrame(index=df_filtered["Community College"], columns=uc_schools)
