@@ -42,7 +42,7 @@ for order in range(1, 4):
         cmap="YlGnBu",
         cbar_kws={'label': 'Avg. Articulated Courses'},
         linewidths=0.5,
-        linecolor='white',
+        linecolor='white', 
         ax=ax
     )
 
@@ -50,7 +50,16 @@ for order in range(1, 4):
     for y in range(mask_matrix.shape[0]):
         for x in range(mask_matrix.shape[1]):
             if mask_matrix.iloc[y, x]:
-                ax.add_patch(plt.Rectangle((x, y), 1, 1, fill=True, color='lightcoral', edgecolor='white', lw=1))
+                ax.add_patch(
+                    plt.Rectangle(
+                        (x, y), 1, 1,
+                        fill=True,
+                        facecolor='lightcoral',
+                        edgecolor='white',
+                        linewidth=0.5  # <- key to gridline visibility
+                    )
+                )
+
 
     # Add legend patch
     red_patch = mpatches.Patch(color='lightcoral', label='Untransferable')
