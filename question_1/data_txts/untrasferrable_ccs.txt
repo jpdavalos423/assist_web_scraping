@@ -1,4 +1,3 @@
---- Order 1 ---
 Allan_Hancock_Joint_Community_College_District.csv: UCSD, UCLA, UCI, UCD
 Antelope_Valley_Community_College_District.csv: UCSB, UCLA, UCD, UCR
 Barstow_Community_College_District.csv: UCSB, UCSC, UCLA, UCI, UCD
@@ -7,7 +6,7 @@ Cerritos_Community_College_District.csv: UCSB
 Chaffey_Community_College_District.csv: UCSD, UCSC, UCD, UCR
 Citrus_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD, UCM
 Compton_Community_College_District.csv: UCSB, UCSC, UCLA, UCD, UCR, UCM
-Copper_Mountain_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
+uc.csv: UCSD, UCSC, UCLA, UCD
 Desert_Community_College_District.csv: UCSD, UCLA, UCI, UCD
 El_Camino_Community_College_District.csv: UCD
 Feather_River_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
@@ -55,120 +54,3 @@ West_Hills_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR
 West_Kern_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD, UCR, UCM
 Yosemite_Community_College_District.csv: UCSD, UCSB, UCD
 Yuba_Community_College_District.csv: UCSD, UCI, UCD
-
---- Order 2 ---
-Allan_Hancock_Joint_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Antelope_Valley_Community_College_District.csv: UCSB, UCLA, UCD, UCR
-Barstow_Community_College_District.csv: UCSB, UCSC, UCLA, UCI, UCD
-Butte-Glenn_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD
-Cerritos_Community_College_District.csv: UCSB
-Chaffey_Community_College_District.csv: UCSD, UCSC, UCD, UCR
-Citrus_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD, UCM
-Compton_Community_College_District.csv: UCSB, UCSC, UCLA, UCD, UCR, UCM
-Copper_Mountain_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
-Desert_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-El_Camino_Community_College_District.csv: UCD
-Feather_River_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Gavilan_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Glendale_Community_College_District.csv: UCSD, UCSC
-Grossmont-Cuyamaca_Community_College_District.csv: UCD
-Hartnell_Community_College_District.csv: UCSD, UCLA, UCI, UCD, UCR
-Imperial_Community_College_District.csv: UCSB, UCSC, UCLA, UCI, UCD, UCR
-Kern_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD
-Lake_Tahoe_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCD
-Lassen_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Long_Beach_Community_College_District.csv: UCSD, UCSC, UCD
-Marin_Community_College_District.csv: UCSD
-Mendocino-Lake_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD
-Merced_Community_College_District.csv: UCSD, UCSB, UCLA, UCD
-Monterey_Peninsula_Community_College_District.csv: UCSD, UCSB, UCD
-Mt._San_Antonio_Community_College_District.csv: UCI, UCD
-Napa_Valley_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR
-Ohlone_Community_College_District.csv: UCI
-Palo_Verde_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Pasadena_Area_Community_College_District.csv: UCD
-Peralta_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Rancho_Santiago_Community_College_District.csv: UCSD, UCSC, UCD
-Redwoods_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR, UCM
-Rio_Hondo_Community_College_District.csv: UCSD, UCSB, UCSC, UCD
-Riverside_Community_College_District.csv: UCSD
-San_Bernardino_Community_College_District.csv: UCSD
-San_Diego_Community_College_District.csv: UCSC, UCD
-San_Joaquin_Delta_Community_College_District.csv: UCSD, UCI, UCD
-San_Jose-Evergreen_Community_College_District.csv: UCSD, UCD
-San_Luis_Obispo_County_Community_College_District.csv: UCSB, UCLA, UCI
-Santa_Barbara_Community_College_District.csv: UCD
-Santa_Clarita_Community_College_District.csv: UCI, UCD
-Santa_Monica_Community_College_District.csv: UCD
-Sequoias_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
-Shasta-Tehama-Trinity_Joint_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD
-Sierra_Joint_Community_College_District.csv: UCI
-Siskiyou_Joint_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD
-Solano_Community_College_District.csv: UCSD, UCSB, UCI, UCR
-Sonoma_County_Junior_College_District.csv: UCSD, UCSB, UCLA, UCI, UCD
-Southwestern_Community_College_District.csv: UCSB, UCD, UCR
-Ventura_County_Community_College_District.csv: UCR
-Victor_Valley_Community_College_District.csv: UCSD, UCSC, UCLA, UCB, UCI, UCD, UCM
-West_Hills_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR, UCM
-West_Kern_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD, UCR, UCM
-Yosemite_Community_College_District.csv: UCSD, UCSB, UCD
-Yuba_Community_College_District.csv: UCSD, UCI, UCD
-
---- Order 3 ---
-Allan_Hancock_Joint_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Antelope_Valley_Community_College_District.csv: UCSB, UCLA, UCD, UCR
-Barstow_Community_College_District.csv: UCSB, UCSC, UCLA, UCI, UCD
-Butte-Glenn_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD
-Cerritos_Community_College_District.csv: UCSB
-Chaffey_Community_College_District.csv: UCSD, UCSC, UCD, UCR
-Citrus_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD, UCM
-Compton_Community_College_District.csv: UCSB, UCSC, UCLA, UCD, UCR, UCM
-Copper_Mountain_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
-Desert_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-El_Camino_Community_College_District.csv: UCD
-Feather_River_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Gavilan_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Glendale_Community_College_District.csv: UCSD, UCSC
-Grossmont-Cuyamaca_Community_College_District.csv: UCD
-Hartnell_Community_College_District.csv: UCSD, UCLA, UCI, UCD, UCR
-Imperial_Community_College_District.csv: UCSB, UCSC, UCLA, UCI, UCD, UCR
-Kern_Community_College_District.csv: UCSD, UCSB, UCSC, UCI, UCD
-Lake_Tahoe_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCD
-Lassen_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Long_Beach_Community_College_District.csv: UCSD, UCSC, UCD
-Marin_Community_College_District.csv: UCSD
-Mendocino-Lake_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD
-Merced_Community_College_District.csv: UCSD, UCSB, UCLA, UCD
-Monterey_Peninsula_Community_College_District.csv: UCSD, UCSB, UCD
-Mt._San_Antonio_Community_College_District.csv: UCI, UCD
-Napa_Valley_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR
-Ohlone_Community_College_District.csv: UCI
-Palo_Verde_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCB, UCI, UCD, UCR, UCM
-Pasadena_Area_Community_College_District.csv: UCD
-Peralta_Community_College_District.csv: UCSD, UCLA, UCI, UCD
-Rancho_Santiago_Community_College_District.csv: UCSD, UCSC, UCD
-Redwoods_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR, UCM
-Rio_Hondo_Community_College_District.csv: UCSD, UCSB, UCSC, UCD
-Riverside_Community_College_District.csv: UCSD
-San_Bernardino_Community_College_District.csv: UCSD
-San_Diego_Community_College_District.csv: UCSC, UCD
-San_Joaquin_Delta_Community_College_District.csv: UCSD, UCI, UCD
-San_Jose-Evergreen_Community_College_District.csv: UCSD, UCD
-San_Luis_Obispo_County_Community_College_District.csv: UCSB, UCLA, UCI
-Santa_Barbara_Community_College_District.csv: UCD
-Santa_Clarita_Community_College_District.csv: UCI, UCD
-Santa_Monica_Community_College_District.csv: UCD
-Sequoias_Community_College_District.csv: UCSD, UCSC, UCLA, UCD
-Shasta-Tehama-Trinity_Joint_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD
-Sierra_Joint_Community_College_District.csv: UCI
-Siskiyou_Joint_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD
-Solano_Community_College_District.csv: UCSD, UCSB, UCI, UCR
-Sonoma_County_Junior_College_District.csv: UCSD, UCSB, UCLA, UCI, UCD
-Southwestern_Community_College_District.csv: UCSB, UCD, UCR
-Ventura_County_Community_College_District.csv: UCR
-Victor_Valley_Community_College_District.csv: UCSD, UCSC, UCLA, UCB, UCI, UCD, UCM
-West_Hills_Community_College_District.csv: UCSD, UCSB, UCSC, UCLA, UCI, UCD, UCR, UCM
-West_Kern_Community_College_District.csv: UCSD, UCSC, UCLA, UCI, UCD, UCR, UCM
-Yosemite_Community_College_District.csv: UCSD, UCSB, UCD
-Yuba_Community_College_District.csv: UCSD, UCI, UCD
-
