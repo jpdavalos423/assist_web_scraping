@@ -88,21 +88,22 @@ def analyze_all_districts(directory):
     return combined_data
 
 def create_heatmap(data):
-    # Pivot the data for the heatmap
-    heatmap_data = data.pivot(index='District', columns='UC Name', values='counts')
+    # Pivot the data for the heatmap - swap index and columns
+    heatmap_data = data.pivot(index='UC Name', columns='District', values='counts')
     
-    # Create a figure with larger size
-    plt.figure(figsize=(15, 30))  # Increased height to accommodate all districts
+    # Set font sizes
+    plt.rcParams.update({'font.size': 18})  # Increase base font size
+    # Create a figure with adjusted size for flipped axes
+    plt.figure(figsize=(35, 15))  # Swapped dimensions
     
     # Create heatmap with a different colormap to emphasize binary nature
-    sns.heatmap(heatmap_data, annot=True, cbar=False, cmap='RdYlGn', fmt='g', vmin=0, vmax=1, linewidths=1, linecolor='black')
-    plt.title('Valid Transfer Paths to UCs by District\n(1=All courses articulated, 0=Some courses not articulated)', pad=20)
-    plt.ylabel('Community College District')
-    plt.xlabel('UC Campus')
+    sns.heatmap(heatmap_data, annot=False, cbar=False, cmap='RdYlGn', fmt='g', vmin=0, vmax=1, linewidths=1, linecolor='black', square=True)
+    plt.title('Valid Transfer Paths to UCs by District\n(Green=All courses articulated, Red=Some courses not articulated)', pad=20)
+    plt.ylabel('UC Campus')  # Swapped labels
+    plt.xlabel('Community College District')
     
-    # Rotate x-axis labels and adjust their position
-    plt.xticks(rotation=30, ha='right')
-    # Keep y-axis labels horizontal for better readability
+    # Adjust rotation for the new axis orientation
+    plt.xticks(rotation=90, ha='center')  # Rotated for district names
     plt.yticks(rotation=0)
     
     plt.tight_layout()
