@@ -87,31 +87,6 @@ def analyze_all_districts(directory):
     combined_data = pd.concat(all_data, ignore_index=True)
     return combined_data
 
-def create_heatmap(data):
-    # Pivot the data for the heatmap - swap index and columns
-    heatmap_data = data.pivot(index='UC Name', columns='District', values='counts')
-    
-    # Set font sizes
-    plt.rcParams.update({'font.size': 18})  # Increase base font size
-    # Create a figure with adjusted size for flipped axes
-    plt.figure(figsize=(35, 15))  # Swapped dimensions
-    
-    # Create heatmap with a different colormap to emphasize binary nature
-    sns.heatmap(heatmap_data, annot=False, cbar=False, cmap='RdYlGn', fmt='g', vmin=0, vmax=1, linewidths=1, linecolor='black', square=True)
-    plt.title('Valid Transfer Paths to UCs by District\n(Green=All courses articulated, Red=Some courses not articulated)', pad=20)
-    plt.ylabel('UC Campus')  # Swapped labels
-    plt.xlabel('Community College District')
-    
-    # Adjust rotation for the new axis orientation
-    plt.xticks(rotation=90, ha='center')  # Rotated for district names
-    plt.yticks(rotation=0)
-    
-    plt.tight_layout()
-    # Save to the same directory as the script
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'district_transfer_availability_heatmap.png')
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    plt.close()
-
 def create_bar_plot(data):
     # Calculate total transfer options per district
     total_options = data.groupby('District')['counts'].sum().sort_values()
@@ -178,6 +153,31 @@ def create_simple_bar_plot(data):
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
+def create_heatmap(data):
+    # Pivot the data for the heatmap - swap index and columns
+    heatmap_data = data.pivot(index='UC Name', columns='District', values='counts')
+    
+    # Set font sizes
+    plt.rcParams.update({'font.size': 18})  # Increase base font size
+    # Create a figure with adjusted size for flipped axes
+    plt.figure(figsize=(35, 15))  # Swapped dimensions
+    
+    # Create heatmap with a different colormap to emphasize binary nature
+    sns.heatmap(heatmap_data, annot=False, cbar=False, cmap='RdYlGn', fmt='g', vmin=0, vmax=1, linewidths=1, linecolor='black', square=True)
+    plt.title('Valid Transfer Paths to UCs by District\n(Green=All courses articulated, Red=Some courses not articulated)', pad=20)
+    plt.ylabel('UC Campus')  # Swapped labels
+    plt.xlabel('Community College District')
+    
+    # Adjust rotation for the new axis orientation
+    plt.xticks(rotation=90, ha='center')  # Rotated for district names
+    plt.yticks(rotation=0)
+    
+    plt.tight_layout()
+    # Save to the same directory as the script
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'district_transfer_availability_heatmap.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+
 def main():
     # Directory containing the district CSV files
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -187,10 +187,12 @@ def main():
     combined_data = analyze_all_districts(directory)
     
     # Create visualizations
-    create_heatmap(combined_data)
+    
     create_bar_plot(combined_data)
     
     create_simple_bar_plot(combined_data)
+
+    create_heatmap(combined_data)
 
 if __name__ == "__main__":
     main()
