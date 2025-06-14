@@ -1,5 +1,7 @@
 # 📊 Unraveling California's CS Transfer Pathways
 
+<img src="https://github.com/user-attachments/assets/eae7b77a-cfa6-489c-bff6-178a7b9d9965" alt="Alvarado_Poster" width="800"/>
+
 ## 📁 Project Structure
 
 | Folder/File        | Description |
