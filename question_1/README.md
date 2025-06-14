@@ -56,7 +56,7 @@ This script would output a txt file of all the singular combinations for a singu
 #### total_combination_order.py
 This script outputs a bunch of the data such as the 3 order csv files, average_combination_order.txt, total_combination_order.txt, and untransferrable_ccs.txt.
 
-### scripts for graphs
+### scripts_for_graphs
 #### grouped_bar_graph.py
 This script creates the graph titled grouped_bar_transferable_averages_by_uc.png.
 
