@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+from district_indices import DISTRICT_INDICES
+
 def can_transfer_to_uc(df, uc_name):
     # Get all requirements for this UC
     uc_requirements = df[df['UC Name'] == uc_name]
@@ -80,7 +82,7 @@ def analyze_all_districts(directory):
             district_name, transfer_counts = count_transfer_options(file_path)
             
             # Add district name to each row
-            transfer_counts['District'] = district_name
+            transfer_counts['District'] = DISTRICT_INDICES.get(district_name)
             all_data.append(transfer_counts)
     
     # Combine all data
@@ -92,7 +94,7 @@ def create_bar_plot(data):
     total_options = data.groupby('District')['counts'].sum().sort_values()
     
     # Create bar plot with increased figure size for better label spacing
-    plt.figure(figsize=(20, 10))
+    plt.figure(figsize=(20, 5))
     ax = total_options.plot(kind='bar')
     plt.title('Number of Valid UC Transfer Paths by Community College District')
     plt.xlabel('Community College District')
@@ -183,7 +185,7 @@ def create_vertical_heatmap(data):
     heatmap_data = data.pivot(index='District', columns='UC Name', values='counts')
     
     # Create a figure with larger size
-    plt.figure(figsize=(15, 30))  # Increased height to accommodate all districts
+    plt.figure(figsize=(10, 30))  # Increased height to accommodate all districts
     plt.rcParams.update({'font.size': 18})  # Increase base font size
     
     # Create heatmap with a different colormap to emphasize binary nature
@@ -193,7 +195,7 @@ def create_vertical_heatmap(data):
     plt.xlabel('UC Campus')
     
     # Rotate x-axis labels and adjust their position
-    plt.xticks(rotation=30, ha='right')
+    plt.xticks(rotation=45, ha='right')
     # Keep y-axis labels horizontal for better readability
     plt.yticks(rotation=0)
     
